@@ -18,7 +18,7 @@
 | Published calculator-type pages | Existing | 12 | Includes the calculator pages currently present in the repository |
 | Published unit converters | Existing | 6 | Area, length, pressure, temperature, volume, and weight |
 | Primary-domain landing pages | Implemented | 4 of 4 | `engineering.html`, `industrial-equipment.html`, `industrial-processes.html` and `engineering-reference-data.html` expose the approved Level 2 groups; the first approved Level 2 route is now linked from Engineering. |
-| Level 2 landing pages | Implemented | 2 of 34 | `engineering/fluid-mechanics-piping-pumps-fans-ducts/index.html` and `engineering/thermal-engineering-and-boilers/index.html` are live with their frozen Level 3 groups, related existing articles and original system illustrations. |
+| Level 2 landing pages | 2 published; 1 prepared for owner approval | 3 of 34 | Fluid Mechanics and Thermal Engineering are live. `engineering/mechanical-engineering-and-fabrication/index.html` is locally verified with its four frozen Level 3 groups, related existing resources and an original mechanical-fabrication illustration. |
 | New knowledge pages from frozen hierarchy | Not started | 0 | The first Level 2 landing page is live; the permanent Level 3-to-final-page route pattern is approved, but no new lower-level knowledge page has been created yet. |
 | New reference-data records | Not started | 0 | No database records created yet |
 | Final page-format standard | Frozen — amended with owner approval | 1 | `PAGE-FORMAT-STANDARD.md` includes the 2026-08-23 universal support navigation, separate favicon, original-content, consent and non-deceptive-ad release checks |
