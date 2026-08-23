@@ -1,8 +1,8 @@
 # Industrial Calculation Hub — Global Navigation and URL Standard
 
-**Status:** Draft — Level 1 and Level 2 route patterns approved; the first Level 2 page is implemented
+**Status:** Approved route standard — Level 1 through final knowledge-page patterns approved; the first Level 2 page is implemented
 **Purpose:** Keep navigation, page identity, links and future URLs consistent across desktop, mobile web and the future app.  
-**Non-change statement:** This document records the approved Level 1 routes below. It does not alter the frozen sitemap, rename hierarchy pages, or authorize any lower-level route.
+**Non-change statement:** This document records approved routes below. It does not alter the frozen sitemap, rename hierarchy pages, or authorize new pages outside the approved hierarchy.
 
 ## 1. Implemented visual-header navigation baseline
 
@@ -42,7 +42,7 @@ The legal/support links are separate from engineering-topic navigation and are a
 | Existing public pages | Retain their current `.html` URLs until the owner approves a migration plan. |
 | New domain landing pages | The four approved Level 1 pages use the permanent routes listed below. Any additional landing-page route requires approval before creation. |
 | New Level 2 landing pages | Use the approved nested route template below. The directory name is the approved lowercase, hyphenated Level 2 slug. |
-| New knowledge pages (Levels 3–5) | Use the Master Page Register content ID and wait for the lower-level URL decision before assigning a canonical route. |
+| New knowledge pages (Levels 3–final page) | Use the approved nested route template below and the Master Page Register content ID. |
 | Redirects | Do not add redirects, rename files or change canonicals without owner approval and a verified redirect map. |
 | Calculators/converters | Keep existing URLs; no new calculator or converter route is created by this standard. |
 
@@ -92,6 +92,21 @@ Examples:
 
 The first implemented Level 2 page is `/engineering/fluid-mechanics-piping-pumps-fans-ducts/`. Its canonical URL, breadcrumb and app content path use the same approved taxonomy.
 
-## 9. Approval required before the next routing action
+## 9. Approved Level 3 to final knowledge-page route pattern
 
-The owner must approve the permanent URL pattern for Levels 3–5, whether legacy `.html` pages will migrate, and the redirect approach before any lower-level knowledge-page route is created.
+```text
+/{level-1-domain-slug}/{level-2-group-slug}/{level-3-system-slug}/{level-4-topic-slug}/{final-page-slug}/
+```
+
+Approved example:
+
+```text
+/engineering/fluid-mechanics-piping-pumps-fans-ducts/fluid-properties/density-specific-gravity/air-density/
+```
+
+The route uses lowercase, hyphenated slugs. Its breadcrumb may show approved descriptive labels that do not need a separate URL level. This keeps navigation clear without changing the frozen five-level hierarchy.
+
+## 10. Routing controls still requiring separate approval
+
+- Do not migrate existing legacy `.html` knowledge pages to the new nested pattern unless the owner approves a migration and redirect map.
+- Do not add redirects, change an existing canonical URL, or add a lower-level page that is not recorded in the frozen hierarchy and Master Page Register.
