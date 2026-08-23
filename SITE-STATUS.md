@@ -17,20 +17,21 @@
 | Published engineering knowledge pages | Existing | 15 | Current article pages in the website root |
 | Published calculator-type pages | Existing | 12 | Includes the calculator pages currently present in the repository |
 | Published unit converters | Existing | 6 | Area, length, pressure, temperature, volume, and weight |
-| Primary-domain landing pages | Not started | 0 | Engineering, Industrial Equipment, Industrial Processes, Reference Data |
-| New knowledge pages from frozen hierarchy | Not started | 0 | No new hierarchy pages created yet |
+| Primary-domain landing pages | Implemented | 4 of 4 | `engineering.html`, `industrial-equipment.html`, `industrial-processes.html` and `engineering-reference-data.html` expose the approved Level 2 groups; the first approved Level 2 route is now linked from Engineering. |
+| Level 2 landing pages | Implemented | 1 of 34 | `engineering/fluid-mechanics-piping-pumps-fans-ducts/index.html` is live with its five frozen Level 3 groups and links to six existing related articles. |
+| New knowledge pages from frozen hierarchy | Not started | 0 | The first Level 2 landing page is live; no new Level 3, 4 or 5 knowledge page has been created yet. |
 | New reference-data records | Not started | 0 | No database records created yet |
 | Final page-format standard | Frozen — amended with owner approval | 1 | `PAGE-FORMAT-STANDARD.md` includes the 2026-08-23 universal support navigation, separate favicon, original-content, consent and non-deceptive-ad release checks |
 | Master page register | Draft — owner review required | 328 | Formula-driven workbook at `outputs/master-page-register/MASTER-PAGE-REGISTER.xlsx`; built from the frozen hierarchy and existing-file audit. It is not frozen and does not authorize a sitemap, route, page-name, or scope change. |
-| Global navigation and URL standard | Draft — owner review required | 1 | `GLOBAL-NAVIGATION-URL-STANDARD-DRAFT.md` records the owner-selected compact visual header, support links and route-control rules. Permanent new canonical routes remain pending owner approval. |
-| Responsive visual design system | Implemented for selected public pages | 6 | Owner-selected boxed blue-and-copper portal design is implemented on Home, About, Contact, Privacy, Disclaimer and Terms; `style.css` supplies the responsive shared visual baseline. |
+| Global navigation and URL standard | Partially implemented | 1 | `GLOBAL-NAVIGATION-URL-STANDARD-DRAFT.md` records the owner-selected compact visual header, support links and route-control rules. Owner-approved Level 1 routes are now live; lower-level canonical routes remain pending approval. |
+| Responsive visual design system | Implemented for selected public pages | 10 | Owner-selected boxed blue-and-copper portal design is implemented on Home, five support pages and the four Level 1 domain pages; `style.css` supplies the responsive shared visual baseline. |
 | Homepage illustration set | Implemented | 6 | Original blueprint-style hero, beam/loading, twin-pump, process-vessel, reference-fastener and engineering-book illustrations are stored under `assets/illustrations` and used by `index.html`. |
 | Shared website/mobile-app content model | Draft — owner review required | 1 | Defined in `CONTENT-DATA-MODEL-DRAFT.md`; technology-neutral content contract for knowledge pages first. No physical database, API, or calculator work has been created. |
 | Editorial and reference policy | Partially defined | 1 | Page-format standard covers basic book references; approved source library and technical-review workflow remain to be finalized |
 | URL, metadata and structured-data standard | Not started | 0 | Existing pages are inconsistent and must be standardized before page construction |
 | Reference-data governance register | Partially defined | 1 | Policy is in `SITE-MAP.md`; dataset source, versioning, and update workflow still need finalization |
 | Homepage and mobile-app design prototype | Approved — homepage implemented | 1 | The selected desktop/laptop homepage reference is implemented for `index.html`; future app screens remain a design direction, not a built app |
-| Legal support and AdSense readiness | Partially implemented | 40 | Standalone `disclaimer.html`, shared SVG favicon, valid six-link support navigation and local-link verification completed. Live consent configuration and final publisher-account review remain required before ads are enabled. |
+| Legal support and AdSense readiness | Partially implemented | 44 | Standalone `disclaimer.html`, shared SVG favicon, valid six-link support navigation and local-link verification completed across 44 public HTML pages. Live consent configuration and final publisher-account review remain required before ads are enabled. |
 | Responsive support-page redesign | Implemented | 5 of 5 | About, Contact, Privacy, Disclaimer and Terms use the same owner-selected responsive header, logo, search control, visual system and six-link footer as the homepage. |
 
 ## Existing knowledge pages

@@ -1,8 +1,8 @@
 # Industrial Calculation Hub — Global Navigation and URL Standard
 
-**Status:** Draft — owner approval required before freezing  
+**Status:** Draft — Level 1 and Level 2 route patterns approved; the first Level 2 page is implemented
 **Purpose:** Keep navigation, page identity, links and future URLs consistent across desktop, mobile web and the future app.  
-**Non-change statement:** This document does not assign or change canonical URLs, alter the frozen sitemap, rename pages, or authorize new pages.
+**Non-change statement:** This document records the approved Level 1 routes below. It does not alter the frozen sitemap, rename hierarchy pages, or authorize any lower-level route.
 
 ## 1. Implemented visual-header navigation baseline
 
@@ -40,8 +40,9 @@ The legal/support links are separate from engineering-topic navigation and are a
 | Route type | Current rule |
 |---|---|
 | Existing public pages | Retain their current `.html` URLs until the owner approves a migration plan. |
-| New domain landing pages | Do not create a public route until its page, URL and metadata are approved together. |
-| New knowledge pages | Use the Master Page Register content ID and wait for the URL standard decision before assigning a canonical route. |
+| New domain landing pages | The four approved Level 1 pages use the permanent routes listed below. Any additional landing-page route requires approval before creation. |
+| New Level 2 landing pages | Use the approved nested route template below. The directory name is the approved lowercase, hyphenated Level 2 slug. |
+| New knowledge pages (Levels 3–5) | Use the Master Page Register content ID and wait for the lower-level URL decision before assigning a canonical route. |
 | Redirects | Do not add redirects, rename files or change canonicals without owner approval and a verified redirect map. |
 | Calculators/converters | Keep existing URLs; no new calculator or converter route is created by this standard. |
 
@@ -63,6 +64,34 @@ The legal/support links are separate from engineering-topic navigation and are a
 - The future app uses the same `Content ID`, `App Content Key` and taxonomy path from the Master Page Register and shared content model.
 - App tabs may group content for reading, tools, search and saved pages, but do not create a second content hierarchy.
 
-## 7. Approval required before the next routing action
+## 7. Approved Level 1 routes
 
-The owner must approve the permanent URL pattern, whether legacy `.html` pages will migrate, and the redirect approach before any domain landing page or new knowledge-page route is created.
+| Level 1 domain | Approved public route |
+|---|---|
+| Engineering | `engineering.html` |
+| Industrial Equipment | `industrial-equipment.html` |
+| Industrial Processes | `industrial-processes.html` |
+| Engineering Reference Data | `engineering-reference-data.html` |
+
+These pages are linked from the four homepage domain cards. Existing URLs remain unchanged and no redirects are required.
+
+## 8. Approved Level 2 route pattern
+
+```text
+/{level-1-domain-slug}/{level-2-group-slug}/
+```
+
+Examples:
+
+```text
+/engineering/fluid-mechanics-piping-pumps-fans-ducts/
+/industrial-equipment/conveying-systems/
+/industrial-processes/power-generation-processes/
+/engineering-reference-data/pipes-tubes-fittings-flanges/
+```
+
+The first implemented Level 2 page is `/engineering/fluid-mechanics-piping-pumps-fans-ducts/`. Its canonical URL, breadcrumb and app content path use the same approved taxonomy.
+
+## 9. Approval required before the next routing action
+
+The owner must approve the permanent URL pattern for Levels 3–5, whether legacy `.html` pages will migrate, and the redirect approach before any lower-level knowledge-page route is created.
