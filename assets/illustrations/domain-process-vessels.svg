@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 180" role="img" aria-labelledby="title desc">
+  <title id="title">Industrial process vessels illustration</title><desc id="desc">Three connected process vessels in an original technical line drawing.</desc>
+  <g fill="none" stroke="#21879B" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
+    <path d="M52 133V55c0-20 46-20 46 0v78m-46-52h46M69 41v-18m12 18v-18M121 132V40c0-22 52-22 52 0v92m-52-58h52m-36-54V8m12 12V8M197 133V67c0-19 45-19 45 0v66m-45-44h45"/>
+    <path d="M98 91h23c11 0 11-25 22-25h8m22 25h24m45 7h42v-32h28m-113-20h-24"/>
+    <path d="M43 133h212M62 133l-7 16m35-16l7 16m36-16l-7 16m37-16l7 16m39-16l-7 16m37-16l7 16" stroke="#C77A3B" stroke-width="3"/>
+  </g>
+</svg>

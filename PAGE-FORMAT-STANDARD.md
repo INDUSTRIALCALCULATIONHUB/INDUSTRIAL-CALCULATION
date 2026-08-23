@@ -2,13 +2,15 @@
 
 ## Status and governance
 
-**Status:** Frozen on 2026-08-03
+**Status:** Frozen on 2026-08-03; owner-approved AdSense and site-trust amendment on 2026-08-23
 
 **Approved format standard:** 2026-08-03
 
 **Change rule:** Do not change this page-format standard, its page sequences, required sections, related-link rules, or pre-publication checklist without the owner's explicit approval in advance.
 
 **Use rule:** Use this document as the mandatory review checklist when creating or revising every public page.
+
+**Amendment authority:** The owner approved the addition of universal support links, a separate replaceable brand favicon, and AdSense readiness checks on 2026-08-23. This amendment does not change the sitemap, hierarchy, page names, or page-type sequences.
 
 This document is the required content and linking format for new pages and for the staged revision of existing pages. The sitemap remains frozen; this standard controls how pages within that sitemap are built.
 
@@ -64,6 +66,18 @@ Data verified: DD Month YYYY
 - Cite the source edition and publication details in the References section.
 - Do not publish final-design, legal-compliance, or safety-setting instructions as general advice.
 - Use only valid internal links. Do not link to a planned, renamed, or missing page.
+
+### 1.3 Universal site-trust and AdSense readiness rules
+
+- Use the common, replaceable brand mark at `assets/brand/industrial-calculation-hub-mark.svg` as the favicon on every public HTML page.
+- Every public page must display a visible legal/support navigation block containing valid links to **Home**, **About**, **Contact**, **Privacy**, **Disclaimer**, and **Terms**.
+- Use the consistent footer copyright notice: `© 2026 Industrial Calculation Hub. All Rights Reserved.` until the owner approves a year change.
+- Publish original explanatory text, tables and diagrams only. Do not copy website text, copyrighted book/standard tables, figures, diagrams, photographs, or another publisher’s page layout.
+- Use book references for technical pages as required above; a reference supports the content but does not permit reproducing protected text or illustrations.
+- Before enabling or placing Google ads on a page, confirm that the page has substantial publisher content and that ads cannot be mistaken for navigation, downloads, results, buttons or other user-interface elements.
+- Keep all calls to action, menus, download links and page-navigation controls clearly separate from advertising placements.
+- The Privacy page must be kept current for actual data collection, cookies, third-party advertising and consent practices. Configure and test the applicable consent-management flow in the publisher account before serving personalized ads where Google requires it.
+- Do not state or imply that Google, an advertiser, a publisher, a book author or a standards body endorses the site unless that is factually documented and approved.
 
 ---
 
@@ -409,4 +423,11 @@ Verify all values, assumptions and design decisions for the actual service condi
 [ ] Review date is present.
 [ ] Disclaimer is present where required.
 [ ] Mobile layout and table readability are checked.
+[ ] Shared SVG favicon is present: `assets/brand/industrial-calculation-hub-mark.svg`.
+[ ] Home, About, Contact, Privacy, Disclaimer and Terms links are visible and valid.
+[ ] Copyright notice uses the approved year and wording.
+[ ] Content, diagrams, tables and images are original or have verified written licence/permission.
+[ ] The page contains substantial publisher content; it is not a navigation-only, thin-content or ad-first page.
+[ ] No ad placement can be mistaken for a menu, result, download, button or other navigation control.
+[ ] Actual Privacy, cookie and consent disclosures are verified for the live site configuration before ads are enabled.
 ```

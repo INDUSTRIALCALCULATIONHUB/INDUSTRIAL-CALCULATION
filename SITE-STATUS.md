@@ -20,7 +20,17 @@
 | Primary-domain landing pages | Not started | 0 | Engineering, Industrial Equipment, Industrial Processes, Reference Data |
 | New knowledge pages from frozen hierarchy | Not started | 0 | No new hierarchy pages created yet |
 | New reference-data records | Not started | 0 | No database records created yet |
-| Final page-format standard | Frozen | 1 | Defined in `PAGE-FORMAT-STANDARD.md`; changes require prior owner approval |
+| Final page-format standard | Frozen — amended with owner approval | 1 | `PAGE-FORMAT-STANDARD.md` includes the 2026-08-23 universal support navigation, separate favicon, original-content, consent and non-deceptive-ad release checks |
+| Master page register | Draft — owner review required | 328 | Formula-driven workbook at `outputs/master-page-register/MASTER-PAGE-REGISTER.xlsx`; built from the frozen hierarchy and existing-file audit. It is not frozen and does not authorize a sitemap, route, page-name, or scope change. |
+| Global navigation and URL standard | Draft — owner review required | 1 | `GLOBAL-NAVIGATION-URL-STANDARD-DRAFT.md` records the implemented support links, approved homepage menu baseline and route-control rules. Permanent new canonical routes remain pending owner approval. |
+| Responsive visual design system | Homepage implemented | 1 | Approved bright copper-and-blue homepage is live in `index.html`; `style.css` now supplies the responsive shared visual baseline |
+| Shared website/mobile-app content model | Draft — owner review required | 1 | Defined in `CONTENT-DATA-MODEL-DRAFT.md`; technology-neutral content contract for knowledge pages first. No physical database, API, or calculator work has been created. |
+| Editorial and reference policy | Partially defined | 1 | Page-format standard covers basic book references; approved source library and technical-review workflow remain to be finalized |
+| URL, metadata and structured-data standard | Not started | 0 | Existing pages are inconsistent and must be standardized before page construction |
+| Reference-data governance register | Partially defined | 1 | Policy is in `SITE-MAP.md`; dataset source, versioning, and update workflow still need finalization |
+| Homepage and mobile-app design prototype | Approved — homepage implemented | 1 | The approved desktop/mobile/app design direction is implemented for `index.html`; future app screens remain a design direction, not a built app |
+| Legal support and AdSense readiness | Partially implemented | 40 | Standalone `disclaimer.html`, shared SVG favicon, valid six-link support navigation and local-link verification completed. Live consent configuration and final publisher-account review remain required before ads are enabled. |
+| Responsive support-page redesign | In progress | 1 of 5 | `about.html` now uses the approved shared responsive design. Contact, Privacy, Disclaimer and Terms are not yet redesigned to this page system. |
 
 ## Existing knowledge pages
 
@@ -42,4 +52,14 @@
 
 ## Next approved work
 
-No new work has been approved yet. The next task must be explicitly approved by the owner and will be recorded here before or when work begins.
+The owner has approved planning for the master page register, a responsive website design upgrade, and a shared website/mobile-app content model. No sitemap or page-format change is authorized.
+
+## Recommended construction-control sequence
+
+1. Master Page Register
+2. Shared Content and Database Model for Website and Mobile App
+3. Global Navigation and URL Standard
+4. Responsive Visual Design System and Component Library
+5. Editorial, Reference and Technical Review Policy
+6. Reference-Data Governance Register
+7. Content Production Workflow and Quality-Assurance Checklist

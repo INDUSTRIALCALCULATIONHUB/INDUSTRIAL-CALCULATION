@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 180" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering structural beam illustration</title><desc id="desc">A simply supported beam with distributed load and reaction arrows.</desc>
+  <g fill="none" stroke="#164B73" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M46 118h268" stroke-width="7"/>
+    <path d="M57 118l-14 26h28l-14-26zm246 0l-14 26h28l-14-26z" stroke-width="4"/>
+    <path d="M67 59v40m34-40v40m34-40v40m34-40v40m34-40v40m34-40v40m34-40v40m34-40v40" stroke-width="3"/>
+    <path d="M67 59l-6 10m6-10l6 10m28-10l-6 10m6-10l6 10m28-10l-6 10m6-10l6 10m28-10l-6 10m6-10l6 10m28-10l-6 10m6-10l6 10m28-10l-6 10m6-10l6 10m28-10l-6 10m6-10l6 10m28-10l-6 10m6-10l6 10" stroke-width="3"/>
+    <path d="M58 154h244" stroke="#C77A3B" stroke-width="3"/>
+    <path d="M58 148v12m244-12v12" stroke="#C77A3B" stroke-width="3"/>
+  </g>
+  <text x="180" y="45" text-anchor="middle" fill="#164B73" font-family="Arial, sans-serif" font-size="18" font-weight="700">W</text>
+  <text x="180" y="176" text-anchor="middle" fill="#C77A3B" font-family="Arial, sans-serif" font-size="17" font-weight="700">L</text>
+</svg>

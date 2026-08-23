@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Industrial plant blueprint illustration</title>
+  <desc id="desc">An original technical line drawing of process vessels, ducting, a pump and a gear.</desc>
+  <rect width="960" height="560" fill="#F5FBFE"/>
+  <g stroke="#C9E3F0" stroke-width="1">
+    <path d="M0 70h960M0 140h960M0 210h960M0 280h960M0 350h960M0 420h960M0 490h960"/>
+    <path d="M80 0v560M160 0v560M240 0v560M320 0v560M400 0v560M480 0v560M560 0v560M640 0v560M720 0v560M800 0v560M880 0v560"/>
+  </g>
+  <g fill="none" stroke="#164B73" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-width="7">
+      <circle cx="208" cy="185" r="74"/>
+      <circle cx="208" cy="185" r="30"/>
+      <path d="M208 89v25m0 142v25m-96-96h25m142 0h25M140 117l18 18m100 100l18 18m0-136l-18 18m-100 100l-18 18"/>
+      <path d="M418 436h399M450 436V280h84v156M548 436V170h104v266M670 436V105h104v331M792 436V238h62v198"/>
+      <path d="M484 280h52M582 170h70M706 105h69M806 238h48"/>
+      <path d="M500 252v-26m18 26v-26m82-84v-30m20 30v-30m85-37V45m22 30V45m89 163v-28m18 28v-28"/>
+      <path d="M390 407h-95v-66h-46v-48h112l38 38v76z"/>
+      <circle cx="286" cy="410" r="48"/>
+      <path d="M235 410h-67v-58h54m64 106h108"/>
+      <path d="M390 407c67 0 68-95 128-95h26c64 0 59-96 118-96"/>
+    </g>
+    <g stroke="#C77A3B" stroke-width="5">
+      <path d="M117 468h700"/>
+      <path d="M282 524h534"/>
+      <path d="M450 499h366"/>
+    </g>
+    <g stroke="#8EBED3" stroke-width="3" stroke-dasharray="10 12">
+      <path d="M100 85L370 25M100 510L402 220M170 110L450 520"/>
+    </g>
+  </g>
+</svg>

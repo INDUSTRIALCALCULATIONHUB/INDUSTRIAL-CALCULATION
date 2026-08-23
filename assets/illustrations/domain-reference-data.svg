@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 180" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering reference data illustration</title><desc id="desc">An original dimension table and bolt drawing.</desc>
+  <g fill="none" stroke="#164B73" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="38" y="35" width="172" height="108" rx="4" stroke-width="4"/>
+    <path d="M38 64h172M38 91h172M38 118h172M95 35v108m58-108v108" stroke-width="3"/>
+    <path d="M238 55h64l10 12-10 12h-64l-10-12zM251 79h38v56h-38zM243 135h54" stroke="#7188A0" stroke-width="5"/>
+    <path d="M263 92h14m-14 16h14m-14 16h14" stroke="#C77A3B" stroke-width="3"/>
+  </g>
+  <g fill="#7188A0" font-family="Arial, sans-serif" font-size="12" font-weight="700">
+    <text x="52" y="55">SIZE</text><text x="110" y="55">GRADE</text><text x="167" y="55">MASS</text>
+    <text x="53" y="83">M10</text><text x="111" y="83">8.8</text><text x="171" y="83">0.6</text>
+    <text x="53" y="110">M16</text><text x="111" y="110">10.9</text><text x="171" y="110">1.6</text>
+    <text x="53" y="137">M20</text><text x="111" y="137">10.9</text><text x="171" y="137">2.7</text>
+  </g>
+</svg>

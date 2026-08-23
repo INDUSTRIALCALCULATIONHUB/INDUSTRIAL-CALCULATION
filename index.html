@@ -1,572 +1,171 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Industrial Calculation Hub | Engineering Knowledge, Tools and Reference Data</title>
+  <meta name="description" content="Original engineering knowledge, existing calculation tools, unit converters and industrial reference data for practical learning and preliminary engineering work.">
+  <meta name="robots" content="index,follow">
+  <meta name="author" content="Industrial Calculation Hub">
+  <link rel="canonical" href="https://industrialcalculation.com/">
+  <link rel="icon" type="image/svg+xml" href="assets/brand/industrial-calculation-hub-mark.svg">
+  <link rel="alternate icon" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
 
-<title>Industrial Calculation Hub | Engineering Calculators, APC Guides & Design Tools</title>
+  <!-- Google consent message is configured in the publisher account. -->
+  <script async src="https://fundingchoicesmessages.google.com/i/pub-1658062441623612?ers=1"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1658062441623612" crossorigin="anonymous"></script>
 
-<meta name="description" content="Free engineering calculators, Air Pollution Control (APC) guides, FGD, ESP, Bag Filter, HVAC, pipe flow, heat transfer, unit converters, fabrication tools, and industrial design resources for engineers.">
-
-<meta name="robots" content="index,follow">
-
-<meta name="author" content="Industrial Calculation Hub">
-
-<meta property="og:title" content="Industrial Calculation Hub | Engineering Calculators & Industrial Design Resources">
-<meta property="og:description" content="Free engineering calculators, industrial design tools, Air Pollution Control guides, FGD, ESP, Bag Filter, HVAC resources, unit converters, and technical engineering articles.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://industrialcalculation.com/">
-<meta property="og:image" content="https://industrialcalculation.com/images/logo.png">
-
-<link rel="icon" href="favicon.png">
-
-<!-- CMP (MUST LOAD FIRST) -->
-<script async src="https://fundingchoicesmessages.google.com/i/pub-1658062441623612?ers=1"></script>
-
-<!-- ADSENSE -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1658062441623612"
-crossorigin="anonymous"></script>
-
-<!-- GLOBAL CSS -->
-<link rel="stylesheet" href="style.css">
-
-<link rel="canonical" href="https://industrialcalculation.com/">
-
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"WebSite",
-  "name":"Industrial Calculation Hub",
-  "url":"https://industrialcalculation.com/",
-  "description":"Free engineering calculators, Air Pollution Control guides, industrial design resources, unit converters, fabrication tools, and technical knowledge articles for engineers.",
-  "publisher":{
-    "@type":"Organization",
-    "name":"Industrial Calculation Hub",
-    "url":"https://industrialcalculation.com/"
-  },
-  "potentialAction":{
-    "@type":"SearchAction",
-    "target":"https://industrialcalculation.com/?q={search_term_string}",
-    "query-input":"required name=search_term_string"
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Industrial Calculation Hub",
+    "url": "https://industrialcalculation.com/",
+    "description": "Engineering knowledge, tools and reference data for practical industrial learning.",
+    "publisher": { "@type": "Organization", "name": "Industrial Calculation Hub", "url": "https://industrialcalculation.com/" }
   }
-}
-</script>
-
+  </script>
 </head>
-
-
-    
 <body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="index.html" aria-label="Industrial Calculation Hub home">
+        <img class="brand__mark" src="assets/brand/industrial-calculation-hub-mark.svg" alt="">
+        <span class="brand__name"><strong>Industrial</strong><span>Calculation Hub</span></span>
+      </a>
 
-<!-- ================= TOP BAR (2 LINES) ================= -->
-<div class="topbar">
-
-    <div class="topbar-line">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms</a>
+      <button class="site-menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">Menu</button>
+      <nav class="site-nav" id="site-navigation" aria-label="Primary navigation" data-open="false">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="#engineering">Engineering</a>
+        <a href="#industrial-equipment">Equipment</a>
+        <a href="#industrial-processes">Processes</a>
+        <a href="#reference-data">Reference Data</a>
+        <a href="#tools">Tools</a>
+      </nav>
     </div>
-
-    <div class="topbar-line">
-        <a href="#tools">Engineering Calculators</a>
-        <a href="#converters">Unit Conversion</a>
-        <a href="#blogs">Engineering Knowledge</a>
-    </div>
-
-</div>
-
-<!-- ================= WRAPPER ================= -->
-<div class="wrapper">
-
-<!-- HEADER -->
-<div class="header center">
-    <h1>Industrial Calculation Hub</h1>
-    <p>Engineering Calculators • Unit Converters • Knowledge Base</p>
-
-    <p class="last-updated">
-        Last Updated: July 30, 2026
-    </p>
-    
-</div>
-
-<!-- SEARCH -->
-<div class="search-box">
-
-    <label for="searchInput" class="sr-only">
-        Search Engineering Calculators
-    </label>
-
-    <input
-        id="searchInput"
-        type="search"
-        placeholder="Search ..."
-        aria-label="Search Engineering Calculators">
-
-</div>
-
-
-
-<!-- ================= ENGINEERING CATEGORIES ================= -->
-
-<section class="section">
-
-<h2>Engineering Categories</h2>
-
-<div class="result-card">
-<table class="result-table">
-<tr>
-<th>S. No.</th>
-<th>Engineering Category</th>
-</tr>
-<tr>
-<td>1</td>
-<td>Fluid Mechanics</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Heat Transfer &amp; Thermal Engineering</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Mechanical Design &amp; Equipment Engineering</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Process Engineering</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Air Pollution Control Systems</td>
-</tr>
-<tr>
-<td>6</td>
-<td>HVAC Engineering</td>
-</tr>
-<tr>
-<td>7</td>
-<td>Material Handling Engineering</td>
-</tr>
-<tr>
-<td>8</td>
-<td>Fabrication &amp; Estimation</td>
-</tr>
-<tr>
-<td>9</td>
-<td>Engineering Calculators &amp; Unit Conversion</td>
-</tr>
-<tr>
-<td>10</td>
-<td>Engineering Knowledge &amp; Technical Guides</td>
-</tr>
-</table>
-</div>
-
-</section>
-
-    
-<!-- ================= TOOLS ================= -->
-<div class="section" id="tools">
-<h2 class="center"> Engineering Calculators</h2>
-
-<div class="grid">
-
-<a class="card" href="air-density.html">Air Density Calculator</a>
-<a class="card" href="duct-flow-calculator.html">Duct Flow Rate Calculator</a>
-<a class="card" href="duct-weight.html">Duct Weight Calculator</a>
-
-<a class="card" href="flange-weight.html">Flange Weight Calculator</a>
-<a class="card" href="heat-transfer.html">Heat Transfer Calculator</a>
-<a class="card" href="hopper-valley-angle-calculator.html">Hopper Valley Angle Calculator</a>
-<a class="card" href="pipe-flow-calculator.html">Pipe Flow Rate Calculator</a>
-
-<a class="card" href="pump-power-calculator.html">Pump Motor Selection Calculator</a>
-<a class="card" href="silo-bunker-sizing.html">Silo & Bunker Sizing Calculator</a>
-<a class="card" href="thermal-expansion.html">Thermal Expansion Calculator</a>
-
-</div>
-</div>
-
-<!-- ================= CONVERTERS ================= -->
-<div class="section" id="converters">
-<h2 class="center"> Unit Converters</h2>
-
-<div class="grid">
-
-<a class="card" href="area-conversion.html">Area Conversion Calculator</a>
-<a class="card" href="length-conversion.html">Length Conversion Calculator</a>
-<a class="card" href="pressure-conversion.html">Pressure Conversion Calculator</a>
-<a class="card" href="temperature-conversion.html">Temperature Conversion Calculator</a>
-<a class="card" href="volume-conversion.html">Volume Conversion Calculator</a>
-<a class="card" href="weight-conversion.html">Weight Conversion Calculator</a>
-
-</div>
-</div>
-
-<!-- ================= KNOWLEDGE ================= -->
-<div class="section" id="blogs">
-<h2 class="center"> Engineering Knowledge</h2>
-
-<div class="grid">
-
-<a class="card" href="air-density-explained.html">Air Density</a>
-<a class="card" href="air-pollution-control-systems.html">Air Pollution Control Systems</a>
-<a class="card" href="bag-filter.html">Bag Filter</a>
-<a class="card" href="bernoulli-equation-explained.html">Bernoulli Equation</a>
-<a class="card" href="boiler-efficiency-explained.html">Boiler Efficiency</a>
-<a class="card" href="duct-flow-rate-explained.html">Duct Flow Rate</a>
-<a class="card" href="electrostatic-precipitator.html">Electrostatic Precipitator</a>
-<a class="card" href="esp-vs-bag-filter.html">ESP vs Bag Filter</a>
-<a class="card" href="heat-conduction-explained.html">Heat Conduction</a>
-<a class="card" href="heat-transfer-explained.html">Heat Transfer</a>
-<a class="card" href="pipe-flow-basics.html">Pipe Flow Basics</a>
-<a class="card" href="pressure-vessel-design-basics.html">Pressure Vessel Design</a>
-<a class="card" href="pump-power-basics.html">Pump Power</a>
-<a class="card" href="reynolds-number-explained.html">Reynolds Number</a>
-<a class="card" href="thermal-expansion-explained.html">Thermal Expansion</a>
-
-</div>
-</div>
-
-
-<!-- ================= ABOUT INDUSTRIAL CALCULATION HUB ================= -->
-
-
-<!-- ================= ENGINEERING EXPERTISE ================= -->
-
-<section class="section">
-
-<h2>Engineering Expertise Behind Industrial Calculation Hub</h2>
-
-<p>
-Industrial Calculation Hub is developed as a practical engineering resource platform
-covering mechanical engineering, process engineering, thermal systems, industrial
-equipment, Air Pollution Control (APC), and EPC project applications.
-</p>
-
-<p>
-The technical content is based on established engineering principles, standard
-calculation methods, and practical industrial applications used in equipment design,
-system engineering, and project execution.
-</p>
-
-<p>
-The platform focuses on providing useful engineering resources for professionals
-working in industries such as power generation, cement, steel, chemical processing,
-HVAC, manufacturing, and industrial infrastructure projects.
-</p>
-
-<p>
-The objective is to bridge the gap between engineering theory and practical application
-by providing calculators, technical explanations, design references, and engineering
-knowledge resources that support learning, preliminary evaluation, and day-to-day
-engineering activities.
-</p>
-
-</section>
-
-
-
-  
-
-<section class="section">
-
-<h2>Professional Engineering Calculators & Industrial Design Resources</h2>
-<p>
-<strong>Industrial Calculation Hub</strong> is a professional online engineering resource
-platform providing free calculators, design tools, unit converters, and technical reference
-articles for engineers, designers, consultants, students, and industrial professionals.
-The platform is developed to simplify engineering calculations used in mechanical,
-process, power plant, EPC, HVAC, fabrication, and industrial projects.
-</p>
-<p>
-Engineering calculations are an important part of equipment selection, system design,
-fabrication, operation, and troubleshooting. Many engineering professionals require quick
-verification of flow rates, equipment capacity, dimensions, weights, thermal performance,
-and material properties during daily project activities. Industrial Calculation Hub provides
-practical calculation tools that help users perform these engineering evaluations quickly
-and understand the principles behind them.
-</p>
-<p>
-The calculators are based on established engineering equations and commonly used
-industrial practices. Each tool includes calculation methodology, formulas, engineering
-assumptions, application areas, and limitations wherever applicable. The objective is not
-only to provide numerical results but also to explain the engineering principles used in
-the calculation.
-</p>
-
-
-<h3>Engineering Calculators Available</h3>
-<p>
-The website provides a growing collection of engineering tools covering multiple industrial
-disciplines:
-</p>
-<ul>
-<li>
-<strong>Fluid & Piping Engineering:</strong>
-Pipe flow rate, velocity, diameter calculation, Reynolds Number, Bernoulli equation,
-and pressure-related calculations.
-</li>
-<li>
-<strong>Mechanical Equipment Engineering:</strong>
-Pump motor selection, equipment sizing, weight calculations, and fabrication-related tools.
-</li>
-<li>
-<strong>Thermal Engineering:</strong>
-Heat conduction, thermal expansion, temperature conversion, and heat transfer calculations.
-</li>
-<li>
-<strong>Air Pollution Control Engineering:</strong>
-ESP, Bag Filter, Cyclone Separator, FGD, DeNOx Systems, Dust Collection Systems,
-Industrial Fans, and emission control technology guides.
-</li>
-<li>
-<strong>Material Handling Engineering:</strong>
-Hopper angle calculation, silo sizing, bunker capacity estimation, and bulk material storage
-calculations.
-</li>
-<li>
-<strong>Fabrication & Structural Calculations:</strong>
-Duct weight, flange weight, plate weight, and material quantity estimation tools.
-</li>
-<li>
-<strong>Engineering Unit Conversion:</strong>
-Pressure, length, area, volume, temperature, and weight conversion utilities.
-</li>
-</ul>
-
-<p>
-These tools are useful for engineers working in industries such as power generation,
-cement manufacturing, steel plants, waste-to-energy facilities, chemical industries,
-water treatment plants, HVAC systems, and industrial EPC projects.
-</p>
-
-
-<h3>Engineering Knowledge Resources</h3>
-<p>
-Along with calculation tools, Industrial Calculation Hub provides technical articles that
-explain engineering fundamentals and practical applications. These resources cover
-topics such as fluid mechanics, heat transfer, thermal expansion, boiler efficiency,
-air properties, piping concepts, and mechanical design principles.
-</p>
-<p>
-Each engineering article is developed to explain the relationship between formulas,
-physical concepts, and industrial applications. This helps engineering students understand
-fundamentals and allows experienced professionals to quickly review calculation methods
-during project activities.
-</p>
-
-
-<h3>Air Pollution Control Engineering Resources</h3>
-
-<p>
-Industrial Calculation Hub provides technical resources related to Air Pollution Control (APC) systems used in power plants, cement industries, steel plants, chemical industries, and other industrial applications. These resources explain the working principles, components, applications, and selection considerations of major pollution control technologies.
-</p>
-<p>
-The Air Pollution Control knowledge section covers important industrial systems including Electrostatic Precipitators (ESP), Bag Filters, Cyclone Separators, Wet Scrubbers, Flue Gas Desulfurization (FGD), DeNOx Systems (SCR &amp; SNCR), Activated Carbon Systems, VOC Control Systems, Dust Collection Systems, Industrial Fans, Material Handling Systems, and Continuous Emission Monitoring Systems (CEMS).
-</p>
-<p>
-These technical guides are developed to help engineers, project professionals, plant operators, and students understand the fundamentals of emission control equipment and their role in achieving environmental compliance.
-</p>
-
-<ul>
-<li><a href="air-pollution-control-systems.html">Air Pollution Control Systems</a></li>
-<li><a href="electrostatic-precipitator.html">Electrostatic Precipitator (ESP)</a></li>
-<li><a href="bag-filter.html">Bag Filter</a></li>
-<li><a href="esp-vs-bag-filter.html">ESP vs Bag Filter Comparison</a></li>
-</ul>
-  
-
-<h3>Our Objective</h3>
-
-<p>
-The objective of Industrial Calculation Hub is to create a reliable engineering reference
-platform where professionals can access practical calculators, technical explanations,
-and design resources in one place.
-</p>
-<p>
-The platform is continuously improved by adding new engineering calculators, expanding
-technical articles, improving calculation accuracy, and incorporating practical industrial
-knowledge gained from real engineering applications.
-</p>
-
-</section>
-
-
-
-<!-- ================= ENGINEERING EXPERTISE ================= -->
-
-<section class="section">
-
-<h2>Engineering Expertise and Practical Approach</h2>
-
-<p>
-Industrial Calculation Hub focuses on practical engineering applications used in real industrial projects. The platform combines engineering fundamentals with practical design considerations from mechanical, process, thermal, piping, EPC, and Air Pollution Control applications.
-</p>
-<p>
-The objective is to provide engineers and technical professionals with reliable calculation tools and technical references that support preliminary design evaluation, troubleshooting, learning, and engineering decision-making.
-</p>
-<p>
-The content covers engineering areas commonly applied in industrial facilities including power plants, cement plants, steel industries, chemical plants, manufacturing facilities, and infrastructure projects.
-</p>
-
-</section>
-
-  
-
-<!-- ================= WHY CHOOSE US ================= -->
-
-<section class="section">
-
-<h2>Why Choose Industrial Calculation Hub?</h2>
-
-<ul>
-<li>✔ Engineering calculators based on standard formulas and calculation methods</li>
-<li>✔ Practical tools developed for industrial engineering applications</li>
-<li>✔ Detailed explanation of formulas, assumptions, and engineering principles</li>
-<li>✔ Resources useful for design engineers, project engineers, and students</li>
-<li>✔ Coverage of mechanical, process, thermal, piping, and EPC engineering topics</li>
-<li>✔ Mobile-friendly tools accessible from office and project locations</li>
-<li>✔ Regular updates with new calculators and technical resources</li>
-</ul>
-
-</section>
-
-
-<!-- ================= USERS ================= -->
-
-<section class="section">
-
-<h2>Who Uses Our Engineering Tools?</h2>
-
-<p>
-Industrial Calculation Hub supports professionals involved in engineering design,
-execution, operation, and learning, including:
-</p>
-
-<ul>
-<li>Mechanical Engineers</li>
-<li>Process Engineers</li>
-<li>Design Engineers</li>
-<li>Project Engineers</li>
-<li>EPC Engineering Teams</li>
-<li>Plant Engineers</li>
-<li>HVAC Engineers</li>
-<li>Maintenance Engineers</li>
-<li>Consultants</li>
-<li>Power Plant Engineers</li>
-<li>Cement Industry Professionals</li>
-<li>Steel Industry Engineers</li>
-<li>Process Plant Engineers</li>
-<li>Air Pollution Control Professionals</li>
-<li>Consulting Engineering Teams</li>
-<li>Engineering Students</li>
-</ul>
-
-</section>
-
-
-<!-- ================= FAQ ================= -->
-
-<section class="section">
-
-<h2>Frequently Asked Questions</h2>
-
-
-<h3>Are all engineering calculators free?</h3>
-
-<p>
-Yes. All calculators available on Industrial Calculation Hub are free to use for
-engineering calculations, learning, and preliminary design evaluation.
-</p>
-
-<h3>Are these calculators suitable for industrial projects?</h3>
-
-<p>
-The calculators are developed for engineering reference and preliminary calculations.
-For final design, users should verify results according to project specifications,
-applicable standards, safety requirements, and detailed engineering analysis.
-</p>
-
-
-<h3>What type of engineering calculations are available?</h3>
-
-<p>
-The website covers fluid flow, pumps, thermal calculations, material handling,
-fabrication calculations, unit conversions, and other mechanical engineering topics.
-</p>
-
-
-<h3>Can students use these engineering resources?</h3>
-
-<p>
-Yes. The calculators and knowledge articles are designed to help engineering students
-understand practical applications of engineering formulas and concepts.
-</p>
-
-
-<h3>How frequently is new content added?</h3>
-
-<p>
-New calculators, technical explanations, and improvements are added regularly to expand
-the engineering resource library.
-</p>
-
-
-</section>
-
-
-<!-- ================= DISCLAIMER ================= -->
-
-<section class="section">
-
-<h2>Engineering Disclaimer</h2>
-
-<p>
-The calculators and technical information provided by Industrial Calculation Hub are
-intended for educational, reference, and preliminary engineering purposes. Results should
-be independently verified before being used for final design, manufacturing, procurement,
-construction, operation, or safety-critical applications.
-</p>
-
-</section>
-    
-<!-- ================= FOOTER ================= -->
-<div class="footer">
-
-<div>© 2026 Industrial Calculation Hub. All Rights Reserved.Free Engineering Calculators | Unit Converters | Engineering Knowledge Base</div>
-
-<div class="footer-links">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <a href="privacy.html">Privacy</a>
-    <a href="terms.html">Terms</a>
-</div>
-
-</div>
-
-<!-- ================= SEARCH SCRIPT ================= -->
-<script>
-
-document.getElementById("searchInput").addEventListener("keyup", function () {
-
-    let val = this.value.toLowerCase();
-
-    document.querySelectorAll(".card").forEach(card => {
-
-        card.style.display =
-            card.textContent.toLowerCase().includes(val)
-                ? "flex"
-                : "none";
-
+  </header>
+
+  <main class="home-main">
+    <section class="home-shell home-hero" aria-labelledby="home-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Industrial engineering knowledge platform</p>
+        <h1 id="home-title">Engineering knowledge.<br><span>Calculated for industry.</span></h1>
+        <p>Practical engineering knowledge, existing calculation tools and reference data—built for learning, preliminary evaluation and responsible industrial use.</p>
+        <div class="hero-actions">
+          <a class="button-link" href="#knowledge">Browse knowledge</a>
+          <a class="button-link button-link--quiet" href="#tools">Open existing tools</a>
+        </div>
+        <div class="hero-trust" aria-label="Platform principles">
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l7 4v5c0 5-3.2 8-7 9-3.8-1-7-4-7-9V7l7-4z"/></svg>Clear assumptions</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l4 4L19 6"/></svg>Original learning content</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Verify for final design</span>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src="assets/illustrations/hero-industrial-blueprint.svg" alt="Technical illustration of an industrial process plant, pump, ducting and engineering gear">
+      </div>
+    </section>
+
+    <section class="home-section home-section--soft" aria-labelledby="domains-title">
+      <div class="home-shell">
+        <div class="section-heading">
+          <div><p class="eyebrow">Four primary domains</p><h2 id="domains-title">Explore by domain</h2></div>
+          <p>The approved site structure begins with these four domains. Individual knowledge pages will be added under the frozen hierarchy.</p>
+        </div>
+        <div class="domain-grid">
+          <article class="domain-card" id="engineering">
+            <h3>Engineering</h3>
+            <p>Engineering fundamentals, mechanics, materials, fluid flow, thermal systems and more.</p>
+            <img src="assets/illustrations/domain-engineering-beam.svg" alt="Structural beam and load illustration">
+            <span>Knowledge pages in preparation →</span>
+          </article>
+          <article class="domain-card" id="industrial-equipment">
+            <h3>Industrial Equipment</h3>
+            <p>Pumps, compressors, heat exchangers, boilers, valves and equipment design.</p>
+            <img src="assets/illustrations/domain-equipment-pumps.svg" alt="Twin industrial pump illustration">
+            <span>Knowledge pages in preparation →</span>
+          </article>
+          <article class="domain-card" id="industrial-processes">
+            <h3>Industrial Processes</h3>
+            <p>Process calculations, mass and energy balances, P&amp;ID and process design.</p>
+            <img src="assets/illustrations/domain-process-vessels.svg" alt="Connected industrial process vessels illustration">
+            <span>Knowledge pages in preparation →</span>
+          </article>
+          <article class="domain-card" id="reference-data">
+            <h3>Engineering Reference Data</h3>
+            <p>Physical properties, standards, materials, fasteners, pipes and dimensional data.</p>
+            <img src="assets/illustrations/domain-reference-data.svg" alt="Engineering reference table and fastener illustration">
+            <span>Knowledge pages in preparation →</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-section" id="tools" aria-labelledby="tools-title">
+      <div class="home-shell">
+        <div class="section-heading">
+          <div><p class="eyebrow">Existing utilities</p><h2 id="tools-title">Calculators and converters</h2></div>
+          <p>Existing tools remain available while knowledge pages are built first. New calculator scope requires a separate approval.</p>
+        </div>
+        <div class="utility-panel">
+          <a class="utility-card" href="pump-power-calculator.html"><span class="utility-card__icon">▣</span><span><strong>Pump motor selection</strong><small>Existing calculation tool</small></span><span class="utility-card__arrow">→</span></a>
+          <a class="utility-card" href="pipe-flow-calculator.html"><span class="utility-card__icon">⇄</span><span><strong>Pipe flow rate</strong><small>Existing calculation tool</small></span><span class="utility-card__arrow">→</span></a>
+          <a class="utility-card" href="unit-conversion-explained.html"><span class="utility-card__icon">Σ</span><span><strong>Unit converters</strong><small>Existing conversion tools</small></span><span class="utility-card__arrow">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-section home-section--soft" id="knowledge" aria-labelledby="knowledge-title">
+      <div class="home-shell">
+        <div class="section-heading">
+          <div><p class="eyebrow">Start learning</p><h2 id="knowledge-title">Latest engineering knowledge</h2></div>
+          <p>Existing articles will be progressively checked against the approved page format, reference and related-link requirements.</p>
+        </div>
+        <div class="content-grid">
+          <section class="home-card" aria-labelledby="article-list-title">
+            <h3 id="article-list-title">Featured pages</h3>
+            <div class="article-list">
+              <a href="reynolds-number-explained.html"><span class="article-list__type">◫</span><span>Reynolds Number: Laminar and Turbulent Flow<small>Fluid mechanics</small></span><span>→</span></a>
+              <a href="heat-conduction-explained.html"><span class="article-list__type">◫</span><span>Heat Conduction: Principles and Applications<small>Thermal engineering</small></span><span>→</span></a>
+              <a href="pressure-vessel-design-basics.html"><span class="article-list__type">◫</span><span>Pressure Vessel Design Basics<small>Mechanical engineering</small></span><span>→</span></a>
+            </div>
+            <p><a class="inline-link" href="air-density-explained.html">Open engineering knowledge →</a></p>
+          </section>
+          <section class="home-card reference-card" aria-labelledby="reference-title">
+            <div class="reference-card__book" aria-hidden="true">▤</div>
+            <div><h3 id="reference-title">Built on trusted references</h3><p>New knowledge pages will use fundamental books as their primary source base, then pass format and technical review before publication.</p><a class="inline-link" href="about.html">Read our approach →</a></div>
+          </section>
+        </div>
+        <div class="ad-notice">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 4v5c0 5-3 8.4-8 10-5-1.6-8-5-8-10V7l8-4z"/><path d="M8 12h8M12 8v8"/></svg>
+          <div><strong>Responsible engineering use.</strong> Information and calculation outputs are for education, reference and preliminary evaluation. Always verify project inputs, applicable standards and final designs independently. <a href="disclaimer.html">Read the engineering disclaimer.</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>© 2026 Industrial Calculation Hub. All Rights Reserved.</div>
+    <nav class="footer-links" aria-label="Legal and support navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="disclaimer.html">Disclaimer</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </footer>
+
+  <script>
+    const menuToggle = document.querySelector('.site-menu-toggle');
+    const siteNavigation = document.querySelector('.site-nav');
+    menuToggle?.addEventListener('click', () => {
+      const isOpen = siteNavigation.dataset.open === 'true';
+      siteNavigation.dataset.open = String(!isOpen);
+      menuToggle.setAttribute('aria-expanded', String(!isOpen));
     });
-
-});
-
-    
-</script>
-
+  </script>
 </body>
 </html>
