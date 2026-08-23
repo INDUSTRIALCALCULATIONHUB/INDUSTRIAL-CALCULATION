@@ -4,20 +4,19 @@
 **Purpose:** Keep navigation, page identity, links and future URLs consistent across desktop, mobile web and the future app.  
 **Non-change statement:** This document does not assign or change canonical URLs, alter the frozen sitemap, rename pages, or authorize new pages.
 
-## 1. Implemented homepage navigation baseline
+## 1. Implemented visual-header navigation baseline
 
-The approved homepage main navigation is limited to the frozen primary-domain structure plus the existing Tools utility:
+The owner-selected portal header uses the following compact visual navigation:
 
 ```text
 Home
-Engineering
-Industrial Equipment
-Industrial Processes
-Engineering Reference Data
-Tools (existing calculators and converters)
+Tools
+Learn
+Reference Data
+About
 ```
 
-Until primary-domain landing pages have approved URLs, the domain items on the homepage point to their relevant homepage sections. They do not claim to be completed domain pages.
+`Learn` links to the engineering-knowledge section and `Tools` to existing calculators and converters. The four frozen primary domains remain visible as separate homepage cards: Engineering, Industrial Equipment, Industrial Processes and Engineering Reference Data. This visual navigation change does not change the frozen sitemap, hierarchy, page names or current URLs.
 
 ## 2. Universal support navigation
 

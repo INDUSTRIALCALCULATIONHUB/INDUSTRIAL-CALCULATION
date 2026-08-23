@@ -22,15 +22,16 @@
 | New reference-data records | Not started | 0 | No database records created yet |
 | Final page-format standard | Frozen — amended with owner approval | 1 | `PAGE-FORMAT-STANDARD.md` includes the 2026-08-23 universal support navigation, separate favicon, original-content, consent and non-deceptive-ad release checks |
 | Master page register | Draft — owner review required | 328 | Formula-driven workbook at `outputs/master-page-register/MASTER-PAGE-REGISTER.xlsx`; built from the frozen hierarchy and existing-file audit. It is not frozen and does not authorize a sitemap, route, page-name, or scope change. |
-| Global navigation and URL standard | Draft — owner review required | 1 | `GLOBAL-NAVIGATION-URL-STANDARD-DRAFT.md` records the implemented support links, approved homepage menu baseline and route-control rules. Permanent new canonical routes remain pending owner approval. |
-| Responsive visual design system | Homepage implemented | 1 | Approved bright copper-and-blue homepage is live in `index.html`; `style.css` now supplies the responsive shared visual baseline |
+| Global navigation and URL standard | Draft — owner review required | 1 | `GLOBAL-NAVIGATION-URL-STANDARD-DRAFT.md` records the owner-selected compact visual header, support links and route-control rules. Permanent new canonical routes remain pending owner approval. |
+| Responsive visual design system | Implemented for selected public pages | 6 | Owner-selected boxed blue-and-copper portal design is implemented on Home, About, Contact, Privacy, Disclaimer and Terms; `style.css` supplies the responsive shared visual baseline. |
+| Homepage illustration set | Implemented | 6 | Original blueprint-style hero, beam/loading, twin-pump, process-vessel, reference-fastener and engineering-book illustrations are stored under `assets/illustrations` and used by `index.html`. |
 | Shared website/mobile-app content model | Draft — owner review required | 1 | Defined in `CONTENT-DATA-MODEL-DRAFT.md`; technology-neutral content contract for knowledge pages first. No physical database, API, or calculator work has been created. |
 | Editorial and reference policy | Partially defined | 1 | Page-format standard covers basic book references; approved source library and technical-review workflow remain to be finalized |
 | URL, metadata and structured-data standard | Not started | 0 | Existing pages are inconsistent and must be standardized before page construction |
 | Reference-data governance register | Partially defined | 1 | Policy is in `SITE-MAP.md`; dataset source, versioning, and update workflow still need finalization |
-| Homepage and mobile-app design prototype | Approved — homepage implemented | 1 | The approved desktop/mobile/app design direction is implemented for `index.html`; future app screens remain a design direction, not a built app |
+| Homepage and mobile-app design prototype | Approved — homepage implemented | 1 | The selected desktop/laptop homepage reference is implemented for `index.html`; future app screens remain a design direction, not a built app |
 | Legal support and AdSense readiness | Partially implemented | 40 | Standalone `disclaimer.html`, shared SVG favicon, valid six-link support navigation and local-link verification completed. Live consent configuration and final publisher-account review remain required before ads are enabled. |
-| Responsive support-page redesign | In progress | 1 of 5 | `about.html` now uses the approved shared responsive design. Contact, Privacy, Disclaimer and Terms are not yet redesigned to this page system. |
+| Responsive support-page redesign | Implemented | 5 of 5 | About, Contact, Privacy, Disclaimer and Terms use the same owner-selected responsive header, logo, search control, visual system and six-link footer as the homepage. |
 
 ## Existing knowledge pages
 

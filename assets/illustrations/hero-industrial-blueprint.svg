@@ -1,31 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
-  <title id="title">Industrial plant blueprint illustration</title>
-  <desc id="desc">An original technical line drawing of process vessels, ducting, a pump and a gear.</desc>
-  <rect width="960" height="560" fill="#F5FBFE"/>
-  <g stroke="#C9E3F0" stroke-width="1">
-    <path d="M0 70h960M0 140h960M0 210h960M0 280h960M0 350h960M0 420h960M0 490h960"/>
-    <path d="M80 0v560M160 0v560M240 0v560M320 0v560M400 0v560M480 0v560M560 0v560M640 0v560M720 0v560M800 0v560M880 0v560"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 620" role="img" aria-labelledby="title desc">
+  <title id="title">Industrial plant technical blueprint</title>
+  <desc id="desc">An original blue engineering line illustration showing a gear, process vessels, stacks, pipework and structural framing.</desc>
+  <rect width="1160" height="620" fill="#f7fcfe"/>
+  <g stroke="#d2e8f0" stroke-width="1">
+    <path d="M0 70h1160M0 140h1160M0 210h1160M0 280h1160M0 350h1160M0 420h1160M0 490h1160M0 560h1160"/>
+    <path d="M70 0v620M140 0v620M210 0v620M280 0v620M350 0v620M420 0v620M490 0v620M560 0v620M630 0v620M700 0v620M770 0v620M840 0v620M910 0v620M980 0v620M1050 0v620M1120 0v620"/>
   </g>
-  <g fill="none" stroke="#164B73" stroke-linecap="round" stroke-linejoin="round">
+  <g fill="none" stroke="#a8d1e0" stroke-width="3" stroke-dasharray="12 10">
+    <path d="M76 94L564 10M114 514L511 173M321 48l309 526M30 324l438-60"/>
+  </g>
+  <g fill="none" stroke="#174d76" stroke-linecap="round" stroke-linejoin="round">
     <g stroke-width="7">
-      <circle cx="208" cy="185" r="74"/>
-      <circle cx="208" cy="185" r="30"/>
-      <path d="M208 89v25m0 142v25m-96-96h25m142 0h25M140 117l18 18m100 100l18 18m0-136l-18 18m-100 100l-18 18"/>
-      <path d="M418 436h399M450 436V280h84v156M548 436V170h104v266M670 436V105h104v331M792 436V238h62v198"/>
-      <path d="M484 280h52M582 170h70M706 105h69M806 238h48"/>
-      <path d="M500 252v-26m18 26v-26m82-84v-30m20 30v-30m85-37V45m22 30V45m89 163v-28m18 28v-28"/>
-      <path d="M390 407h-95v-66h-46v-48h112l38 38v76z"/>
-      <circle cx="286" cy="410" r="48"/>
-      <path d="M235 410h-67v-58h54m64 106h108"/>
-      <path d="M390 407c67 0 68-95 128-95h26c64 0 59-96 118-96"/>
+      <g transform="translate(264 237)">
+        <circle r="82"/><circle r="32"/>
+        <path d="M0-116v32M0 84v32M-116 0h32M84 0h32M-82-82l23 23M59 59l23 23M82-82L59-59M-59 59l-23 23"/>
+        <path d="M-48-96l12 27M48-96L36-69M96-48L69-36M96 48L69 36M48 96L36 69M-48 96l12-27M-96 48l27-12M-96-48l27 12"/>
+      </g>
+      <path d="M474 518h576M502 518V346h69v172M584 518V229h97v289M700 518V118h98v400M820 518V306h78v212M918 518V169h86v349M1022 518V248h48v270"/>
+      <path d="M492 346h85M596 229h91M711 118h92M831 306h73M929 169h82M1033 248h42"/>
+      <path d="M516 318v-31m18 31v-31m83-88v-37m20 37v-37m86-87V73m23 42V73m89 204v-34m18 34v-34m84-103v-38m20 38v-38m70 122v-34m16 34v-34"/>
+      <path d="M469 487H362v-74h-54v-63h127l41 41v96z"/>
+      <circle cx="352" cy="491" r="55"/>
+      <path d="M294 491h-93v-63h70m81 120h130M469 487c53 0 67-96 142-96h25c50 0 60-98 142-98"/>
+      <path d="M700 284h98M749 284v-95m-30 0h59m-57-71v-71m55 71V47M940 338h66m-33 0V209m-30 0h60m-48-40V104m36 65v-65"/>
+      <path d="M512 518l-36 58m89-58l-26 58m81-58l-18 58m81-58l-8 58m72-58v58m69-58l12 58m59-58l26 58m49-58l35 58m33-58l40 58"/>
     </g>
-    <g stroke="#C77A3B" stroke-width="5">
-      <path d="M117 468h700"/>
-      <path d="M282 524h534"/>
-      <path d="M450 499h366"/>
+    <g stroke-width="3">
+      <path d="M455 543h621M455 561h621M455 580h621" stroke="#c87b3d"/>
+      <path d="M468 538v48m76-48v48m77-48v48m77-48v48m77-48v48m77-48v48m77-48v48m77-48v48" stroke="#c87b3d"/>
+      <path d="M173 349h187M190 362h155M208 375h117M74 311h248M74 296h248" stroke="#8abfd4"/>
     </g>
-    <g stroke="#8EBED3" stroke-width="3" stroke-dasharray="10 12">
-      <path d="M100 85L370 25M100 510L402 220M170 110L450 520"/>
-    </g>
+  </g>
+  <g fill="#174d76" font-family="Arial, sans-serif" font-size="15" font-weight="700" opacity=".6">
+    <text x="92" y="109">PROCESS PLANT / TECHNICAL BLUEPRINT</text>
+    <text x="769" y="607">ELEVATION — NOT FOR CONSTRUCTION</text>
   </g>
 </svg>
