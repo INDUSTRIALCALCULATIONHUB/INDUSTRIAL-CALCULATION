@@ -11,8 +11,8 @@
     <path d="M270 165v-70M870 165v-70M240 95h60M840 95h60" stroke-width="4"/>
     <path d="M525 185h150M600 150v190M545 360h110M485 415h230M530 415l70-55 70 55" stroke-width="5"/>
     <path d="M455 470h290M485 470l-25 70h280l-25-70" stroke-width="4"/>
-    <path d="M112 615h976" stroke="#c77a3b" stroke-width="4"/>
+    <path d="M112 615h976" stroke="#248292" stroke-width="4"/>
   </g>
   <g fill="#164b73" font-family="Georgia,serif" text-anchor="middle"><text x="285" y="285" font-size="34">same volume</text><text x="885" y="285" font-size="34">same volume</text><text x="600" y="105" font-size="42">ρ = m / V</text><text x="600" y="610" font-size="36">SG = ρ / ρref    •    γ = ρg</text></g>
-  <g fill="#a85e25" font-family="Arial,sans-serif" font-size="25" font-weight="700"><text x="205" y="385">fluid A</text><text x="790" y="480">fluid B</text></g>
+  <g fill="#176675" font-family="Arial,sans-serif" font-size="25" font-weight="700"><text x="205" y="385">fluid A</text><text x="790" y="480">fluid B</text></g>
 </svg>
