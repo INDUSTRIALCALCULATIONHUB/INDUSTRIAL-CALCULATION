@@ -16,7 +16,7 @@ Reference Data
 About
 ```
 
-`Learn` links to the engineering-knowledge section and `Tools` to existing calculators and converters. The four frozen primary domains remain visible as separate homepage cards: Engineering, Industrial Equipment, Industrial Processes and Engineering Reference Data. This visual navigation change does not change the frozen sitemap, hierarchy, page names or current URLs.
+`Learn` links to the engineering-knowledge section and `Tools` to existing calculators and converters. The four frozen primary domains remain visible as separate homepage cards: Engineering, Industrial Equipment, Industrial Processes and Engineering Reference Data. The owner approved a two-level public-navigation rule on 2026-08-24: menus and collection pages expose only Level 1 primary domains and Level 2 collections. The internal five-level taxonomy remains mandatory for full breadcrumbs, page ownership, the Master Page Register, structured data, related links and the future app. This visual navigation change does not change frozen page names or current URLs.
 
 ## 2. Universal support navigation
 
@@ -63,6 +63,7 @@ The legal/support links are separate from engineering-topic navigation and are a
 - Mobile web uses the same primary-domain order as desktop; the menu collapses without dropping legal/support links.
 - The future app uses the same `Content ID`, `App Content Key` and taxonomy path from the Master Page Register and shared content model.
 - App tabs may group content for reading, tools, search and saved pages, but do not create a second content hierarchy.
+- A subject has one canonical page and canonical public URL. It may be cross-listed under more than one Level 1 or Level 2 collection, but duplicate page copies are not permitted.
 
 ## 7. Approved Level 1 routes
 

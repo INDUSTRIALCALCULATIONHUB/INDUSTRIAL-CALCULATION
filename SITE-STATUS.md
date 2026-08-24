@@ -12,7 +12,7 @@
 
 | Area | Status | Current count | Notes |
 |---|---|---:|---|
-| Five-level sitemap | Frozen | 1 | Defined in `SITE-HIERARCHY.md` |
+| Five-level sitemap | Frozen — public-navigation amendment approved | 1 | The five-level internal taxonomy remains defined in `SITE-HIERARCHY.md`; owner-approved public navigation exposes only Level 1 and Level 2 collections, with canonical-page cross-listing rather than duplicated content. |
 | Master sitemap and data policy | Frozen | 1 | Defined in `SITE-MAP.md` |
 | Published engineering knowledge pages | Existing | 15 | Current article pages in the website root |
 | Published calculator-type pages | Existing | 12 | Includes the calculator pages currently present in the repository |

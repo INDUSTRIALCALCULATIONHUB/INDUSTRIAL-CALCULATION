@@ -2,7 +2,7 @@
 
 ## Status and governance
 
-**Status:** Frozen on 2026-08-03; owner-approved AdSense and site-trust amendment on 2026-08-23
+**Status:** Frozen on 2026-08-03; owner-approved AdSense and site-trust amendment on 2026-08-23; owner-approved navigation and canonical-content amendment on 2026-08-24
 
 **Approved format standard:** 2026-08-03
 
@@ -10,7 +10,7 @@
 
 **Use rule:** Use this document as the mandatory review checklist when creating or revising every public page.
 
-**Amendment authority:** The owner approved the addition of universal support links, a separate replaceable brand favicon, and AdSense readiness checks on 2026-08-23. This amendment does not change the sitemap, hierarchy, page names, or page-type sequences.
+**Amendment authority:** The owner approved the addition of universal support links, a separate replaceable brand favicon, and AdSense readiness checks on 2026-08-23. On 2026-08-24, the owner approved two visible public-navigation levels while retaining the five-level internal taxonomy, plus the canonical-page and cross-listing rule below. Neither amendment changes a frozen page name, route, page-type sequence, or scope.
 
 This document is the required content and linking format for new pages and for the staged revision of existing pages. The sitemap remains frozen; this standard controls how pages within that sitemap are built.
 
@@ -66,6 +66,9 @@ Data verified: DD Month YYYY
 - Cite the source edition and publication details in the References section.
 - Do not publish final-design, legal-compliance, or safety-setting instructions as general advice.
 - Use only valid internal links. Do not link to a planned, renamed, or missing page.
+- Retain the full five-level classification in the breadcrumb and page-information strip even where public menus expose only Level 1 and Level 2.
+- Publish one canonical page for each subject. Cross-list that canonical page from relevant domains or collections through valid links; do not publish duplicate copies of the same engineering content.
+- Before a new final page is drafted, record its canonical URL, parent classification, cross-listed collections and duplicate-check decision in the Master Page Register.
 
 ### 1.3 Universal site-trust and AdSense readiness rules
 

@@ -1,8 +1,18 @@
 # Industrial Calculation Hub - Five-Level Site Hierarchy
 
-## Navigation rule
+## Taxonomy and public-navigation rule
 
-The website uses five content levels. The main menu shows only Level 1. Category pages expose the next level, and breadcrumbs show the full route. URLs remain short and do not need to contain every breadcrumb level.
+**Owner-approved amendment: 24 August 2026.** The website retains five internal content levels as the frozen editorial taxonomy and website/app data model. Public navigation, however, exposes only two visible levels so visitors can find content without navigating a deeply nested menu.
+
+```text
+Visible public navigation
+Level 1: Primary domain
+Level 2: Discipline, equipment family, process family, or data library
+```
+
+Level 3, Level 4 and Level 5 classifications remain mandatory for page ownership, the Master Page Register, structured data, full breadcrumbs, related-resource links, technical review and the future app. They are not required as separate menu levels. A Level 2 collection may link directly to its available final knowledge pages, or surface them through search and contextual related links.
+
+The full five-level classification remains:
 
 ```text
 Level 0: Home
@@ -25,6 +35,14 @@ Home
 
 Suggested URL: /engineering/thermal-engineering/heat-conduction/
 ```
+
+### Canonical-page and cross-listing rule
+
+- Every engineering subject, equipment guide, process guide or reference-data record has one canonical content record and one canonical public URL.
+- A canonical page may be displayed under more than one relevant Level 1 or Level 2 collection through related links, curated listings and search results.
+- Do not create duplicate pages merely because the same subject is relevant to more than one domain. For example, a pump knowledge page may be listed from Engineering, Industrial Equipment, Power Generation and Water Treatment, but it remains one page with one review history and one update location.
+- The Master Page Register must record the canonical URL, cross-listed collections and duplicate-check decision before a new final page is created.
+- This amendment does not rename any frozen node, change any current route, remove any existing landing page or authorize redirects. Those changes require a separate owner-approved migration plan.
 
 ## Level 0 - Home
 
