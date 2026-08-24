@@ -123,3 +123,22 @@ Existing-asset disposition: Canonical | Upgrade in place | Legacy overview | Ret
 ## 7. Recommended next action
 
 Obtain owner decisions for the five unmapped legacy knowledge assets and the Refractory/Insulation overlap. Then update the draft Master Page Register with the canonical and cross-listing fields before implementing two-level public navigation or producing the next final knowledge page.
+
+## 8. Draft Register implementation — 25 August 2026
+
+The draft workbook is now **Draft 2**. A new `Canonical Review` worksheet provides a one-to-one review record for all 328 controlled records without changing the existing Page Register rows.
+
+It adds these control fields:
+
+- Canonical Content ID
+- Canonical Public URL
+- Content Role
+- Primary Level 1 / Level 2 Collection
+- Cross-listed Collections
+- Duplicate-risk Status
+- Existing-asset Disposition
+- Review Note
+
+The Content ID, title, observed/proposed route and primary collection are formula-linked to the Page Register. Ten directly mapped existing knowledge assets are marked **Upgrade in place**. The five unmapped legacy knowledge assets, the legacy utility explanation, and the two Refractory/Insulation records remain visibly marked **Owner decision required** where applicable.
+
+This Draft 2 implementation does **not** change a sitemap node, hierarchy level, public URL, page title, existing asset, production HTML or production CSS. The owner decisions in Sections 3.2 and 4 remain required before those subjects are promoted, reworked, consolidated or retired.
