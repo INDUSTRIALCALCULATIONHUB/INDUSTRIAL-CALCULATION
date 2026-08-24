@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title description">
+  <title id="title">Original density, specific gravity and specific weight principle diagram</title>
+  <desc id="description">A blueprint-style diagram showing two fluid vessels, equal sample volumes, a balance scale and the fundamental relationships for density, specific gravity and specific weight.</desc>
+  <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#dce8ea" stroke-width="1"/></pattern></defs>
+  <rect width="1200" height="700" fill="#fffdf8"/><rect width="1200" height="700" fill="url(#grid)"/>
+  <g fill="none" stroke="#164b73" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M105 540h400M690 540h400" stroke-width="5"/>
+    <path d="M170 510V205h230v305M160 205h250M185 330h200M185 425h200" stroke-width="5"/>
+    <path d="M755 510V205h230v305M745 205h250M770 330h200M770 425h200" stroke-width="5"/>
+    <path d="M185 330h200v180H185z" fill="#d9eef3" stroke-width="3"/><path d="M770 425h200v85H770z" fill="#e9dbc7" stroke-width="3"/>
+    <path d="M270 165v-70M870 165v-70M240 95h60M840 95h60" stroke-width="4"/>
+    <path d="M525 185h150M600 150v190M545 360h110M485 415h230M530 415l70-55 70 55" stroke-width="5"/>
+    <path d="M455 470h290M485 470l-25 70h280l-25-70" stroke-width="4"/>
+    <path d="M112 615h976" stroke="#c77a3b" stroke-width="4"/>
+  </g>
+  <g fill="#164b73" font-family="Georgia,serif" text-anchor="middle"><text x="285" y="285" font-size="34">same volume</text><text x="885" y="285" font-size="34">same volume</text><text x="600" y="105" font-size="42">ρ = m / V</text><text x="600" y="610" font-size="36">SG = ρ / ρref    •    γ = ρg</text></g>
+  <g fill="#a85e25" font-family="Arial,sans-serif" font-size="25" font-weight="700"><text x="205" y="385">fluid A</text><text x="790" y="480">fluid B</text></g>
+</svg>
