@@ -45,14 +45,6 @@
 
     anchor.replaceWith(form);
 
-    const navigation = document.querySelector(".public-nav");
-    if (navigation && !navigation.querySelector(".public-nav__search")) {
-      const mobileSearch = document.createElement("a");
-      mobileSearch.className = "public-nav__search";
-      mobileSearch.href = searchPath;
-      mobileSearch.textContent = "Search website";
-      navigation.append(mobileSearch);
-    }
   };
 
   const scoreResult = (item, query, words) => {
