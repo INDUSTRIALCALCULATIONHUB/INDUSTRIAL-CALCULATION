@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Search | Industrial Calculation Hub</title>
+  <meta name="description" content="Search published engineering knowledge pages, industrial equipment and process categories, existing calculators, converters and reference content at Industrial Calculation Hub.">
+  <meta name="robots" content="noindex,follow">
+  <link rel="canonical" href="https://industrialcalculation.com/search.html">
+  <link rel="icon" type="image/svg+xml" href="assets/brand/industrial-calculation-hub-mark.svg">
+  <link rel="alternate icon" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="assets/js/site-search.js"></script>
+</head>
+<body class="public-page">
+  <div class="site-frame">
+    <header class="public-header">
+      <a class="brand" href="index.html" aria-label="Industrial Calculation Hub home"><img class="brand__mark" src="assets/brand/industrial-calculation-hub-mark.svg" alt=""><span class="brand__name"><strong>Industrial</strong><span>Calculation Hub</span></span></a>
+      <button class="public-menu-toggle" type="button" aria-expanded="false" aria-controls="public-navigation">Menu</button>
+      <nav class="public-nav" id="public-navigation" aria-label="Primary navigation" data-open="false"><a href="index.html">Home</a><a href="index.html#tools">Tools</a><a href="engineering.html">Learn</a><a href="engineering-reference-data.html">Reference Data</a><a href="about.html">About</a></nav>
+      <a class="header-search" href="search.html" aria-label="Search this website"><span>Search topics, tools, articles...</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="6"/><path d="m16 16 5 5"/></svg></a>
+    </header>
+    <main class="portal-main">
+      <section class="search-page" aria-labelledby="search-page-title">
+        <p class="portal-kicker">Search the website</p>
+        <h1 id="search-page-title">Find engineering knowledge and tools</h1>
+        <p class="search-page__intro">Search published articles, calculators, converters, industrial equipment, process categories and reference content.</p>
+        <form class="search-page__form" data-site-search-form role="search">
+          <label class="sr-only" for="site-search-query">Search the website</label>
+          <input id="site-search-query" data-site-search-input type="search" name="q" placeholder="Try: pump power, bag filter, pipe flow, unit conversion" autocomplete="off">
+          <button type="submit">Search</button>
+        </form>
+        <p class="search-page__status" data-site-search-status aria-live="polite"></p>
+        <div class="search-page__results" data-site-search-results aria-live="polite"></div>
+      </section>
+    </main>
+    <footer class="site-footer"><nav class="footer-nav" aria-label="Legal and support navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="disclaimer.html">Disclaimer</a><a href="terms.html">Terms</a></nav><div class="footer-copyright">© 2026 Industrial Calculation Hub. All Rights Reserved.</div></footer>
+  </div>
+  <script>const publicMenuToggle=document.querySelector('.public-menu-toggle');const publicNavigation=document.querySelector('.public-nav');publicMenuToggle?.addEventListener('click',()=>{const isOpen=publicNavigation.dataset.open==='true';publicNavigation.dataset.open=String(!isOpen);publicMenuToggle.setAttribute('aria-expanded',String(!isOpen));});</script>
+</body>
+</html>
