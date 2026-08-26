@@ -1,320 +1,165 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Primary SEO -->
-<title>Duct Flow Calculator | Airflow, Velocity & Duct Size Calculator | Industrial Calculation Hub</title>
-<meta name="description" content="Free online Duct Flow Calculator for HVAC and industrial ventilation systems. Calculate airflow, duct velocity, circular and rectangular duct sizes, air volume, and CFM using standard engineering formulas.">
-<meta name="keywords" content="duct flow calculator, duct sizing calculator, airflow calculator, duct velocity calculator, HVAC duct calculator, ventilation calculator, CFM calculator, rectangular duct calculator, circular duct calculator, air flow rate calculator">
-<meta name="author" content="Industrial Calculation Hub">
-<meta name="robots" content="index, follow, max-image-preview:large">
-<meta name="theme-color" content="#0056b3">
-<meta name="last-modified" content="2026-08-02">
-
-<!-- Canonical -->
-<link rel="canonical" href="https://industrialcalculation.com/duct-flow-calculator.html">
-
-<!-- Favicon -->
-<link rel="icon" type="image/svg+xml" href="assets/brand/industrial-calculation-hub-mark.svg?v=20260824-colors">
-<link rel="apple-touch-icon" href="favicon.png">
-
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="Duct Flow Calculator | Airflow, Velocity & Duct Size Calculator">
-<meta property="og:description" content="Calculate airflow, duct velocity, circular and rectangular duct dimensions, air volume flow rate, and CFM for HVAC and industrial ventilation systems.">
-<meta property="og:url" content="https://industrialcalculation.com/duct-flow-calculator.html">
-<meta property="og:image" content="https://industrialcalculation.com/images/duct-flow-calculator.webp">
-<meta property="og:image:alt" content="Duct Flow Calculator for HVAC and Industrial Ventilation Systems">
-<meta property="og:site_name" content="Industrial Calculation Hub">
-
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Duct Flow Calculator | HVAC Airflow Calculator">
-<meta name="twitter:description" content="Free online calculator for duct airflow, duct velocity, duct sizing, CFM, and industrial ventilation calculations.">
-<meta name="twitter:image" content="https://industrialcalculation.com/images/duct-flow-calculator.webp">
-
-<!-- Google CMP -->
-<script async src="https://fundingchoicesmessages.google.com/i/pub-1658062441623612?ers=1"></script>
-
-<!-- Google AdSense -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1658062441623612" crossorigin="anonymous"></script>
-
-<!-- Global CSS -->
-<link rel="stylesheet" href="style.css">
-
-<!-- WebApplication Schema -->
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"WebApplication",
-  "name":"Duct Flow Calculator",
-  "url":"https://industrialcalculation.com/duct-flow-calculator.html",
-  "description":"Free online engineering calculator for calculating airflow, duct velocity, duct dimensions, and ventilation flow rates for HVAC and industrial systems.",
-  "applicationCategory":"EngineeringApplication",
-  "operatingSystem":"Web Browser",
-  "author":{
-    "@type":"Organization",
-    "name":"Industrial Calculation Hub",
-    "url":"https://industrialcalculation.com/"
-  },
-  "offers":{
-    "@type":"Offer",
-    "price":"0",
-    "priceCurrency":"USD"
-  }
-}
-</script>
-
-<!-- Breadcrumb Schema -->
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"BreadcrumbList",
-  "itemListElement":[
-    {
-      "@type":"ListItem",
-      "position":1,
-      "name":"Home",
-      "item":"https://industrialcalculation.com/"
-    },
-    {
-      "@type":"ListItem",
-      "position":2,
-      "name":"Engineering Calculators",
-      "item":"https://industrialcalculation.com/index.html#tools"
-    },
-    {
-      "@type":"ListItem",
-      "position":3,
-      "name":"Duct Flow Calculator",
-      "item":"https://industrialcalculation.com/duct-flow-calculator.html"
-    }
-  ]
-}
-</script>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Duct Flow Calculator | Airflow, Velocity &amp; Duct Size | Industrial Calculation Hub</title>
+  <meta name="description" content="Calculate airflow, air velocity and circular or rectangular duct size for preliminary HVAC, industrial ventilation and process-air engineering checks.">
+  <meta name="keywords" content="duct flow calculator, duct sizing calculator, airflow calculator, duct velocity calculator, HVAC duct calculator, ventilation calculator, CFM calculator">
+  <meta name="author" content="Industrial Calculation Hub">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="last-modified" content="2026-08-26">
+  <meta name="theme-color" content="#164b73">
+  <link rel="canonical" href="https://industrialcalculation.com/duct-flow-calculator.html">
+  <link rel="icon" type="image/svg+xml" href="assets/brand/industrial-calculation-hub-mark.svg?v=20260824-colors">
+  <link rel="alternate icon" href="favicon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Duct Flow Calculator | Industrial Calculation Hub">
+  <meta property="og:description" content="Calculate airflow, duct velocity and circular or rectangular duct size for preliminary engineering checks.">
+  <meta property="og:url" content="https://industrialcalculation.com/duct-flow-calculator.html">
+  <meta property="og:image" content="https://industrialcalculation.com/assets/illustrations/duct-flow-calculator-v1.png">
+  <meta property="og:image:alt" content="Original technical illustration of airflow through rectangular and circular ducts">
+  <meta property="og:site_name" content="Industrial Calculation Hub">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Duct Flow Calculator | Industrial Calculation Hub">
+  <meta name="twitter:description" content="Calculate airflow, duct velocity and duct size for preliminary HVAC and industrial ventilation checks.">
+  <meta name="twitter:image" content="https://industrialcalculation.com/assets/illustrations/duct-flow-calculator-v1.png">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","name":"Duct Flow Calculator","url":"https://industrialcalculation.com/duct-flow-calculator.html","applicationCategory":"EngineeringApplication","operatingSystem":"Any","inLanguage":"en","description":"An existing engineering calculator for airflow, duct velocity and duct-size estimates in circular and rectangular ducts.","dateModified":"2026-08-26","publisher":{"@type":"Organization","name":"Industrial Calculation Hub","url":"https://industrialcalculation.com/","logo":{"@type":"ImageObject","url":"https://industrialcalculation.com/assets/brand/industrial-calculation-hub-mark.svg"}}}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://industrialcalculation.com/"},{"@type":"ListItem","position":2,"name":"Engineering Calculators","item":"https://industrialcalculation.com/index.html#tools"},{"@type":"ListItem","position":3,"name":"Duct Flow Calculator","item":"https://industrialcalculation.com/duct-flow-calculator.html"}]}
+  </script>
+  <script async src="https://fundingchoicesmessages.google.com/i/pub-1658062441623612?ers=1"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1658062441623612" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css?v=20260826-duct-flow">
+  <script defer src="assets/js/site-search.js?v=20260826-duct-flow"></script>
 </head>
+<body class="public-page">
+  <div class="site-frame">
+    <header class="public-header">
+      <a class="brand" href="index.html" aria-label="Industrial Calculation Hub home"><img class="brand__mark" src="assets/brand/industrial-calculation-hub-mark.svg" alt=""><span class="brand__name"><strong>Industrial</strong><span>Calculation Hub</span></span></a>
+      <button class="public-menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="public-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a><a href="index.html#tools" aria-current="page">Tools</a><a href="engineering.html">Learn</a><a href="engineering-reference-data.html">Reference Data</a><a href="about.html">About</a>
+        <a class="public-nav__search" href="search.html">Search website</a>
+      </nav>
+      <a class="header-search" href="search.html" aria-label="Search the website"><span>Search topics, tools, articles...</span><b aria-hidden="true">⌕</b></a>
+    </header>
 
-<body>
+    <main class="tool-page-main">
+      <section class="tool-page-hero" aria-labelledby="calculator-title">
+        <p class="tool-page-breadcrumb"><a href="index.html">Home</a> / <a href="index.html#tools">Tools</a> / Engineering Calculators / Duct Flow Calculator</p>
+        <div class="tool-page-hero__grid calculator-hero__grid">
+          <div>
+            <p class="tool-page-kicker">Existing engineering calculator</p>
+            <h1 id="calculator-title">Duct Flow Calculator</h1>
+            <p class="tool-page-summary">Calculate airflow, air velocity or the required duct size for circular and rectangular ducts. Use it for preliminary HVAC, industrial ventilation, dust-collection and process-air checks.</p>
+            <p class="tool-page-meta">Interface and knowledge module updated: 26 August 2026</p>
+          </div>
+          <figure class="calculator-hero-visual"><img src="assets/illustrations/duct-flow-calculator-v1.png" alt="Original technical illustration of airflow through a rectangular duct, transition and circular duct"></figure>
+        </div>
+      </section>
 
-<!-- ================= TOP BAR (2 LINES) ================= -->
-<div class="topbar">
+      <div class="tool-workspace">
+        <section class="section converter-panel calculator-panel" aria-labelledby="calculator-inputs-title">
+          <h2 id="calculator-inputs-title">Calculator inputs and result</h2>
+          <p>Select the unknown quantity, choose the duct shape and enter the remaining values. Results update as valid values are entered.</p>
 
-    <div class="topbar-line">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="disclaimer.html">Disclaimer</a>
-        <a href="terms.html">Terms</a>
-    </div>
+          <label>Select Calculation Mode</label>
+          <select id="mode">
+            <option value="flow">Flow Rate (Q)</option>
+            <option value="velocity">Velocity (V)</option>
+            <option value="size">Duct Size</option>
+          </select>
 
-    <div class="topbar-line">
-        <a href="index.html#tools">Engineering Calculators</a>
-        <a href="index.html#converters">Unit Conversion</a>
-        <a href="index.html#blogs">Engineering Knowledge</a>
-    </div>
+          <label>Duct Type</label>
+          <select id="ductType">
+            <option value="rect">Rectangular</option>
+            <option value="circular">Circular</option>
+          </select>
 
-</div>
+          <div id="inputs"></div>
+          <div id="output" class="result-box"></div>
+        </section>
 
-<!-- ================= MAIN WRAPPER ================= -->
-<div class="wrapper">
+        <aside class="converter-sidebar calculator-sidebar" aria-label="Duct flow calculator guidance">
+          <section class="calculator-sidebar__section"><h3>Calculation basis</h3><p>The calculator applies the continuity relation <em>Q = A × V</em>, using the entered duct dimensions to determine cross-sectional area.</p></section>
+          <section class="calculator-sidebar__section"><h3>What the result covers</h3><ul><li>Airflow: m³/hr, m³/s and CFM</li><li>Velocity: m/s and ft/s</li><li>Size: rectangular height or circular diameter</li></ul></section>
+          <section class="calculator-sidebar__section"><h3>Continue learning</h3><p><a href="duct-flow-rate-explained.html">Read the complete Duct Flow Engineering Guide →</a></p><p><a href="air-density.html">Open the Air Density Calculator →</a></p></section>
+        </aside>
+      </div>
 
-<div class="header">
-    <h1>Duct Flow Rate Calculator</h1>
-    <p>Calculate airflow, duct velocity, and duct size for rectangular and circular HVAC ducts.</p>
+      <section class="section converter-knowledge calculator-knowledge" aria-labelledby="knowledge-title">
+        <p class="converter-knowledge__eyebrow">Engineering knowledge</p>
+        <h2 id="knowledge-title">Duct airflow, velocity and area</h2>
+        <p>Duct airflow is the volume of air that passes through a duct in a given time. The same air quantity can be expressed in m³/s, m³/hr or CFM. For a given flow, a smaller duct area produces a higher velocity; a larger duct area produces a lower velocity. These relationships are central to preliminary ventilation and duct-sizing work.</p>
 
-  
-<p class="last-updated">
-Last Updated: August 2, 2026
-</p>    
-</div>
+        <div class="converter-knowledge__guide"><span class="converter-knowledge__guide-icon">↗</span><div><strong>Detailed engineering guide</strong><p>Review duct area, airflow, velocity, pressure loss, practical velocity selection and common design checks before treating a preliminary result as a final design.</p><a class="inline-link" href="duct-flow-rate-explained.html">Read Duct Flow Rate, Velocity and Area →</a></div></div>
 
-<div class="section">
+        <h3>Input and result definitions</h3>
+        <div class="calculator-method" aria-label="Duct flow calculator inputs and results">
+          <div class="calculator-method__item"><strong>Calculation mode</strong><span>Select flow rate, velocity or duct size according to the quantity that is unknown.</span></div>
+          <div class="calculator-method__item"><strong>Duct geometry</strong><span>Choose a rectangular duct, defined by width and height, or a circular duct, defined by internal diameter.</span></div>
+          <div class="calculator-method__item"><strong>Result values</strong><span>The output reports the selected unknown in the units built into the existing calculator.</span></div>
+        </div>
 
-<label>Select Calculation Mode</label>
-<select id="mode">
-    <option value="flow">Flow Rate (Q)</option>
-    <option value="velocity">Velocity (V)</option>
-    <option value="size">Duct Size</option>
-</select>
+        <h3>Formula and calculation method</h3>
+        <p>The existing calculator applies the following area and continuity relations:</p>
+        <div class="formula-grid">
+          <article class="formula-card"><h3>Airflow</h3><p class="formula-card__equation">Q = A × V</p><p>Q is volumetric flow rate, A is duct cross-sectional area and V is average air velocity.</p></article>
+          <article class="formula-card"><h3>Rectangular area</h3><p class="formula-card__equation">A = W × H</p><p>Width and height are converted from millimetres to metres before calculation.</p></article>
+          <article class="formula-card"><h3>Circular area</h3><p class="formula-card__equation">A = πD² / 4</p><p>D is internal diameter in metres. The size mode rearranges these existing relations to find the missing dimension.</p></article>
+        </div>
 
-<label>Duct Type</label>
-<select id="ductType">
-    <option value="rect">Rectangular</option>
-    <option value="circular">Circular</option>
-</select>
+        <h3>Assumptions and limitations</h3>
+        <ul><li>The result is a geometric airflow, velocity or size calculation; it does not calculate pressure loss, noise, fan static pressure or system resistance.</li><li>Use actual internal duct dimensions and a consistent unit basis.</li><li>Air density, temperature, elevation, leakage, fittings, dampers, filters and branch distribution are outside the implemented calculation.</li><li>For final duct design, use the applicable project criteria, pressure-loss method, duct construction standard and qualified engineering review.</li></ul>
 
-<div id="inputs"></div>
+        <h3>Illustrative use case</h3>
+        <p>A rectangular duct that is 600 mm wide by 400 mm high has an area of 0.24 m². At 10 m/s, the existing calculation gives 2.40 m³/s, or 8,640 m³/hr. This is a useful first check, but detailed design must also examine velocity limits, fitting losses, noise and the complete system pressure requirement.</p>
 
-<div id="output"></div>
+        <h3>Common industrial applications</h3>
+        <ul><li>Preliminary HVAC supply, return and exhaust duct sizing.</li><li>Industrial ventilation, dust collection and air-pollution-control duct systems.</li><li>Process-air, combustion-air and general ventilation capacity checks.</li><li>Early fan-selection inputs before static-pressure and system-resistance calculations.</li></ul>
 
-</div>
+        <h3>Frequently asked questions</h3>
+        <h4>Does this calculator calculate duct pressure loss?</h4><p>No. It calculates airflow, velocity and duct geometry only. Pressure loss requires duct length, roughness, fittings, flow conditions and a suitable loss method.</p>
+        <h4>Can the result be used for fan selection?</h4><p>It can provide a preliminary airflow input. Final fan selection also requires total static pressure, operating density, system resistance and manufacturer performance data.</p>
+        <h4>Which duct shape should I choose?</h4><p>Choose the geometry that represents the actual duct. Use internal dimensions when the calculated area is intended to represent the flow passage.</p>
 
+        <section class="related-knowledge-section" aria-labelledby="related-title">
+          <h2 id="related-title">Related Engineering Resources</h2>
+          <p>Use these existing pages for the supporting flow principles, air-property context and equipment or process application of the result.</p>
+          <div class="calculator-related-grid">
+            <a href="duct-flow-rate-explained.html"><strong>Duct Flow Engineering Guide</strong><span>Airflow, velocity and area principles</span></a>
+            <a href="air-density.html"><strong>Air Density Calculator</strong><span>Air-property input for actual conditions</span></a>
+            <a href="pipe-flow-calculator.html"><strong>Pipe Flow Calculator</strong><span>Related flow-rate tool</span></a>
+            <a href="pipe-flow-basics.html"><strong>Pipe Flow Basics</strong><span>Velocity and pressure-loss principles</span></a>
+            <a href="industrial-equipment/pumps-fans-blowers-and-compressors/"><strong>Pumps, Fans, Blowers and Compressors</strong><span>Equipment family context</span></a>
+            <a href="industrial-processes/industrial-utility-processes/"><strong>Industrial Utility Processes</strong><span>Utility-air system context</span></a>
+            <a href="engineering-reference-data/material-properties-and-standards-directory/material-properties/"><strong>Material Properties</strong><span>Reference-data collection</span></a>
+          </div>
+        </section>
 
-<div class="section">
+        <h3>References</h3>
+        <ol class="references-list"><li>ASHRAE. <em>ASHRAE Handbook—Fundamentals</em>. American Society of Heating, Refrigerating and Air-Conditioning Engineers. 2021.</li><li>Çengel, Y. A. and Cimbala, J. M. <em>Fluid Mechanics: Fundamentals and Applications</em>. 4th ed. McGraw-Hill Education. 2018.</li></ol>
+        <p class="references-note">This is an original educational summary. It does not reproduce book wording, tables or figures. Use current approved project data where an engineering decision depends on the result.</p>
 
-<h2>How to Use Duct Flow Calculator</h2>
+        <h3>Review information</h3>
+        <div class="review-panel"><strong>Content type: existing engineering calculator with knowledge module.</strong><span>Interface reviewed: 26 August 2026. Technical review is required before project use, procurement, construction, operation, compliance or safety decisions.</span></div>
+        <h3>Engineering disclaimer</h3>
+        <div class="disclaimer-panel"><strong>Educational and preliminary engineering-reference use only.</strong><span>This calculator does not replace project specifications, detailed design, manufacturer information, applicable standards, safety requirements or review by a qualified engineer. Verify all values, assumptions and decisions for the actual service conditions.</span></div>
+      </section>
+    </main>
 
-<ol>
+    <footer class="site-footer"><nav class="footer-nav" aria-label="Legal and support navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="disclaimer.html">Disclaimer</a><a href="terms.html">Terms</a></nav><div class="footer-copyright">© 2026 Industrial Calculation Hub. All Rights Reserved.</div></footer>
+  </div>
 
-<li>Select the required calculation mode:
-Flow Rate, Velocity, or Duct Size.</li>
-
-<li>Select duct type:
-Rectangular or Circular.</li>
-
-<li>Enter duct dimensions, airflow, or velocity values.</li>
-
-<li>The calculator automatically provides airflow,
-velocity, or required duct dimensions.</li>
-
-<li>Verify final duct design considering pressure loss,
-noise level, and applicable engineering standards.</li>
-
-</ol>
-
-</div>
-  
-  
-
-<div class="section">
-<h2>Engineering Knowledge</h2>
-
-<h3>What is Duct Flow Rate?</h3>
-<p>
-Duct flow rate is the volume of air passing through a duct per unit time and is one of the most important parameters in HVAC systems, industrial ventilation, dust collection systems, clean rooms, power plants, and Air Pollution Control (APC) equipment. It is commonly expressed in m³/s, m³/hr, or CFM and is used for duct sizing, fan selection, pressure loss calculations, and system balancing.
-</p>
-
-<h3>How to Use This Calculator</h3>
-<ul>
-<li>Select the required calculation mode.</li>
-<li>Choose the duct shape (circular or rectangular).</li>
-<li>Enter the known parameters such as airflow, air velocity, or duct dimensions.</li>
-<li>The calculator instantly determines the unknown value using standard engineering equations.</li>
-<li>Use the calculated results for preliminary duct sizing, airflow verification, and ventilation system design.</li>
-</ul>
-
-<h3>Example Calculation</h3>
-
-<div class="result-card">
-<table class="result-table">
-<tr>
-<th>Parameter</th>
-<th>Value</th>
-</tr>
-<tr>
-<td>Rectangular Duct Size</td>
-<td>600 × 400 mm</td>
-</tr>
-<tr>
-<td>Air Velocity</td>
-<td>10 m/s</td>
-</tr>
-<tr>
-<td>Calculated Airflow</td>
-<td>2.40 m³/s (8640 m³/hr)</td>
-</tr>
-</table>
-</div>
-
-<p>
-The calculated airflow can be used for preliminary fan selection, duct sizing, ventilation design, and industrial process air calculations.
-</p>
-
-<h3>Learn More About Duct Flow Rate</h3>
-<p>
-This calculator provides a quick method for determining airflow, air velocity, and duct dimensions for circular and rectangular ducts. For a detailed understanding of duct flow principles, airflow equations, velocity selection, pressure losses, duct sizing methods, engineering design considerations, practical examples, and frequently asked questions, explore our comprehensive engineering guide.
-</p>
-<p>
-<strong>Read the Complete Duct Flow Rate Engineering Guide →</strong><a href="duct-flow-rate-explained.html">
-</a>
-</p>
-
-<h3>Related Engineering Calculators</h3>
-<ul>
-<li><a href="pipe-flow-calculator.html">Pipe Flow Rate Calculator</a></li>
-<li><a href="air-density.html">Air Density Calculator</a></li>
-<li><a href="heat-transfer.html">Heat Transfer Calculator</a></li>
-<li><a href="thermal-expansion.html">Thermal Expansion Calculator</a></li>
-<li><a href="unit-conversion-explained.html">Unit Conversion Explained</a></li>
-</ul>
-
-<h3>Related Engineering Articles</h3>
-<ul>
-<li><a href="bernoulli-equation-explained.html">Bernoulli Equation Explained</a></li>
-<li><a href="pipe-flow-basics.html">Pipe Flow Basics</a></li>
-<li><a href="reynolds-number-explained.html">Reynolds Number Explained</a></li>
-<li><a href="air-density-explained.html">Air Density: Formula, Factors & Engineering Applications</a></li>
-<li><a href="duct-flow-rate-explained.html">Duct Flow Rate, Velocity and Area</a></li>
-</ul>
-
-<h3>Frequently Asked Questions</h3>
-
-<h4>What is duct flow rate?</h4>
-<p>
-Duct flow rate is the volume of air flowing through a duct per unit time. It is commonly expressed in m³/s, m³/hr, or CFM and is a key parameter in HVAC and industrial ventilation system design.
-</p>
-
-<h4>Can this calculator be used for HVAC duct sizing?</h4>
-<p>
-Yes. It is suitable for preliminary HVAC duct sizing, industrial ventilation systems, dust collection systems, and process air applications.
-</p>
-
-<h4>Does this calculator calculate pressure loss?</h4>
-<p>
-No. This calculator determines airflow, duct size, and air velocity only. Pressure loss calculations should be performed separately during detailed duct system design.
-</p>
-
-<h4>Can the calculated airflow be used for fan selection?</h4>
-<p>
-Yes. The calculated airflow can be used as an input for preliminary fan selection. Final fan selection should also consider total static pressure, system resistance, and operating conditions.
-</p>
-
-</div>
-
-<div class="section">
-<h2>Engineering Disclaimer</h2>
-<p>
-This calculator is intended for educational purposes and preliminary engineering calculations only. Final duct sizing, fan selection, and ventilation system design should always be verified using applicable engineering standards such as ASHRAE, SMACNA, ISHRAE, project specifications, and detailed pressure loss calculations.
-</p>
-</div>
-
-
-    
-</div>
-    
-<!-- ================= FOOTER (2 LINES) ================= -->
-<div class="footer">
-
-    <div>
-        © 2026 Industrial Calculation Hub. All Rights Reserved. Free Engineering Calculators | Unit Converters | Engineering Knowledge Base
-    </div>
-
-    <div class="footer-links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="disclaimer.html">Disclaimer</a>
-        <a href="terms.html">Terms</a>
-    </div>
-
-</div>
-
-<!-- ================= SCRIPT ================= -->
 <script>
-
 function renderInputs(){
     let mode = document.getElementById("mode").value;
     let type = document.getElementById("ductType").value;
-
     let html = "";
-
     if(mode === "flow"){
-
         if(type === "rect"){
             html = `
 Width (mm): <input type="number" id="w" placeholder="Enter width in mm">
@@ -327,42 +172,35 @@ Diameter (mm): <input type="number" id="d" placeholder="Enter diameter in mm">
 Velocity (m/s): <input type="number" id="v" placeholder="Enter velocity">
 `;
         }
-    }
-
-else if(mode === "velocity"){
-
-    if(type === "rect"){
-        html = `
+    } else if(mode === "velocity"){
+        if(type === "rect"){
+            html = `
 Width (mm): <input type="number" id="w" placeholder="Enter width in mm">
 Height (mm): <input type="number" id="h" placeholder="Enter height in mm">
 
 Flow Rate (m³/hr): <input type="number" id="q" placeholder="Enter flow rate in m³/hr">
 `;
-    } else {
-        html = `
+        } else {
+            html = `
 Diameter (mm): <input type="number" id="d" placeholder="Enter diameter in mm">
 
 Flow Rate (m³/hr): <input type="number" id="q" placeholder="Enter flow rate in m³/hr">
 `;
-    }
-}
-
-else {
-
-    if(type === "rect"){
-        html = `
+        }
+    } else {
+        if(type === "rect"){
+            html = `
 Flow Rate (m³/hr): <input type="number" id="q" placeholder="Enter flow rate in m³/hr">
 Velocity (m/s): <input type="number" id="v" placeholder="Enter velocity">
 Width (mm): <input type="number" id="w" placeholder="Enter width in mm">
 `;
-    } else {
-        html = `
+        } else {
+            html = `
 Flow Rate (m³/hr): <input type="number" id="q" placeholder="Enter flow rate in m³/hr">
 Velocity (m/s): <input type="number" id="v" placeholder="Enter velocity">
 `;
+        }
     }
-}
-
     document.getElementById("inputs").innerHTML = html;
     attachEvents();
 }
@@ -375,59 +213,36 @@ function attachEvents(){
 
 document.getElementById("mode").addEventListener("change", renderInputs);
 document.getElementById("ductType").addEventListener("change", renderInputs);
-
 renderInputs();
 
 function calculate(){
-
     let mode = document.getElementById("mode").value;
     let type = document.getElementById("ductType").value;
-
     let resultHTML = "";
 
-    // FLOW
     if(mode === "flow"){
-
         let v, area;
-
         if(type === "rect"){
-
             let w_mm = parseFloat(document.getElementById("w").value);
             let h_mm = parseFloat(document.getElementById("h").value);
             v = parseFloat(document.getElementById("v").value);
-
-            if(isNaN(w_mm)||isNaN(h_mm)||isNaN(v)||w_mm<=0||h_mm<=0||v<=0){
-                document.getElementById("output").innerHTML="";
-                return;
-            }
-
+            if(isNaN(w_mm)||isNaN(h_mm)||isNaN(v)||w_mm<=0||h_mm<=0||v<=0){ document.getElementById("output").innerHTML=""; return; }
             let w = w_mm/1000;
             let h = h_mm/1000;
-
             area = w*h;
-
         } else {
-
             let d_mm = parseFloat(document.getElementById("d").value);
             v = parseFloat(document.getElementById("v").value);
-
-            if(isNaN(d_mm)||isNaN(v)||d_mm<=0||v<=0){
-                document.getElementById("output").innerHTML="";
-                return;
-            }
-
+            if(isNaN(d_mm)||isNaN(v)||d_mm<=0||v<=0){ document.getElementById("output").innerHTML=""; return; }
             let d = d_mm/1000;
             area = Math.PI*Math.pow(d/2,2);
         }
-
         let Q_m3s = area*v;
         let Q_m3hr = Q_m3s*3600;
         let Q_cfm = Q_m3s*2118.88;
-
         resultHTML = `
 <div class="result-card">
 <h3 class="result-title">Flow Rate Result</h3>
-
 <table class="result-table">
 <tr><th>Unit</th><th>Value</th></tr>
 <tr><td>m³/hr</td><td>${Q_m3hr.toFixed(1)}</td></tr>
@@ -435,125 +250,79 @@ function calculate(){
 <tr><td>CFM</td><td>${Q_cfm.toFixed(1)}</td></tr>
 </table>
 </div>`;
-    }
-
-    // VELOCITY
-    else if(mode === "velocity"){
-
-  let Q_m3hr, Q, area;
-
-if(type === "rect"){
-
-    let w_mm = parseFloat(document.getElementById("w").value);
-    let h_mm = parseFloat(document.getElementById("h").value);
-    Q_m3hr = parseFloat(document.getElementById("q").value);
-
-    if(isNaN(w_mm)||isNaN(h_mm)||isNaN(Q_m3hr)||w_mm<=0||h_mm<=0||Q_m3hr<=0){
-        document.getElementById("output").innerHTML="";
-        return;
-    }
-
-    let w = w_mm/1000;
-    let h = h_mm/1000;
-
-    area = w*h;
-
-} else {
-
-    let d_mm = parseFloat(document.getElementById("d").value);
-    Q_m3hr = parseFloat(document.getElementById("q").value);
-
-    if(isNaN(d_mm)||isNaN(Q_m3hr)||d_mm<=0||Q_m3hr<=0){
-        document.getElementById("output").innerHTML="";
-        return;
-    }
-
-    let d = d_mm/1000;
-    area = Math.PI*Math.pow(d/2,2);
-}
-
-// CONVERT m³/hr → m³/s
-Q = Q_m3hr / 3600;
-
-let V_mps = Q / area;
-let V_fts = V_mps * 3.28084;
-
-resultHTML = `
+    } else if(mode === "velocity"){
+        let Q_m3hr, Q, area;
+        if(type === "rect"){
+            let w_mm = parseFloat(document.getElementById("w").value);
+            let h_mm = parseFloat(document.getElementById("h").value);
+            Q_m3hr = parseFloat(document.getElementById("q").value);
+            if(isNaN(w_mm)||isNaN(h_mm)||isNaN(Q_m3hr)||w_mm<=0||h_mm<=0||Q_m3hr<=0){ document.getElementById("output").innerHTML=""; return; }
+            let w = w_mm/1000;
+            let h = h_mm/1000;
+            area = w*h;
+        } else {
+            let d_mm = parseFloat(document.getElementById("d").value);
+            Q_m3hr = parseFloat(document.getElementById("q").value);
+            if(isNaN(d_mm)||isNaN(Q_m3hr)||d_mm<=0||Q_m3hr<=0){ document.getElementById("output").innerHTML=""; return; }
+            let d = d_mm/1000;
+            area = Math.PI*Math.pow(d/2,2);
+        }
+        Q = Q_m3hr / 3600;
+        let V_mps = Q / area;
+        let V_fts = V_mps * 3.28084;
+        resultHTML = `
 <div class="result-card">
 <h3 class="result-title">Velocity Result</h3>
-
 <table class="result-table">
 <tr><th>Unit</th><th>Value</th></tr>
 <tr><td>m/s</td><td>${V_mps.toFixed(2)}</td></tr>
 <tr><td>ft/s</td><td>${V_fts.toFixed(2)}</td></tr>
 </table>
 </div>`;
-    }
-
-    // SIZE
-    else{
-
+    } else {
         let Q_m3hr = parseFloat(document.getElementById("q").value);
-        let Q = Q_m3hr / 3600; // convert to m³/s
+        let Q = Q_m3hr / 3600;
         let V = parseFloat(document.getElementById("v").value);
-
-        if(isNaN(Q)||isNaN(V)||Q<=0||V<=0){
-            document.getElementById("output").innerHTML="";
-            return;
-        }
-
+        if(isNaN(Q)||isNaN(V)||Q<=0||V<=0){ document.getElementById("output").innerHTML=""; return; }
         let area = Q/V;
-
         if(type==="rect"){
-
             let w_mm = parseFloat(document.getElementById("w").value);
-
-            if(isNaN(w_mm)||w_mm<=0){
-                document.getElementById("output").innerHTML="";
-                return;
-            }
-
+            if(isNaN(w_mm)||w_mm<=0){ document.getElementById("output").innerHTML=""; return; }
             let w = w_mm/1000;
             let h = area/w;
-
-resultHTML = `
+            resultHTML = `
 <div class="result-card">
 <h3 class="result-title">Duct Size Result</h3>
-
 <table class="result-table">
 <tr><th>Parameter</th><th>Value</th></tr>
-
-<tr><td>Required Height</td>
-<td>${(h*1000).toFixed(1)} mm | ${h.toFixed(3)} m | ${(h*3.28084).toFixed(2)} ft</td></tr>
-
+<tr><td>Required Height</td><td>${(h*1000).toFixed(1)} mm | ${h.toFixed(3)} m | ${(h*3.28084).toFixed(2)} ft</td></tr>
 </table>
 </div>`;
-        }
-
-        else{
-
+        } else {
             let d = Math.sqrt((4*area)/Math.PI);
-
             let d_mm = d*1000;
             let d_ft = d*3.28084;
-
-resultHTML = `
+            resultHTML = `
 <div class="result-card">
 <h3 class="result-title">Duct Size Result</h3>
-
 <table class="result-table">
 <tr><th>Parameter</th><th>Value</th></tr>
-
 <tr><td>Diameter</td><td>${d_mm.toFixed(1)} mm | ${d.toFixed(3)} m | ${d_ft.toFixed(2)} ft</td></tr>
-
 </table>
 </div>`;
         }
     }
-
     document.getElementById("output").innerHTML = resultHTML;
 }
 </script>
-
+<script>
+  const publicMenuToggle = document.querySelector('.public-menu-toggle');
+  const publicNavigation = document.querySelector('.public-nav');
+  publicMenuToggle?.addEventListener('click', () => {
+    const isOpen = publicNavigation.dataset.open === 'true';
+    publicNavigation.dataset.open = String(!isOpen);
+    publicMenuToggle.setAttribute('aria-expanded', String(!isOpen));
+  });
+</script>
 </body>
 </html>
