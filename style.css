@@ -324,6 +324,41 @@ button:hover { background: #225b82; }
 
 .converter-sidebar__guide { display: inline-block; margin-top: 14px; }
 .converter-knowledge { margin: 18px 42px 0; box-shadow: none; }.converter-knowledge h2 { color: #164b73; }.converter-knowledge h3 { margin-top: 24px; color: #176675; }.converter-knowledge h4 { color: #315a74; }.converter-knowledge p, .converter-knowledge li { color: #405e72; line-height: 1.7; }
+
+/* Shared format for the staged update of existing engineering calculators. */
+.calculator-hero__grid { align-items: center; }
+.calculator-hero-visual { display: flex; align-items: center; justify-content: center; min-height: 220px; padding: 12px; overflow: hidden; background: linear-gradient(135deg, #f3fbfc, #ffffff); border: 1px solid #d8e9ed; border-radius: 9px; }
+.calculator-hero-visual img { width: 100%; height: 100%; max-height: 250px; object-fit: contain; border-radius: 5px; }
+.calculator-panel > h2 { margin: 0 0 7px; color: #164b73; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; font-size: 1.2rem; font-weight: 850; line-height: 1.3; }
+.calculator-panel > p { margin: 0 0 18px; color: #587184; font-size: .86rem; line-height: 1.55; }
+.calculator-panel .result-card { padding: 0; overflow: hidden; border-color: #c9dce5; border-radius: 9px; box-shadow: 0 5px 16px rgba(22, 62, 99, .045); }
+.calculator-panel .result-card h3 { margin: 0; padding: 12px 16px; color: #164b73; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; font-size: 1rem; font-weight: 850; background: #f7fbfc; border-bottom: 1px solid #d8e9ed; }
+.calculator-panel .result-card .result-table { margin: 0; font-size: .87rem; }
+.calculator-panel .result-card .result-table th { padding: 10px 16px; color: #fff; font-size: .78rem; background: #1b577b; }
+.calculator-panel .result-card .result-table td { padding: 10px 16px; color: #294d64; font-weight: 650; background: #fff; }
+.calculator-panel .result-card .result-table tr:nth-child(odd) td { background: #f5fafc; }
+.calculator-sidebar__section + .calculator-sidebar__section { margin-top: 18px; padding-top: 18px; border-top: 1px solid #dbe9ed; }
+.calculator-sidebar h3 { margin: 0 0 7px; color: #164b73; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; font-size: .92rem; font-weight: 850; }
+.calculator-sidebar p, .calculator-sidebar li { color: #567184; font-size: .8rem; line-height: 1.55; }
+.calculator-sidebar ul { margin: 0; padding-left: 18px; }
+.calculator-sidebar li + li { margin-top: 5px; }
+.calculator-sidebar a { color: #176675; font-weight: 800; text-decoration: none; }
+.calculator-sidebar a:hover { text-decoration: underline; }
+.calculator-knowledge { margin: 18px 42px 0; box-shadow: none; }
+.calculator-knowledge h2 { color: #164b73; }
+.calculator-knowledge h3 { margin-top: 24px; color: #176675; }
+.calculator-knowledge h4 { color: #315a74; }
+.calculator-knowledge p, .calculator-knowledge li { color: #405e72; line-height: 1.7; }
+.calculator-knowledge__image-note { margin: 0; color: #638092; font-size: .74rem; line-height: 1.45; }
+.calculator-method { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 18px 0; }
+.calculator-method__item { padding: 14px; background: #f8fbfc; border: 1px solid #d9e8ed; border-radius: 8px; }
+.calculator-method__item strong { display: block; margin-bottom: 4px; color: #164b73; font-size: .82rem; }
+.calculator-method__item span { color: #587184; font-size: .78rem; line-height: 1.5; }
+.calculator-related-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 14px; }
+.calculator-related-grid a { display: block; min-height: 80px; padding: 13px; color: #194d71; text-decoration: none; background: #f9fcfd; border: 1px solid #d9e7ec; border-radius: 7px; }
+.calculator-related-grid a:hover { background: #fff; border-color: #aac9d5; box-shadow: 0 6px 15px rgba(22, 62, 99, .07); }
+.calculator-related-grid strong { display: block; color: #164b73; font-size: .85rem; }
+.calculator-related-grid span { display: block; margin-top: 4px; color: #627b8b; font-size: .72rem; line-height: 1.4; }
 .article-list--compact { display: grid; gap: 8px; }
 .article-list--compact a { display: grid; grid-template-columns: 75px 1fr; gap: 10px; align-items: center; padding: 7px; color: #244e6b; text-decoration: none; border: 1px solid #e4edf1; border-radius: 6px; }
 .article-list--compact a:hover { background: #f7fbfc; border-color: #bdd7e1; }
@@ -379,12 +414,16 @@ button:hover { background: #225b82; }
   .domain-landing-hero { grid-template-columns: 1fr 250px; }.domain-landing-hero__copy { padding: 30px; }.domain-landing-hero__art { min-height: 230px; padding: 15px; }.domain-directory { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 14px 28px; }.domain-landing-content { padding: 28px; }.discipline-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .tool-directory, .tool-page-hero__grid, .tool-workspace { grid-template-columns: 1fr; }.tool-page-hero { padding: 26px 28px; }.tool-page-trust { margin-top: 2px; }.tool-workspace { padding: 22px 28px 0; }.converter-knowledge { margin-right: 28px; margin-left: 28px; }
   .related-knowledge-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .calculator-method, .calculator-related-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .calculator-hero-visual { min-height: 200px; }
 }
 @media (max-width: 560px) {
   .public-header { padding: 9px 12px; }.public-header .brand__mark { width: 37px; height: 37px; }.public-header .brand__name { font-size: 0.86rem; }.public-header .brand__name strong { font-size: 0.94rem; }.portal-hero { display: block; position: relative; min-height: 446px; overflow: hidden; }.portal-hero__art { position: absolute; top: 0; right: 0; width: 70%; height: 256px; min-height: 0; border: 0; background: transparent; }.portal-hero__art img { object-position: left center; }.portal-hero__copy { position: relative; z-index: 1; min-height: 446px; padding: 65px 18px 20px; background: linear-gradient(90deg, #fff 0%, #fff 49%, rgba(255,255,255,.96) 56%, rgba(255,255,255,0) 76%); }.portal-hero h1 { max-width: 50%; font-size: clamp(1.42rem, 6.4vw, 1.72rem); }.portal-hero h1 span { display: inline; white-space: normal; }.portal-hero__copy > p:not(.portal-kicker) { max-width: 47%; margin-top: 4px; font-size: 0.78rem; line-height: 1.52; }.portal-hero__trust { max-width: 50%; gap: 9px; margin-top: 15px; font-size: 0.66rem; }.portal-hero__trust span { align-items: flex-start; }.portal-hero h1 + p { padding-top: 2px; }.legal-hero h1 { font-size: clamp(2rem, 11vw, 3rem); }.portal-section { padding: 24px 16px; }.portal-domain-grid, .legal-grid, .legal-grid--two { grid-template-columns: 1fr; }.portal-domain-card { display: grid; grid-template-columns: 1fr 115px; grid-template-rows: auto 1fr auto; min-height: 0; gap: 0 8px; }.portal-domain-card h3, .portal-domain-card p, .portal-domain-card span { grid-column: 1; }.portal-domain-card p { min-height: 0; margin-bottom: 8px; }.portal-domain-card img { grid-row: 1 / span 3; grid-column: 2; width: 100%; height: 105px; margin: auto 0; }.quick-tools { grid-template-columns: repeat(2, minmax(0, 1fr)); }.article-list--compact a { grid-template-columns: 58px 1fr; }.book-card { grid-template-columns: 80px 1fr; gap: 10px; }.book-card__art { font-size: 3.8rem; }.book-card img.book-card__art { width: 80px; height: 70px; }.review-card { grid-template-columns: 40px 1fr; }.review-card a { grid-column: 2; }.legal-hero { grid-template-columns: 1fr; padding: 26px 18px; }.legal-hero__badge { display: none; }.legal-content { padding: 25px 18px; }.footer-nav { gap: 8px 18px; }.footer-copyright { margin-top: 11px; }
   .domain-landing-hero { grid-template-columns: 1fr; }.domain-landing-hero__copy { padding: 26px 18px 15px; }.domain-landing-hero__art { min-height: 175px; padding: 0 25px 14px; }.domain-landing-hero__art img { max-height: 190px; }.domain-directory { grid-template-columns: 1fr; padding: 12px 16px; }.domain-landing-content { padding: 25px 16px; }.domain-landing-heading { display: block; }.domain-landing-heading p { margin-top: 7px; }.discipline-grid { grid-template-columns: 1fr; }.discipline-card { min-height: 0; }.domain-landing-note { grid-template-columns: 30px 1fr; padding: 14px; }
   .tool-page-hero { padding: 22px 18px; }.tool-page-breadcrumb { margin-bottom: 12px; }.tool-page-hero h1 { font-size: clamp(1.8rem, 10vw, 2.5rem); }.tool-page-summary { font-size: .9rem; }.tool-workspace { padding: 18px 16px 0; }.converter-knowledge { margin: 16px; padding: 22px 18px; }.converter-sidebar { padding: 17px; }.tool-directory__links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .related-knowledge-grid { grid-template-columns: 1fr; }
+  .calculator-method, .calculator-related-grid { grid-template-columns: 1fr; }
+  .calculator-hero-visual { min-height: 160px; padding: 8px; }
 }
 
 /* Keep a usable website search field visible on phones. The navigation menu remains available for the other links. */
