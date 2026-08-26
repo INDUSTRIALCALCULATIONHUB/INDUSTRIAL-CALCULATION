@@ -22,7 +22,8 @@
 
   function render(output, options) {
     var rows = options.rows.map(function (row) {
-      return "<tr><th scope=\"row\">" + escapeHtml(row.unit) + "</th><td class=\"converter-results__value\">" + formatEngineeringValue(row.value) + "</td></tr>";
+      var displayValue = row.display == null ? formatEngineeringValue(row.value) : row.display;
+      return "<tr><th scope=\"row\">" + escapeHtml(row.unit) + "</th><td class=\"converter-results__value\">" + escapeHtml(displayValue) + "</td></tr>";
     }).join("");
 
     output.innerHTML = "<section class=\"result-card converter-results\" aria-live=\"polite\" aria-labelledby=\"converter-result-title\">" +

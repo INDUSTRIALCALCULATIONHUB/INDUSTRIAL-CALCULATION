@@ -34,7 +34,7 @@
 <link rel="icon" type="image/svg+xml" href="assets/brand/industrial-calculation-hub-mark.svg?v=20260824-colors">
 
 <!-- Global CSS -->
-<link rel="stylesheet" href="style.css?v=20260826-results-ui">
+<link rel="stylesheet" href="style.css?v=20260826-results-ui2">
 
 <!-- Google Funding Choices (CMP) -->
 <script async src="https://fundingchoicesmessages.google.com/i/pub-1658062441623612?ers=1"></script>
@@ -284,7 +284,7 @@ Pressure conversion is an essential engineering activity that supports safe equi
       <div class="footer-copyright">© 2026 Industrial Calculation Hub. All Rights Reserved.</div>
     </footer>
   </div>
-<script src="assets/js/converter-results.js?v=20260826-results"></script>
+<script src="assets/js/converter-results.js?v=20260826-results2"></script>
 <script>
 
 const TO_PA = {
@@ -301,6 +301,20 @@ const TO_PA = {
     mmHg: 133.322387415,
     Torr: 133.322368421
 };
+
+function formatPressureValue(value) {
+    if (!Number.isFinite(value)) return "—";
+
+    const magnitude = Math.abs(value);
+
+    if (magnitude !== 0 && (magnitude < 0.0001 || magnitude >= 1000000000)) {
+        return value.toExponential(5);
+    }
+
+    return value.toLocaleString(undefined, {
+        maximumFractionDigits: 6
+    });
+}
 
 /* ================= LIVE CONVERSION ================= */
 
@@ -340,8 +354,8 @@ function convert() {
         context: "All values represent the same pressure as the value entered above.",
         unitColumn: "Pressure unit",
         valueColumn: "Equivalent pressure",
-        note: "Water-column values use conventional standard gravity. Millimetre-of-mercury values use the conventional 0 °C definition.",
-        rows: Object.entries(results).map(([unitName, converted]) => ({ unit: unitName, value: converted }))
+        note: "Values display up to six decimal places; calculations use full conversion factors. Water-column values use conventional standard gravity. Millimetre-of-mercury values use the conventional 0 °C definition.",
+        rows: Object.entries(results).map(([unitName, converted]) => ({ unit: unitName, value: converted, display: formatPressureValue(converted) }))
     });
 }
 
