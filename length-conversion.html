@@ -34,7 +34,7 @@
 <link rel="icon" type="image/svg+xml" href="assets/brand/industrial-calculation-hub-mark.svg?v=20260824-colors">
 
 <!-- Global CSS -->
-<link rel="stylesheet" href="style.css?v=20260825-tools">
+<link rel="stylesheet" href="style.css?v=20260826-results">
 
 <!-- Google Funding Choices (CMP) -->
 <script async src="https://fundingchoicesmessages.google.com/i/pub-1658062441623612?ers=1"></script>
@@ -291,6 +291,7 @@ Length conversion is far more than a mathematical exercise—it is a critical en
       <div class="footer-copyright">© 2026 Industrial Calculation Hub. All Rights Reserved.</div>
     </footer>
   </div>
+<script src="assets/js/converter-results.js?v=20260826-results"></script>
 <script>
 
 const TO_METER = {
@@ -336,43 +337,14 @@ function convert() {
         "Nautical Mile (nmi)": meter / TO_METER.nmi
     };
 
-    let html = `
-    <div class="result-card">
-        <h3>Converted Length Values</h3>
-
-        <table class="result-table">
-            <tr>
-                <th>Unit</th>
-                <th>Converted Value</th>
-            </tr>`;
-
-    for (const unitName in results) {
-
-        const converted = results[unitName];
-
-        let displayValue;
-
-        if (Math.abs(converted) >= 1000000 || (Math.abs(converted) > 0 && Math.abs(converted) < 0.001)) {
-            displayValue = converted.toExponential(6);
-        } else {
-            displayValue = converted.toLocaleString(undefined, {
-                minimumFractionDigits: 2,
-                maximumFractionDigits: 6
-            });
-        }
-
-        html += `
-            <tr>
-                <td>${unitName}</td>
-                <td>${displayValue}</td>
-            </tr>`;
-    }
-
-    html += `
-        </table>
-    </div>`;
-
-    output.innerHTML = html;
+    ICHConverterResults.render(output, {
+        title: "Length conversion results",
+        quantityLabel: "Length",
+        context: "All values represent the same length as the value entered above.",
+        unitColumn: "Length unit",
+        valueColumn: "Equivalent length",
+        rows: Object.entries(results).map(([unitName, converted]) => ({ unit: unitName, value: converted }))
+    });
 }
 
 /* ================= LIVE EVENTS ================= */

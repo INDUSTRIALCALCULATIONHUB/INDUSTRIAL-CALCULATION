@@ -52,7 +52,7 @@
 
 <!-- GLOBAL CSS -->
 
-<link rel="stylesheet" href="style.css?v=20260825-tools">
+<link rel="stylesheet" href="style.css?v=20260826-results">
 
 
 <!-- Google Funding Choices (CMP) -->
@@ -92,8 +92,8 @@ crossorigin="anonymous"></script>
         <div class="tool-page-hero__grid">
           <div>
             <p class="tool-page-kicker">Engineering unit converter</p>
-            <h1 id="converter-title">Weight Conversion Calculator</h1>
-            <p class="tool-page-summary">Convert mass and weight units including kilogram (kg), gram (g), tonne (t), pound (lb), Newton (N), kilonewton (kN), and kilogram-force (kgf) with engineering accuracy for mechanical, structural, fabrication, and industrial applications.</p>
+            <h1 id="converter-title">Mass, Weight and Force Conversion Calculator</h1>
+            <p class="tool-page-summary">Convert mass values and their standard-gravity weight-force equivalents, including kilogram mass (kg), gram mass (g), tonne mass (t), pound-force (lbf), Newton (N), kilonewton (kN), and kilogram-force (kgf).</p>
             <p class="tool-page-meta">Interface updated: 25 August 2026</p>
           </div>
           <aside class="tool-page-trust" aria-label="Converter use guidance">
@@ -103,11 +103,11 @@ crossorigin="anonymous"></script>
         </div>
       </section>
       <div class="tool-workspace">
-        <section class="section converter-panel" aria-label="Weight Conversion Calculator inputs and results">
+        <section class="section converter-panel" aria-label="Mass, weight and force conversion calculator inputs and results">
 
 
 <label for="inputValue">
-    Enter Weight / Mass Value
+    Enter Mass or Force Value
 </label>
 
 
@@ -126,21 +126,21 @@ crossorigin="anonymous"></script>
 
 <select id="unit">
 
-    <option value="mg">Milligram (mg)</option>
+    <option value="mg">Milligram mass (mg)</option>
 
-    <option value="g">Gram (g)</option>
+    <option value="g">Gram mass (g)</option>
 
-    <option value="kg" selected>Kilogram (kg)</option>
+    <option value="kg" selected>Kilogram mass (kg)</option>
 
-    <option value="t">Metric Tonne (t)</option>
+    <option value="t">Metric tonne mass (t)</option>
 
-    <option value="lb">Pound (lb)</option>
+    <option value="lbf">Pound-force (lbf)</option>
 
-    <option value="oz">Ounce (oz)</option>
+    <option value="ozf">Ounce-force (ozf)</option>
 
-    <option value="N">Newton (N)</option>
+    <option value="N">Newton force (N)</option>
 
-    <option value="kN">Kilonewton (kN)</option>
+    <option value="kN">Kilonewton force (kN)</option>
 
     <option value="kgf">Kilogram-force (kgf)</option>
 
@@ -424,6 +424,7 @@ Accurate weight and force conversion is essential in mechanical, structural, fab
       <div class="footer-copyright">© 2026 Industrial Calculation Hub. All Rights Reserved.</div>
     </footer>
   </div>
+<script src="assets/js/converter-results.js?v=20260826-results"></script>
 <script>
 
 const TO_NEWTON = {
@@ -432,8 +433,8 @@ const TO_NEWTON = {
     g: 0.00980665,
     kg: 9.80665,
     t: 9806.65,
-    lb: 4.448221615,
-    oz: 0.278013851,
+    lbf: 4.4482216152605,
+    ozf: 0.27801385095378125,
     N: 1,
     kN: 1000,
     kgf: 9.80665,
@@ -468,21 +469,21 @@ function convert() {
 
     const results = {
 
-        "Milligram (mg)": newton / TO_NEWTON.mg,
+        "Milligram mass (mg)": newton / TO_NEWTON.mg,
 
-        "Gram (g)": newton / TO_NEWTON.g,
+        "Gram mass (g)": newton / TO_NEWTON.g,
 
-        "Kilogram (kg)": newton / TO_NEWTON.kg,
+        "Kilogram mass (kg)": newton / TO_NEWTON.kg,
 
-        "Metric Tonne (t)": newton / TO_NEWTON.t,
+        "Metric tonne mass (t)": newton / TO_NEWTON.t,
 
-        "Pound (lb)": newton / TO_NEWTON.lb,
+        "Pound-force (lbf)": newton / TO_NEWTON.lbf,
 
-        "Ounce (oz)": newton / TO_NEWTON.oz,
+        "Ounce-force (ozf)": newton / TO_NEWTON.ozf,
 
-        "Newton (N)": newton,
+        "Newton force (N)": newton,
 
-        "Kilonewton (kN)": newton / TO_NEWTON.kN,
+        "Kilonewton force (kN)": newton / TO_NEWTON.kN,
 
         "Kilogram-force (kgf)": newton / TO_NEWTON.kgf,
 
@@ -491,73 +492,15 @@ function convert() {
     };
 
 
-    let html = `
-
-    <div class="result-card">
-
-        <h3>Converted Weight / Force Values</h3>
-
-        <table class="result-table">
-
-            <tr>
-                <th>Unit</th>
-                <th>Value</th>
-            </tr>
-
-    `;
-
-
-    for (const unitName in results) {
-
-        let val = results[unitName];
-
-
-        let displayValue;
-
-
-        if (Math.abs(val) >= 1000000 || 
-            (Math.abs(val) > 0 && Math.abs(val) < 0.000001)) {
-
-            displayValue = val.toExponential(6);
-
-        } 
-        else {
-
-            displayValue = val.toLocaleString(undefined, {
-
-                minimumFractionDigits: 2,
-                maximumFractionDigits: 6
-
-            });
-
-        }
-
-
-        html += `
-
-            <tr>
-
-                <td>${unitName}</td>
-
-                <td>${displayValue}</td>
-
-            </tr>
-
-        `;
-
-    }
-
-
-    html += `
-
-        </table>
-
-    </div>
-
-    `;
-
-
-    output.innerHTML = html;
+    ICHConverterResults.render(output, {
+        title: "Mass, weight and force conversion results",
+        quantityLabel: "Mass and force",
+        context: "Mass entries are converted to their standard-gravity weight-force equivalents; force entries remain force values.",
+        unitColumn: "Mass or force unit",
+        valueColumn: "Equivalent value",
+        note: "Mass-to-force conversion uses standard gravity, gₙ = 9.80665 m/s². Do not use this converter where local gravity or a specified process acceleration is required.",
+        rows: Object.entries(results).map(([unitName, converted]) => ({ unit: unitName, value: converted }))
+    });
 
 }
 

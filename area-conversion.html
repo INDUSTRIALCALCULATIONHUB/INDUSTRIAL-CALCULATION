@@ -42,7 +42,7 @@
 </script>
 <script async src="https://fundingchoicesmessages.google.com/i/pub-1658062441623612?ers=1"></script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1658062441623612" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="style.css?v=20260825-tools">
+<link rel="stylesheet" href="style.css?v=20260826-results">
 <script defer src="assets/js/site-search.js?v=20260825-tools"></script>
 </head>
 
@@ -142,6 +142,7 @@ Area is one of the most important engineering quantities used in structural desi
       <div class="footer-copyright">© 2026 Industrial Calculation Hub. All Rights Reserved.</div>
     </footer>
   </div>
+<script src="assets/js/converter-results.js?v=20260826-results"></script>
 <script>
 
 const TO_SQM = {
@@ -186,44 +187,14 @@ function convert() {
         "Hectare": sqm / TO_SQM.hectare
     };
 
-    let html = `
-    <div class="result-card">
-        <h3>Converted Area Values</h3>
-
-        <table class="result-table">
-            <tr>
-                <th>Unit</th>
-                <th>Converted Value</th>
-            </tr>`;
-
-    for (const unitName in results) {
-
-        let converted = results[unitName];
-
-        // Scientific notation for very large/small numbers
-        let displayValue;
-
-        if (Math.abs(converted) >= 1000000 || (Math.abs(converted) > 0 && Math.abs(converted) < 0.001)) {
-            displayValue = converted.toExponential(6);
-        } else {
-            displayValue = converted.toLocaleString(undefined, {
-                minimumFractionDigits: 2,
-                maximumFractionDigits: 6
-            });
-        }
-
-        html += `
-            <tr>
-                <td>${unitName}</td>
-                <td>${displayValue}</td>
-            </tr>`;
-    }
-
-    html += `
-        </table>
-    </div>`;
-
-    output.innerHTML = html;
+    ICHConverterResults.render(output, {
+        title: "Area conversion results",
+        quantityLabel: "Area",
+        context: "All values represent the same area as the value entered above.",
+        unitColumn: "Area unit",
+        valueColumn: "Equivalent area",
+        rows: Object.entries(results).map(([unitName, converted]) => ({ unit: unitName, value: converted }))
+    });
 }
 
 /* ================= LIVE EVENTS ================= */

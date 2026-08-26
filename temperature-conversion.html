@@ -34,7 +34,7 @@
 <link rel="icon" type="image/svg+xml" href="assets/brand/industrial-calculation-hub-mark.svg?v=20260824-colors">
 
 <!-- Global CSS -->
-<link rel="stylesheet" href="style.css?v=20260825-tools">
+<link rel="stylesheet" href="style.css?v=20260826-results">
 
 <!-- Google Funding Choices (CMP) -->
 <script async src="https://fundingchoicesmessages.google.com/i/pub-1658062441623612?ers=1"></script>
@@ -345,6 +345,7 @@ Accurate temperature conversion is essential in mechanical, thermal, process, HV
       <div class="footer-copyright">© 2026 Industrial Calculation Hub. All Rights Reserved.</div>
     </footer>
   </div>
+<script src="assets/js/converter-results.js?v=20260826-results"></script>
 <script>
 
 function calculate() {
@@ -398,43 +399,20 @@ function calculate() {
 
     };
 
-
-    let html = `
-    <div class="result-card">
-
-        <h3>Converted Temperature Values</h3>
-
-        <table class="result-table">
-
-            <tr>
-                <th>Temperature Unit</th>
-                <th>Value</th>
-            </tr>
-    `;
-
-
-    for (const unitName in results) {
-
-        html += `
-            <tr>
-                <td>${unitName}</td>
-                <td>${results[unitName].toLocaleString(undefined, {
-                    minimumFractionDigits: 2,
-                    maximumFractionDigits: 4
-                })}</td>
-            </tr>`;
-
+    if (C < -273.15) {
+        output.innerHTML = '<section class="result-card converter-results" aria-live="polite"><p class="converter-results__note">A temperature below absolute zero is not physically valid. Please enter a value at or above absolute zero.</p></section>';
+        return;
     }
 
-
-    html += `
-
-        </table>
-
-    </div>`;
-
-
-    output.innerHTML = html;
+    ICHConverterResults.render(output, {
+        title: "Temperature conversion results",
+        quantityLabel: "Temperature",
+        context: "All values are equivalent temperature points on their respective scales.",
+        unitColumn: "Temperature scale",
+        valueColumn: "Equivalent temperature",
+        note: "A difference of 1 °C equals 1 K, but Celsius and Kelvin temperature points do not share the same zero.",
+        rows: Object.entries(results).map(([unitName, converted]) => ({ unit: unitName, value: converted }))
+    });
 
 }
 

@@ -7,9 +7,9 @@
 
 <title>Pressure Conversion Calculator | Convert Pa, kPa, MPa, Bar, PSI, atm & mmWC | Industrial Calculation Hub</title>
 
-<meta name="description" content="Free online Pressure Conversion Calculator for engineers, technicians, students, and industrial professionals. Instantly convert Pascal (Pa), kilopascal (kPa), megapascal (MPa), bar, psi, atmosphere (atm), mmWC, mmHg, kg/cm² and other pressure units with engineering accuracy.">
+<meta name="description" content="Free online pressure conversion calculator for engineers, technicians, students, and industrial professionals. Instantly convert Pascal (Pa), kilopascal (kPa), megapascal (MPa), bar, psi, atmosphere (atm), mmWC, mmHg, kgf/cm² and other pressure units with engineering accuracy.">
 
-<meta name="keywords" content="pressure conversion calculator, bar to psi, psi to bar, pa to kpa, kpa to mpa, pressure unit converter, mmWC to bar, mmHg converter, kg/cm2 to bar, engineering pressure calculator">
+<meta name="keywords" content="pressure conversion calculator, bar to psi, psi to bar, Pa to kPa, kPa to MPa, pressure unit converter, mmWC to bar, mmHg converter, kgf/cm2 to bar, engineering pressure calculator">
 
 <meta name="author" content="Industrial Calculation Hub">
 <meta name="robots" content="index, follow">
@@ -20,7 +20,7 @@
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Pressure Conversion Calculator | Industrial Calculation Hub">
-<meta property="og:description" content="Convert pressure units including Pa, kPa, MPa, bar, psi, atmosphere, mmWC, mmHg and kg/cm² with engineering accuracy.">
+<meta property="og:description" content="Convert pressure units including Pa, kPa, MPa, bar, psi, atmosphere, mmWC, mmHg and kgf/cm² with engineering accuracy.">
 <meta property="og:url" content="https://industrialcalculation.com/pressure-conversion.html">
 <meta property="og:image" content="https://industrialcalculation.com/images/pressure-conversion-calculator.webp">
 
@@ -34,7 +34,7 @@
 <link rel="icon" type="image/svg+xml" href="assets/brand/industrial-calculation-hub-mark.svg?v=20260824-colors">
 
 <!-- Global CSS -->
-<link rel="stylesheet" href="style.css?v=20260825-tools">
+<link rel="stylesheet" href="style.css?v=20260826-results">
 
 <!-- Google Funding Choices (CMP) -->
 <script async src="https://fundingchoicesmessages.google.com/i/pub-1658062441623612?ers=1"></script>
@@ -70,7 +70,7 @@ crossorigin="anonymous"></script>
           <div>
             <p class="tool-page-kicker">Engineering unit converter</p>
             <h1 id="converter-title">Pressure Conversion Calculator</h1>
-            <p class="tool-page-summary">Convert Pascal (Pa), kilopascal (kPa), megapascal (MPa), bar, psi, atmosphere (atm), mmWC, mmHg, kg/cm², and other engineering pressure units instantly.</p>
+            <p class="tool-page-summary">Convert Pascal (Pa), kilopascal (kPa), megapascal (MPa), bar, psi, atmosphere (atm), mmWC, mmHg, kgf/cm², and other engineering pressure units instantly.</p>
             <p class="tool-page-meta">Interface updated: 25 August 2026</p>
           </div>
           <aside class="tool-page-trust" aria-label="Converter use guidance">
@@ -95,7 +95,7 @@ crossorigin="anonymous"></script>
     <option value="mbar">Millibar (mbar)</option>
     <option value="atm">Standard Atmosphere (atm)</option>
     <option value="psi">Pound per Square Inch (psi)</option>
-    <option value="kgcm2">Kilogram-force per Square Centimetre (kg/cm²)</option>
+    <option value="kgcm2">Kilogram-force per square centimetre (kgf/cm²)</option>
     <option value="mmWC">Millimetre Water Column (mmWC)</option>
     <option value="mWC">Metre Water Column (mWC)</option>
     <option value="mmHg">Millimetre of Mercury (mmHg)</option>
@@ -177,7 +177,7 @@ The SI unit of pressure is the <strong>Pascal (Pa)</strong>, which is equal to o
 
 <li><strong>PSI (lb/in²):</strong> Standard unit in American piping, oil & gas and mechanical engineering.</li>
 
-<li><strong>kg/cm²:</strong> Common in hydraulic equipment and older industrial installations.</li>
+<li><strong>kgf/cm²:</strong> A kilogram-force per square centimetre, common in hydraulic equipment and older industrial installations.</li>
 
 <li><strong>Atmosphere (atm):</strong> Represents standard atmospheric pressure at sea level.</li>
 
@@ -284,6 +284,7 @@ Pressure conversion is an essential engineering activity that supports safe equi
       <div class="footer-copyright">© 2026 Industrial Calculation Hub. All Rights Reserved.</div>
     </footer>
   </div>
+<script src="assets/js/converter-results.js?v=20260826-results"></script>
 <script>
 
 const TO_PA = {
@@ -293,7 +294,7 @@ const TO_PA = {
     bar: 100000,
     mbar: 100,
     atm: 101325,
-    psi: 6894.757293,
+    psi: 6894.757293168,
     kgcm2: 98066.5,
     mmWC: 9.80665,
     mWC: 9806.65,
@@ -322,54 +323,26 @@ function convert() {
         "Pascal (Pa)": pa,
         "Kilopascal (kPa)": pa / TO_PA.kPa,
         "Megapascal (MPa)": pa / TO_PA.MPa,
-        "Bar": pa / TO_PA.bar,
+        "Bar (bar)": pa / TO_PA.bar,
         "Millibar (mbar)": pa / TO_PA.mbar,
         "Standard Atmosphere (atm)": pa / TO_PA.atm,
         "Pound per Square Inch (psi)": pa / TO_PA.psi,
-        "Kilogram-force per Square Centimetre (kg/cm²)": pa / TO_PA.kgcm2,
-        "Millimetre Water Column (mmWC)": pa / TO_PA.mmWC,
-        "Metre Water Column (mWC)": pa / TO_PA.mWC,
-        "Millimetre of Mercury (mmHg)": pa / TO_PA.mmHg,
-        "Torr": pa / TO_PA.Torr
+        "Kilogram-force per square centimetre (kgf/cm²)": pa / TO_PA.kgcm2,
+        "Millimetre water column (mmWC)": pa / TO_PA.mmWC,
+        "Metre water column (mWC)": pa / TO_PA.mWC,
+        "Millimetre of mercury, 0 °C (mmHg)": pa / TO_PA.mmHg,
+        "Torr (Torr)": pa / TO_PA.Torr
     };
 
-    let html = `
-    <div class="result-card">
-        <h3>Converted Pressure Values</h3>
-
-        <table class="result-table">
-            <tr>
-                <th>Pressure Unit</th>
-                <th>Converted Value</th>
-            </tr>`;
-
-    for (const unitName in results) {
-
-        const converted = results[unitName];
-
-        let displayValue;
-
-        if (Math.abs(converted) >= 1000000 || (Math.abs(converted) > 0 && Math.abs(converted) < 0.001)) {
-            displayValue = converted.toExponential(6);
-        } else {
-            displayValue = converted.toLocaleString(undefined, {
-                minimumFractionDigits: 2,
-                maximumFractionDigits: 6
-            });
-        }
-
-        html += `
-            <tr>
-                <td>${unitName}</td>
-                <td>${displayValue}</td>
-            </tr>`;
-    }
-
-    html += `
-        </table>
-    </div>`;
-
-    output.innerHTML = html;
+    ICHConverterResults.render(output, {
+        title: "Pressure conversion results",
+        quantityLabel: "Pressure",
+        context: "All values represent the same pressure as the value entered above.",
+        unitColumn: "Pressure unit",
+        valueColumn: "Equivalent pressure",
+        note: "Water-column values use conventional standard gravity. Millimetre-of-mercury values use the conventional 0 °C definition.",
+        rows: Object.entries(results).map(([unitName, converted]) => ({ unit: unitName, value: converted }))
+    });
 }
 
 /* ================= LIVE EVENTS ================= */
