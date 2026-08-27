@@ -339,10 +339,12 @@ button:hover { background: #225b82; }
 .calculator-panel .calculator-input-group input { margin-bottom: 17px; }
 .calculator-panel .result-card { padding: 0; overflow: hidden; border-color: #c9dce5; border-radius: 9px; box-shadow: 0 5px 16px rgba(22, 62, 99, .045); }
 .calculator-panel .result-card h3 { margin: 0; padding: 12px 16px; color: #164b73; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; font-size: 1rem; font-weight: 850; background: #f7fbfc; border-bottom: 1px solid #d8e9ed; }
+.calculator-panel .result-card__note { margin: 0; padding: 10px 16px; color: #587184; font-size: .78rem; line-height: 1.5; background: #fff; border-bottom: 1px solid #d8e9ed; }
 .calculator-panel .result-card .result-table { margin: 0; font-size: .87rem; }
 .calculator-panel .result-card .result-table th { padding: 10px 16px; color: #fff; font-size: .78rem; background: #1b577b; }
 .calculator-panel .result-card .result-table td { padding: 10px 16px; color: #294d64; font-weight: 650; background: #fff; }
 .calculator-panel .result-card .result-table tr:nth-child(odd) td { background: #f5fafc; }
+.calculator-panel .result-card .result-table .result-table__primary td { color: #164b73; font-size: .95rem; font-weight: 850; background: #eaf7fa; }
 .calculator-sidebar__section + .calculator-sidebar__section { margin-top: 18px; padding-top: 18px; border-top: 1px solid #dbe9ed; }
 .calculator-sidebar h3 { margin: 0 0 7px; color: #164b73; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; font-size: .92rem; font-weight: 850; }
 .calculator-sidebar p, .calculator-sidebar li { color: #567184; font-size: .8rem; line-height: 1.55; }
