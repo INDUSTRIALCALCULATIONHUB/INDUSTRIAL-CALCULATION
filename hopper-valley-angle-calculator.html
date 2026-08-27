@@ -1,395 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Hopper Valley Angle Calculator | Calculate Hopper Valley Angle, Plate Dimensions & Surface Area</title>
-
-<meta name="description" content="Free Hopper Valley Angle Calculator for engineers, fabricators, and designers. Calculate hopper valley angle, inclined plate dimensions, surface area, plate width, hopper volume, and geometry for square, rectangular, and industrial hoppers. Includes engineering formulas, worked examples, design guidelines, and FAQs.">
-<meta name="keywords" content="hopper valley angle calculator, hopper design calculator, hopper angle calculator, hopper plate calculator, hopper volume calculator, fabrication calculator, industrial hopper design, sheet metal hopper, hopper geometry, engineering calculator">
-<link rel="canonical" href="https://industrialcalculation.com/hopper-valley-angle-calculator.html">
-<meta name="robots" content="index, follow, max-image-preview:large">
-<meta name="author" content="Industrial Calculation Hub">
-<meta name="theme-color" content="#0b63ce">
-<link rel="icon" type="image/svg+xml" href="assets/brand/industrial-calculation-hub-mark.svg?v=20260824-colors">
-<link rel="apple-touch-icon" href="favicon.png">
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hopper Valley Angle Calculator">
-<meta property="og:description" content="Free engineering calculator to calculate hopper valley angle, inclined plate dimensions, surface area, and hopper geometry.">
-<meta property="og:url" content="https://industrialcalculation.com/hopper-valley-angle-calculator.html">
-<meta property="og:site_name" content="Industrial Calculation Hub">
-<meta property="og:image" content="https://industrialcalculation.com/images/hopper-valley-angle-calculator.webp">
-
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Hopper Valley Angle Calculator">
-<meta name="twitter:description" content="Calculate hopper valley angle, plate dimensions, and hopper geometry online.">
-<meta name="twitter:image" content="https://industrialcalculation.com/images/hopper-valley-angle-calculator.webp">
-
-    
-<!-- CMP -->
-<script async src="https://fundingchoicesmessages.google.com/i/pub-1658062441623612?ers=1"></script>
-
-<!-- ADSENSE -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1658062441623612" crossorigin="anonymous"></script>
-
-<!-- GLOBAL CSS (same system as Area Tool) -->
-<link rel="stylesheet" href="style.css">
-
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hopper Valley Angle Calculator | Industrial Calculation Hub</title>
+  <meta name="description" content="Calculate hopper valley angle or hopper height, plate angles, surface area and frustum volume for a rectangular industrial hopper.">
+  <meta name="keywords" content="hopper valley angle calculator, hopper angle calculator, rectangular hopper geometry, hopper height, hopper surface area, hopper volume">
+  <meta name="author" content="Industrial Calculation Hub"><meta name="robots" content="index,follow,max-image-preview:large"><meta name="last-modified" content="2026-08-27"><meta name="theme-color" content="#164b73">
+  <link rel="canonical" href="https://industrialcalculation.com/hopper-valley-angle-calculator.html"><link rel="icon" type="image/svg+xml" href="assets/brand/industrial-calculation-hub-mark.svg?v=20260824-colors"><link rel="alternate icon" href="favicon.png">
+  <meta property="og:type" content="website"><meta property="og:title" content="Hopper Valley Angle Calculator | Industrial Calculation Hub"><meta property="og:description" content="Calculate hopper valley angle, hopper height, plate angles, surface area and volume."><meta property="og:url" content="https://industrialcalculation.com/hopper-valley-angle-calculator.html"><meta property="og:image" content="https://industrialcalculation.com/assets/illustrations/hopper-valley-angle-diagram-v4.svg"><meta property="og:site_name" content="Industrial Calculation Hub">
+  <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Hopper Valley Angle Calculator | Industrial Calculation Hub"><meta name="twitter:description" content="Calculate hopper geometry for preliminary engineering and fabrication work."><meta name="twitter:image" content="https://industrialcalculation.com/assets/illustrations/hopper-valley-angle-diagram-v4.svg">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Hopper Valley Angle Calculator","url":"https://industrialcalculation.com/hopper-valley-angle-calculator.html","applicationCategory":"EngineeringApplication","operatingSystem":"Any","inLanguage":"en","description":"An existing engineering calculator for hopper valley angle, height, surface area and volume.","dateModified":"2026-08-27","publisher":{"@type":"Organization","name":"Industrial Calculation Hub","url":"https://industrialcalculation.com/","logo":{"@type":"ImageObject","url":"https://industrialcalculation.com/assets/brand/industrial-calculation-hub-mark.svg"}}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://industrialcalculation.com/"},{"@type":"ListItem","position":2,"name":"Engineering Calculators","item":"https://industrialcalculation.com/index.html#tools"},{"@type":"ListItem","position":3,"name":"Hopper Valley Angle Calculator","item":"https://industrialcalculation.com/hopper-valley-angle-calculator.html"}]}</script>
+  <script async src="https://fundingchoicesmessages.google.com/i/pub-1658062441623612?ers=1"></script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1658062441623612" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css?v=20260827-hopper-valley"><script defer src="assets/js/site-search.js?v=20260827-hopper-valley"></script>
 </head>
-
-<body>
-
-<!-- ================= TOP BAR ================= -->
-<div class="topbar">
-
-    <div class="topbar-line">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="disclaimer.html">Disclaimer</a>
-        <a href="terms.html">Terms</a>
+<body class="public-page"><div class="site-frame">
+  <header class="public-header"><a class="brand" href="index.html" aria-label="Industrial Calculation Hub home"><img class="brand__mark" src="assets/brand/industrial-calculation-hub-mark.svg" alt=""><span class="brand__name"><strong>Industrial</strong><span>Calculation Hub</span></span></a><button class="public-menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="public-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="index.html#tools" aria-current="page">Tools</a><a href="engineering.html">Learn</a><a href="engineering-reference-data.html">Reference Data</a><a href="about.html">About</a><a class="public-nav__search" href="search.html">Search website</a></nav><a class="header-search" href="search.html" aria-label="Search the website"><span>Search topics, tools, articles...</span><b aria-hidden="true">⌕</b></a></header>
+  <main class="tool-page-main">
+    <section class="tool-page-hero" aria-labelledby="calculator-title"><p class="tool-page-breadcrumb"><a href="index.html">Home</a> / <a href="index.html#tools">Tools</a> / Engineering Calculators / Hopper Valley Angle Calculator</p><div class="tool-page-hero__grid calculator-hero__grid"><div><p class="tool-page-kicker">Existing engineering calculator</p><h1 id="calculator-title">Hopper Valley Angle Calculator</h1><p class="tool-page-summary">Calculate a rectangular hopper’s valley angle or height, along with the two plate angles, surface area and internal volume.</p><p class="tool-page-meta">Interface and knowledge module updated: 27 August 2026</p></div><figure class="calculator-hero-visual"><img src="assets/illustrations/hopper-valley-angle-diagram-v4.svg" alt="Simplified technical diagram of a rectangular hopper showing inlet and outlet dimensions, height, side angle, end angle and valley angle"></figure></div></section>
+    <div class="tool-workspace">
+      <section class="section converter-panel calculator-panel hopper-calculator-panel" aria-labelledby="calculator-inputs-title"><h2 id="calculator-inputs-title">Calculator inputs and result</h2><p>Choose whether to calculate valley angle from hopper height or height from valley angle. Enter all opening dimensions in millimetres.</p>
+        <label for="mode">Calculation mode</label><select id="mode" onchange="toggleMode()"><option value="1">Calculate Hopper Valley Angle from Hopper Height</option><option value="2">Calculate Hopper Height from Hopper Valley Angle</option></select>
+        <label for="Lt">Top Length (mm)</label><input type="number" id="Lt" placeholder="Enter Top Length (mm)">
+        <label for="Wt">Top Width (mm)</label><input type="number" id="Wt" placeholder="Enter Top Width (mm)">
+        <label for="Lb">Bottom Length (mm)</label><input type="number" id="Lb" placeholder="Enter Bottom Length (mm)">
+        <label for="Wb">Bottom Width (mm)</label><input type="number" id="Wb" placeholder="Enter Bottom Width (mm)">
+        <div id="heightGroup" class="calculator-input-group"><label for="H">Hopper Height (mm)</label><input type="number" id="H" placeholder="Enter Hopper Height (mm)"></div>
+        <div id="valleyGroup" class="calculator-input-group" style="display:none;"><label for="thetaV">Valley Angle (deg)</label><input type="number" id="thetaV" placeholder="Enter Valley Angle (deg)"></div>
+        <div id="output" class="result-box"></div>
+      </section>
+      <aside class="converter-sidebar calculator-sidebar" aria-label="Hopper calculator guidance"><section class="calculator-sidebar__section"><h3>Calculation basis</h3><p>The existing calculator treats the hopper as a rectangular frustum with a centred, smaller rectangular outlet.</p></section><section class="calculator-sidebar__section"><h3>Result includes</h3><ul><li>Length-side and width-side plate angles</li><li>Valley angle or calculated height</li><li>Surface area and frustum volume</li></ul></section><section class="calculator-sidebar__section"><h3>Continue learning</h3><p><a href="silo-bunker-sizing.html">Open the Silo &amp; Bunker Sizing Calculator →</a></p><p><a href="plate-weight.html">Open the Plate Weight Calculator →</a></p></section></aside>
     </div>
-
-    <div class="topbar-line">
-        <a href="index.html#tools">Engineering Calculators</a>
-        <a href="index.html#converters">Unit Conversion</a>
-        <a href="index.html#blogs">Engineering Knowledge</a>
-    </div>
-
+    <section class="section converter-knowledge calculator-knowledge" aria-labelledby="knowledge-title"><p class="converter-knowledge__eyebrow">Engineering knowledge</p><h2 id="knowledge-title">Hopper plate geometry, valley angle and frustum volume</h2><p>A rectangular hopper transitions from a larger top opening to a smaller outlet using four inclined fabricated plates. The valley angle describes the inclination along the line where two adjacent plates meet. It is useful for preliminary hopper layouts, plate-development checks, material estimates and early equipment sizing.</p><div class="converter-knowledge__guide"><span class="converter-knowledge__guide-icon">↗</span><div><strong>Related calculation knowledge</strong><p>Hopper geometry alone does not establish reliable bulk-solid flow. Material properties, wall friction, outlet size, discharge arrangement and structural loads require separate assessment.</p><a class="inline-link" href="engineering/material-handling-and-bulk-solids/">Explore Material Handling and Bulk Solids →</a></div></div>
+      <h3>Input and result definitions</h3><div class="calculator-method"><div class="calculator-method__item"><strong>Top and outlet openings</strong><span>Lt and Wt are the top length and width; Lb and Wb are the corresponding smaller outlet dimensions.</span></div><div class="calculator-method__item"><strong>Calculation mode</strong><span>Enter height to calculate the valley angle, or enter valley angle to calculate height.</span></div><div class="calculator-method__item"><strong>Reported geometry</strong><span>The result gives the two plate angles plus total surface area and internal frustum volume.</span></div></div>
+      <h3>Formula and calculation method</h3><div class="formula-grid"><article class="formula-card"><h3>Half differences</h3><p class="formula-card__equation">ΔL = (Lt − Lb) / 2<br>ΔW = (Wt − Wb) / 2</p><p>These are the horizontal offsets between the centre lines of the top and outlet rectangles.</p></article><article class="formula-card"><h3>Valley relation</h3><p class="formula-card__equation">θᵥ = tan⁻¹[H / √(ΔL² + ΔW²)]</p><p>When valley angle is entered instead, the existing calculator rearranges this relation to determine H.</p></article><article class="formula-card"><h3>Frustum volume</h3><p class="formula-card__equation">V = H / 3 [A₁ + A₂ + √(A₁A₂)]</p><p>A₁ and A₂ are the top and outlet plan areas, calculated in consistent metric units.</p></article></div>
+      <h3>Assumptions and limitations</h3><ul><li>The existing relation assumes the outlet is centred and each wall is a flat plane between rectangular openings.</li><li>Surface area represents the primary hopper plates; it does not include flanges, stiffeners, liners, outlet spigots, weld allowances or access items.</li><li>The result is a geometric estimate only. It does not determine mass-flow performance, outlet sizing, wall thickness or structural adequacy.</li><li>For actual bulk-solid service, evaluate the stored material, moisture, wall friction, discharge equipment, dynamic loads and project-specific standards.</li></ul>
+      <h3>Illustrative use case</h3><p>For a 3,000 mm by 2,500 mm top opening, a centred 600 mm by 600 mm outlet and a 2,200 mm hopper height, the existing calculator reports the two plate angles, valley angle, total plate surface area and internal frustum volume. These values can support a preliminary layout before detailed flow and structural design.</p>
+      <h3>Frequently asked questions</h3><h4>What is the difference between a plate angle and a valley angle?</h4><p>A plate angle is measured along one hopper wall. The valley angle is measured along the seam where two adjacent inclined plates meet, so it accounts for the offsets in both directions.</p><h4>Can this calculator be used for square hoppers?</h4><p>Yes. Enter equal top length and width, and equal outlet length and width, for a square hopper. The calculator also accepts rectangular openings.</p><h4>Does the result confirm that material will flow?</h4><p>No. Geometry by itself cannot predict reliable flow. Bulk material testing and a hopper-flow assessment are required for a design decision.</p><h4>Can I use the surface area for plate weight?</h4><p>It provides a preliminary main-plate area. Add allowances and account for thickness, density, cutouts, stiffeners, welds and lining separately before procurement or fabrication.</p>
+      <section class="related-knowledge-section" aria-labelledby="related-title"><h2 id="related-title">Related Engineering Resources</h2><p>Use these existing pages to continue from hopper geometry into material handling, fabrication and reference data.</p><div class="calculator-related-grid"><a href="silo-bunker-sizing.html"><strong>Silo &amp; Bunker Sizing Calculator</strong><span>Storage-volume context</span></a><a href="plate-weight.html"><strong>Plate Weight Calculator</strong><span>Plate mass estimate</span></a><a href="area-conversion.html"><strong>Area Converter</strong><span>Surface-area unit conversion</span></a><a href="volume-conversion.html"><strong>Volume Converter</strong><span>Volume unit conversion</span></a><a href="industrial-equipment/conveying-systems/"><strong>Conveying Systems</strong><span>Equipment collection</span></a><a href="industrial-processes/bulk-material-handling-processes/"><strong>Bulk Material Handling Processes</strong><span>Process collection</span></a><a href="engineering-reference-data/plates-sheets-bars-rods-and-wire/plates-and-sheets/"><strong>Plates and Sheets</strong><span>Reference-data collection</span></a><a href="engineering/material-handling-and-bulk-solids/"><strong>Material Handling and Bulk Solids</strong><span>Engineering collection</span></a></div></section>
+      <h3>References</h3><ol class="references-list"><li>Jenike, A. W. <em>Storage and Flow of Solids</em>. University of Utah Engineering Experiment Station Bulletin No. 123. 1964.</li><li>McGlinchey, D. <em>Bulk Solids Handling: Equipment Selection and Operation</em>. Blackwell Publishing. 2008.</li><li>Oberg, E., Jones, F. D., Horton, H. L. and Ryffel, H. H. <em>Machinery's Handbook</em>. 30th ed. Industrial Press. 2016.</li></ol><p class="references-note">This is an original educational summary. Verify material data and project requirements for actual work.</p><h3>Review information</h3><div class="review-panel"><strong>Content type: existing engineering calculator with knowledge module.</strong><span>Interface reviewed: 27 August 2026. Technical review is required before project use, procurement, construction, operation, compliance or safety decisions.</span></div><h3>Engineering disclaimer</h3><div class="disclaimer-panel"><strong>Educational and preliminary engineering-reference use only.</strong><span>This calculator does not replace bulk-solid testing, project specifications, detailed design, fabrication drawings, applicable standards or review by a qualified engineer. Verify all values, assumptions and decisions for actual service conditions.</span></div>
+    </section>
+  </main>
+  <footer class="site-footer"><nav class="footer-nav" aria-label="Legal and support navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="disclaimer.html">Disclaimer</a><a href="terms.html">Terms</a></nav><div class="footer-copyright">© 2026 Industrial Calculation Hub. All Rights Reserved.</div></footer>
 </div>
-
-<!-- ================= WRAPPER ================= -->
-<div class="wrapper">
-
-<!-- HEADER -->
-<div class="header">
-    <h1>Hopper Valley Angle Calculator</h1>
-
-    <p>
-        Free online engineering calculator to determine hopper valley angle,
-        inclined plate angle, plate dimensions, hopper surface area, and
-        hopper volume for square and rectangular industrial hoppers.
-        Suitable for material handling, dust collection, silos, bins,
-        chutes, and fabrication design.
-    </p>
-
-    <div class="update-info">
-        Last Updated: July 22, 2026
-    </div>
-</div>
-
-
-<!-- ================= INPUT SECTION ================= -->
-<div class="section">
-
-    <select id="mode" onchange="toggleMode()">
-        <option value="1">Calculate Hopper Valley Angle from Hopper Height</option>
-        <option value="2">Calculate Hopper Height from Hopper Valley Angle</option>
-    </select>
-
-    <label>Top Length (mm)</label>
-    <input type="number" id="Lt" placeholder="Enter Top Length (mm)">
-
-    <label>Top Width (mm)</label>
-    <input type="number" id="Wt" placeholder="Enter Top Width (mm)">
-
-    <label>Bottom Length (mm)</label>
-    <input type="number" id="Lb" placeholder="Enter Bottom Length (mm)">
-
-    <label>Bottom Width (mm)</label>
-    <input type="number" id="Wb" placeholder="Enter Bottom Width (mm)">
-
-<div id="heightGroup">
-    <label>Hopper Height (mm)</label>
-    <input type="number" id="H" placeholder="Enter Hopper Height (mm)">
-</div>
-
-<div id="valleyGroup" style="display:none;">
-    <label>Valley Angle (deg)</label>
-    <input type="number" id="thetaV" placeholder="Enter Valley Angle (deg)">
-</div>
-
-    <div id="output" class="result-box"></div>
-
-</div>
-
-
-
-<!-- ================= ENGINEERING KNOWLEDGE ================= -->
-<div class="section">
-
-<h2>Engineering Knowledge</h2>
-
-<p>
-The <strong>Hopper Valley Angle Calculator</strong> is an engineering tool used to determine the valley angle, inclined plate angles, plate dimensions, surface area, and internal volume of square and rectangular hoppers. Hopper geometry plays an important role in bulk material handling because it directly influences material flow, fabrication accuracy, structural strength, and storage capacity.
-</p>
-
-<p>
-Industrial hoppers are widely used in cement plants, power plants, steel plants, mining, food processing, chemical industries, biomass systems, dust collection systems, and material storage silos. Proper hopper design minimizes material bridging, improves discharge efficiency, reduces dead zones, and ensures reliable operation throughout the equipment life.
-</p>
-
-<h3>What is a Hopper Valley Angle?</h3>
-
-<p>
-The valley angle is the angle formed along the intersection of two inclined hopper plates. It is different from the side wall angle because it represents the true inclination along the valley line where two adjacent plates meet. This angle is important for fabrication, welding, structural design, and predicting material flow characteristics.
-</p>
-
-<h3>Input Parameters</h3>
-
-<ul>
-<li><strong>Top Length (Lt):</strong> Length of hopper opening at the top (mm)</li>
-<li><strong>Top Width (Wt):</strong> Width of hopper opening at the top (mm)</li>
-<li><strong>Bottom Length (Lb):</strong> Length of hopper outlet (mm)</li>
-<li><strong>Bottom Width (Wb):</strong> Width of hopper outlet (mm)</li>
-<li><strong>Hopper Height (H):</strong> Vertical distance between top opening and outlet (mm)</li>
-</ul>
-
-<h3>Calculated Results</h3>
-
-<ul>
-<li>Length-side inclined plate angle</li>
-<li>Width-side inclined plate angle</li>
-<li>Valley angle</li>
-<li>Inclined plate lengths</li>
-<li>Total hopper surface area</li>
-<li>Internal hopper volume</li>
-</ul>
-
-<h3>Engineering Formulas</h3>
-
-<p><strong>Length Difference</strong></p>
-
-<p>
-ΔL = (Lt − Lb) / 2
-</p>
-
-<p><strong>Width Difference</strong></p>
-
-<p>
-ΔW = (Wt − Wb) / 2
-</p>
-
-<p><strong>Length Side Plate Angle</strong></p>
-
-<p>
-θ<sub>L</sub> = tan<sup>-1</sup>(H / ΔL)
-</p>
-
-<p><strong>Width Side Plate Angle</strong></p>
-
-<p>
-θ<sub>W</sub> = tan<sup>-1</sup>(H / ΔW)
-</p>
-
-<p><strong>Valley Angle</strong></p>
-
-<p>
-θ<sub>V</sub> = tan<sup>-1</sup>(H / √(ΔL² + ΔW²))
-</p>
-
-<p><strong>Top Area</strong></p>
-
-<p>
-A<sub>Top</sub> = Lt × Wt
-</p>
-
-<p><strong>Bottom Area</strong></p>
-
-<p>
-A<sub>Bottom</sub> = Lb × Wb
-</p>
-
-<p><strong>Hopper Volume (Frustum Formula)</strong></p>
-
-<p>
-Volume = (H / 3) × (A<sub>Top</sub> + A<sub>Bottom</sub> + √(A<sub>Top</sub> × A<sub>Bottom</sub>))
-</p>
-
-<h3>Meaning of Variables</h3>
-
-<ul>
-<li><strong>Lt</strong> = Top Length</li>
-<li><strong>Wt</strong> = Top Width</li>
-<li><strong>Lb</strong> = Bottom Length</li>
-<li><strong>Wb</strong> = Bottom Width</li>
-<li><strong>H</strong> = Hopper Height</li>
-<li><strong>ΔL</strong> = Half difference in hopper length</li>
-<li><strong>ΔW</strong> = Half difference in hopper width</li>
-<li><strong>θL</strong> = Length-side plate angle</li>
-<li><strong>θW</strong> = Width-side plate angle</li>
-<li><strong>θV</strong> = Valley angle</li>
-</ul>
-
-<h3>Worked Example</h3>
-
-<p>
-Suppose a hopper has the following dimensions:
-</p>
-
-<ul>
-<li>Top Length = 3000 mm</li>
-<li>Top Width = 2500 mm</li>
-<li>Bottom Length = 600 mm</li>
-<li>Bottom Width = 600 mm</li>
-<li>Height = 2200 mm</li>
-</ul>
-
-<p>
-The calculator automatically determines the inclined plate angles, valley angle, plate lengths, hopper surface area, and total internal volume using the formulas above. These values are commonly used for fabrication drawings, plate development, weight estimation, and structural design.
-</p>
-
-<h3>Design Considerations</h3>
-
-<ul>
-<li>Select hopper wall angles based on the angle of repose of the stored material.</li>
-<li>Steeper hopper walls generally improve material flow and reduce bridging.</li>
-<li>Provide adequate outlet size to prevent arching and blockage.</li>
-<li>Consider bulk density when designing hopper supports.</li>
-<li>Abrasive materials may require thicker wear plates or liners.</li>
-<li>Include stiffeners for large hoppers to reduce plate deflection.</li>
-<li>Check weld design around valley joints because these locations experience higher stresses.</li>
-<li>Verify fabrication tolerances before manufacturing large hoppers.</li>
-</ul>
-
-<h3>Typical Industrial Applications</h3>
-
-<ul>
-<li>Cement plants</li>
-<li>Coal handling systems</li>
-<li>Ash handling systems</li>
-<li>Bag filter hoppers</li>
-<li>ESP hoppers</li>
-<li>Boiler bottom ash hoppers</li>
-<li>Food processing plants</li>
-<li>Chemical plants</li>
-<li>Mining and mineral processing</li>
-<li>Steel plants</li>
-<li>Biomass handling systems</li>
-<li>Bulk material storage silos</li>
-</ul>
-
-
-<h3>Engineering Standards and Good Practices</h3>
-
-<ul>
-<li>Design hopper wall angles according to the angle of repose of the stored material.</li>
-<li>Verify outlet dimensions to avoid bridging and ratholing.</li>
-<li>Consider bulk density when designing hopper supports.</li>
-<li>Provide sufficient stiffeners for large fabricated hoppers.</li>
-<li>Allow for wear liners when handling abrasive materials.</li>
-<li>Follow applicable standards such as IS, ASME, Eurocode, or project specifications.</li>
-<li>Verify weld strength around valley joints and outlet transitions.</li>
-<li>Always perform structural analysis for large-capacity industrial hoppers.</li>
-</ul>
-    
-
-<!-- ================= FAQ ================= -->
-
-
-<h2>Frequently Asked Questions</h2>
-
-<h3>What is a hopper valley angle?</h3>
-
-<p>
-The hopper valley angle is the angle formed along the intersection line of two adjacent inclined hopper plates. It is an important design parameter used in fabrication, structural analysis, and bulk material flow calculations.
-</p>
-
-<h3>Why is the hopper valley angle important?</h3>
-
-<p>
-A properly designed valley angle promotes smooth material discharge, reduces bridging and arching, improves fabrication accuracy, and minimizes material build-up inside the hopper.
-</p>
-
-<h3>Can this calculator be used for rectangular hoppers?</h3>
-
-<p>
-Yes. This calculator is suitable for both square and rectangular hoppers where the top opening is larger than the bottom outlet and the side plates are inclined toward the discharge opening.
-</p>
-
-<h3>Which units should be used?</h3>
-
-<p>
-All dimensions are entered in millimetres (mm). Surface area is calculated in square metres (m²), volume is calculated in cubic metres (m³), and all angles are displayed in degrees.
-</p>
-
-<h3>Does this calculator determine hopper volume?</h3>
-
-<p>
-Yes. The internal hopper volume is calculated using the frustum (truncated pyramid) formula, which is commonly used in engineering design and fabrication.
-</p>
-
-<h3>Can this calculator be used for bag filter and ESP hoppers?</h3>
-
-<p>
-Yes. It is suitable for bag filter hoppers, ESP hoppers, boiler ash hoppers, dust collectors, cement silos, coal bunkers, biomass storage bins, and similar industrial equipment.
-</p>
-
-<h3>What is the difference between plate angle and valley angle?</h3>
-
-<p>
-The plate angle is the inclination of an individual hopper wall, while the valley angle is measured along the intersection of two inclined plates. Both values are important during fabrication and structural design.
-</p>
-
-<h3>Can this calculator estimate fabrication quantities?</h3>
-
-<p>
-Yes. The calculated surface area can be used to estimate plate weight, painting area, insulation quantity, material cost, and fabrication requirements when combined with material thickness.
-</p>
-
-<h3>What factors affect hopper design?</h3>
-
-<p>
-Important design factors include the angle of repose of the stored material, wall friction, bulk density, outlet size, discharge rate, wear resistance, structural loading, and fabrication tolerances.
-</p>
-
-<h3>Is this calculator suitable for engineering design?</h3>
-
-<p>
-This calculator provides quick engineering calculations based on standard geometric relationships and frustum volume equations. Final equipment design should always be verified according to applicable engineering standards, project specifications, and manufacturer requirements.
-</p>
-
-
-
-<!-- ================= RELATED TOOLS ================= -->
-
-
-<h2>Related Engineering Calculators</h2>
-
-<ul>
-<li><a href="plate-weight.html">Plate Weight Calculator</a></li>
-<li><a href="area-conversion.html">Area Converter</a></li>
-<li><a href="volume-conversion.html">Volume Converter</a></li>
-<li><a href="weight-conversion.html">Weight Conversion Calculator</a></li>
-<li><a href="pipe-flow-calculator.html">Pipe Flow Calculator</a></li>
-<li><a href="heat-transfer.html">Heat Transfer Calculator</a></li>
-</ul>
-
-
-
-</div>
-
-    
-<!-- ================= FOOTER ================= -->
-<div class="footer">
-
-<div>© 2026 Industrial Calculation Hub. All Rights Reserved. Free Engineering Calculators | Unit Converters | Engineering Knowledge Base</div>
-
-<div class="footer-links">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <a href="privacy.html">Privacy</a>
-        <a href="disclaimer.html">Disclaimer</a>
-    <a href="terms.html">Terms</a>
-</div>
-
-</div>
-
 <script>
-
 function calc(){
 
 let Lt = parseFloat(document.getElementById("Lt").value);
@@ -500,9 +154,7 @@ document.getElementById("output").innerHTML = "";
 calc();
 }
 
-    
 // Live calculation
-
 document.getElementById("Lt").addEventListener("input", calc);
 document.getElementById("Wt").addEventListener("input", calc);
 document.getElementById("Lb").addEventListener("input", calc);
@@ -512,8 +164,6 @@ document.getElementById("thetaV").addEventListener("input", calc);
 
 // Initialize page
 toggleMode();
-    
 </script>
-
-</body>
-</html>
+<script>const publicMenuToggle=document.querySelector('.public-menu-toggle');const publicNavigation=document.querySelector('.public-nav');publicMenuToggle?.addEventListener('click',()=>{const isOpen=publicNavigation.dataset.open==='true';publicNavigation.dataset.open=String(!isOpen);publicMenuToggle.setAttribute('aria-expanded',String(!isOpen));});</script>
+</body></html>

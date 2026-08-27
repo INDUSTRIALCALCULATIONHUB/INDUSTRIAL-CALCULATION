@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 780" role="img" aria-labelledby="title description">
+  <title id="title">Hopper valley and plate angles</title>
+  <desc id="description">A simplified technical drawing of a rectangular hopper with inlet and outlet dimensions, height, side angle, end angle and valley angle.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#f3f9fb"/></linearGradient>
+    <linearGradient id="plateFront" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fbfdfe"/><stop offset="1" stop-color="#e1eff4"/></linearGradient>
+    <linearGradient id="plateSide" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eff7fa"/><stop offset="1" stop-color="#d0e5ed"/></linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M0 0 L8 4 L0 8 Z" fill="#164b73"/></marker>
+    <style>
+      .outline{fill:none;stroke:#173f5d;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.fine{fill:none;stroke:#5f8499;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.dimension{fill:none;stroke:#164b73;stroke-width:1.5;marker-start:url(#arrow);marker-end:url(#arrow)}.extension{fill:none;stroke:#7096aa;stroke-width:1.2;stroke-dasharray:5 5}.accent{fill:none;stroke:#b55a1b;stroke-width:3;stroke-linecap:round}.label{fill:#173f5d;font-family:Arial,Helvetica,sans-serif;font-size:23px;font-weight:700}.small{fill:#173f5d;font-family:Arial,Helvetica,sans-serif;font-size:19px;font-weight:650}.angle{fill:#a64f16;font-family:Arial,Helvetica,sans-serif;font-size:18px;font-weight:700}
+    </style>
+  </defs>
+  <rect x="14" y="14" width="872" height="752" rx="46" fill="url(#bg)" stroke="#3276ff" stroke-width="3"/>
+  <!-- open hopper rim -->
+  <path d="M95 305 L475 305 L677 177 L306 177 Z" fill="#ffffff" stroke="#173f5d" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M121 297 L466 297 L650 181 L314 181 Z" fill="#f7fbfc" stroke="#5f8499" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Hopper plates -->
+  <path d="M95 305 L475 305 L418 586 L237 586 Z" fill="url(#plateFront)"/>
+  <path d="M475 305 L677 177 L570 520 L418 586 Z" fill="url(#plateSide)"/>
+  <path d="M677 177 L306 177 L334 499 L570 520 Z" fill="#edf6f9"/>
+  <path d="M306 177 L95 305 L237 586 L334 499 Z" fill="#e7f2f6"/>
+  <path d="M95 305 L475 305 L418 586 L237 586 Z" class="outline"/>
+  <path d="M475 305 L677 177 L570 520 L418 586 Z" class="outline"/>
+  <path d="M677 177 L306 177 L334 499 L570 520 Z" class="outline"/>
+  <path d="M306 177 L95 305 L237 586 L334 499 Z" class="outline"/>
+  <path d="M95 305 L475 305 L677 177 L306 177 Z" class="outline"/><path d="M121 297 L466 297 L650 181 L314 181 Z" class="fine"/>
+  <!-- Outlet -->
+  <path d="M237 586 L418 586 L496 534 L334 499 Z" fill="#ffffff" stroke="#173f5d" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M334 499 L418 586 M237 586 L334 499" class="fine"/>
+  <!-- Inlet dimensions -->
+  <path d="M306 177 V124 M677 177 V124" class="extension"/><path d="M306 120 H677" class="dimension"/><text x="422" y="99" class="label">Inlet Length</text>
+  <path d="M95 305 L59 294 M306 177 L270 166" class="extension"/><path d="M55 291 L268 163" class="dimension"/><text x="39" y="204" class="small" transform="rotate(-31 39 204)">Inlet Width</text>
+  <!-- Height -->
+  <path d="M677 177 H747 M570 520 H747" class="extension"/><path d="M752 177 V520" class="dimension"/><text x="786" y="372" class="label" transform="rotate(90 786 372)">Height</text>
+  <!-- Outlet dimensions -->
+  <path d="M237 586 V644 M418 586 V644" class="extension"/><path d="M237 650 H418" class="dimension"/><text x="253" y="690" class="small">Outlet Length</text>
+  <path d="M418 586 L458 609 M496 534 L535 557" class="extension"/><path d="M462 611 L531 560" class="dimension"/><text x="465" y="664" class="small">Outlet Width</text>
+  <!-- Plate angles -->
+  <path d="M237 559 A46 46 0 0 1 285 551" class="accent"/><path d="M278 500 L278 549" class="fine"/><text x="173" y="473" class="angle">Side</text><text x="173" y="496" class="angle">Angle</text>
+  <path d="M418 556 A52 52 0 0 0 458 539" class="accent"/><path d="M464 423 L453 535" class="fine"/><text x="476" y="339" class="angle">End</text><text x="476" y="362" class="angle">Angle</text>
+  <!-- Valley angle at the plate-intersection line -->
+  <path d="M523 505 A48 48 0 0 0 542 460" class="accent"/><path d="M542 457 L528 504" class="fine"/><text x="590" y="461" class="angle">Valley</text><text x="590" y="484" class="angle">Angle</text>
+  <text x="96" y="736" class="small">Simplified hopper geometry for preliminary calculation and fabrication layout</text>
+</svg>
