@@ -1,637 +1,100 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Silo & Bunker Sizing Calculator | Calculate Storage Capacity & Effective Volume</title>
-
-<meta name="description" content="Free online Silo & Bunker Sizing Calculator to calculate circular silo volume, rectangular bunker capacity, hopper volume, water capacity and effective storage volume using angle of repose. Suitable for cement, fly ash, coal, grain and bulk material storage applications.">
-
-<meta name="keywords" content="silo sizing calculator, bunker sizing calculator, circular silo calculator, rectangular bunker calculator, storage capacity calculator, hopper volume calculator, bulk material storage, angle of repose calculator, engineering calculator">
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Silo &amp; Bunker Sizing Calculator | Industrial Calculation Hub</title>
+<meta name="description" content="Calculate circular silo volume, rectangular bunker capacity, hopper volume and effective storage volume using the existing preliminary engineering calculator.">
+<meta name="keywords" content="silo sizing calculator,bunker sizing calculator,hopper volume,bulk material storage">
 <meta name="author" content="Industrial Calculation Hub">
-
-<meta name="robots" content="index, follow, max-image-preview:large">
-
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="last-modified" content="2026-08-28">
+<meta name="theme-color" content="#164b73">
 <link rel="canonical" href="https://industrialcalculation.com/silo-bunker-sizing-calculator.html">
-
 <link rel="icon" type="image/svg+xml" href="assets/brand/industrial-calculation-hub-mark.svg?v=20260824-colors">
-
-<meta name="theme-color" content="#0b5ed7">
-
-<meta name="last-modified" content="2026-07-22">
-
-<!-- Open Graph -->
+<link rel="alternate icon" href="favicon.png">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Silo & Bunker Sizing Calculator | Industrial Calculation Hub">
-<meta property="og:description" content="Calculate circular silo volume, rectangular bunker capacity, hopper volume and effective storage volume using standard engineering equations.">
+<meta property="og:title" content="Silo &amp; Bunker Sizing Calculator | Industrial Calculation Hub">
+<meta property="og:description" content="Calculate circular silo, rectangular bunker and hopper storage volume.">
 <meta property="og:url" content="https://industrialcalculation.com/silo-bunker-sizing-calculator.html">
-<meta property="og:image" content="https://industrialcalculation.com/images/silo-bunker-sizing-calculator.webp">
+<meta property="og:image" content="https://industrialcalculation.com/assets/illustrations/silo-bunker-sizing-calculator-v2.png">
 <meta property="og:site_name" content="Industrial Calculation Hub">
-
-<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Silo & Bunker Sizing Calculator">
-<meta name="twitter:description" content="Free engineering calculator for circular silo, rectangular bunker, hopper volume and storage capacity calculations.">
-<meta name="twitter:image" content="https://industrialcalculation.com/images/silo-bunker-sizing-calculator.webp">
-
-<!-- Google CMP -->
+<meta name="twitter:title" content="Silo &amp; Bunker Sizing Calculator">
+<meta name="twitter:description" content="Calculate preliminary bulk-solid storage capacity.">
+<meta name="twitter:image" content="https://industrialcalculation.com/assets/illustrations/silo-bunker-sizing-calculator-v2.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Silo & Bunker Sizing Calculator","url":"https://industrialcalculation.com/silo-bunker-sizing-calculator.html","applicationCategory":"EngineeringApplication","operatingSystem":"Any","inLanguage":"en","dateModified":"2026-08-28","publisher":{"@type":"Organization","name":"Industrial Calculation Hub","url":"https://industrialcalculation.com/"}}</script>
 <script async src="https://fundingchoicesmessages.google.com/i/pub-1658062441623612?ers=1"></script>
-
-<!-- Google AdSense -->
-<script async
-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1658062441623612"
-crossorigin="anonymous"></script>
-
-<!-- Global CSS -->
-<link rel="stylesheet" href="style.css">
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1658062441623612" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css?v=20260828-silo-bunker">
+<script defer src="assets/js/site-search.js?v=20260828-silo-bunker"></script>
 </head>
-<body>
-
-<!-- ================= TOP BAR (2 LINES) ================= -->
-<div class="topbar">
-
-    <div class="topbar-line">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="disclaimer.html">Disclaimer</a>
-        <a href="terms.html">Terms</a>
-    </div>
-
-    <div class="topbar-line">
-        <a href="index.html#tools">Engineering Calculators</a>
-        <a href="index.html#converters">Unit Conversion</a>
-        <a href="index.html#blogs">Engineering Knowledge</a>
-    </div>
-
+<body class="public-page">
+<div class="site-frame">
+<header class="public-header">
+  <a class="brand" href="index.html" aria-label="Industrial Calculation Hub home"><img class="brand__mark" src="assets/brand/industrial-calculation-hub-mark.svg" alt=""><span class="brand__name"><strong>Industrial</strong><span>Calculation Hub</span></span></a>
+  <button class="public-menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+  <nav class="public-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="index.html#tools" aria-current="page">Tools</a><a href="engineering.html">Learn</a><a href="engineering-reference-data.html">Reference Data</a><a href="about.html">About</a><a class="public-nav__search" href="search.html">Search website</a></nav>
+  <a class="header-search" href="search.html" aria-label="Search the website"><span>Search topics, tools, articles...</span><b aria-hidden="true">⌕</b></a>
+</header>
+<main class="tool-page-main">
+  <section class="tool-page-hero" aria-labelledby="calculator-title">
+    <p class="tool-page-breadcrumb"><a href="index.html">Home</a> / <a href="index.html#tools">Tools</a> / Engineering Calculators / Silo &amp; Bunker Sizing Calculator</p>
+    <div class="tool-page-hero__grid calculator-hero__grid"><div><p class="tool-page-kicker">Existing engineering calculator</p><h1 id="calculator-title">Silo &amp; Bunker Sizing Calculator</h1><p class="tool-page-summary">Estimate circular silo or rectangular bunker storage volume, hopper volume and effective capacity.</p><p class="tool-page-meta">Interface and knowledge module updated: 28 August 2026</p></div><figure class="calculator-hero-visual"><img src="assets/illustrations/silo-bunker-sizing-calculator-v2.png" alt="Technical illustration of an elevated circular steel silo and a fabricated steel bunker with steel support frames"></figure></div>
+  </section>
+  <div class="tool-workspace">
+    <section class="section converter-panel calculator-panel" aria-labelledby="calculator-inputs-title">
+      <h2 id="calculator-inputs-title">Calculator inputs and result</h2>
+      <p>Select a storage type and enter the existing calculator inputs in millimetres and degrees.</p>
+      <label for="shape">Select Storage Type</label>
+      <select id="shape"><option value="circular">Circular Silo</option><option value="rectangular">Rectangular Bunker</option></select>
+      <div id="circularInputs" class="calculator-input-group">
+        <h3>Circular silo inputs</h3>
+        <label for="dia">Internal Diameter (mm)</label><input type="number" id="dia">
+        <label for="shellHeight">Cylindrical Shell Height (mm)</label><input type="number" id="shellHeight">
+        <label for="coneAngle">Cone Angle from Horizontal (°)</label><input type="number" id="coneAngle">
+        <label for="outletDia">Outlet Diameter (mm)</label><input type="number" id="outletDia">
+        <label for="reposeCircular">Bulk Material Angle of Repose (°)</label><input type="number" id="reposeCircular">
+      </div>
+      <div id="rectangularInputs" class="calculator-input-group" hidden>
+        <h3>Rectangular bunker inputs</h3>
+        <label for="lengthShell">Shell Length (mm)</label><input type="number" id="lengthShell">
+        <label for="widthShell">Shell Width (mm)</label><input type="number" id="widthShell">
+        <label for="heightShell">Shell Height (mm)</label><input type="number" id="heightShell">
+        <label for="lengthCone">Bottom Outlet Length (mm)</label><input type="number" id="lengthCone">
+        <label for="widthCone">Bottom Outlet Width (mm)</label><input type="number" id="widthCone">
+        <label for="valleyAngle">Valley Angle (°)</label><input type="number" id="valleyAngle">
+      </div>
+      <div id="output" class="result-box" aria-live="polite"></div>
+    </section>
+    <aside class="converter-sidebar calculator-sidebar" aria-label="Silo and bunker guidance">
+      <section class="calculator-sidebar__section"><h3>Calculation basis</h3><p>The existing calculator combines shell and hopper geometry, then reports a simplified effective-volume estimate.</p></section>
+      <section class="calculator-sidebar__section"><h3>Available results</h3><ul><li>Shell volume</li><li>Hopper volume</li><li>Total water volume</li><li>Effective volume</li></ul></section>
+      <section class="calculator-sidebar__section"><h3>Continue learning</h3><p><a href="engineering/material-handling-and-bulk-solids/">Explore Material Handling →</a></p><p><a href="hopper-valley-angle-calculator.html">Open Hopper Valley Angle Calculator →</a></p></section>
+    </aside>
+  </div>
+  <section class="section converter-knowledge calculator-knowledge" aria-labelledby="knowledge-title">
+    <p class="converter-knowledge__eyebrow">Engineering knowledge</p><h2 id="knowledge-title">Storage geometry and usable bulk-material capacity</h2>
+    <p>Geometric volume is the enclosed space in a silo or bunker. Usable capacity can be lower because of material slopes, discharge geometry, operating level limits and the properties of the stored bulk solid.</p>
+    <div class="converter-knowledge__guide"><span class="converter-knowledge__guide-icon">↗</span><div><strong>Related calculation knowledge</strong><p>Check material bulk density, flow properties, outlet design and live storage requirements alongside volume.</p><a class="inline-link" href="engineering/material-handling-and-bulk-solids/">Explore bulk-material handling →</a></div></div>
+    <h3>What the calculator reports</h3><div class="formula-grid"><article class="formula-card"><h3>Circular shell</h3><p class="formula-card__equation">V = πR²H</p><p>Volume of the cylindrical section.</p></article><article class="formula-card"><h3>Conical hopper</h3><p class="formula-card__equation">V = πh(R² + Rr + r²) / 3</p><p>Volume of the conical frustum under the shell.</p></article><article class="formula-card"><h3>Rectangular bunker</h3><p class="formula-card__equation">V = L × W × H</p><p>The existing model adds the simplified hopper volume separately.</p></article></div>
+    <h3>Assumptions and limitations</h3><ul><li>This calculator is for preliminary geometric capacity checks only.</li><li>It does not verify wall loads, hopper stresses, feeder capacity, bridging, ratholing or discharge reliability.</li><li>Use representative bulk density and specialist solids-flow design methods for project decisions.</li></ul>
+    <h3>Frequently asked questions</h3><h4>Is water volume the same as material storage mass?</h4><p>No. Multiply a usable volume by the material bulk density only after considering moisture, compaction and operational freeboard.</p><h4>Why can effective capacity be lower?</h4><p>A material heap and the required operating freeboard occupy space that cannot normally be treated as working storage.</p>
+    <section class="related-knowledge-section"><h2>Related Engineering Resources</h2><div class="calculator-related-grid"><a href="engineering/material-handling-and-bulk-solids/"><strong>Material Handling &amp; Bulk Solids</strong><span>Engineering collection</span></a><a href="hopper-valley-angle-calculator.html"><strong>Hopper Valley Angle</strong><span>Hopper geometry calculator</span></a><a href="industrial-processes/bulk-material-handling-processes/"><strong>Bulk Handling Processes</strong><span>Process collection</span></a></div></section>
+    <h3>Engineering disclaimer</h3><div class="disclaimer-panel"><strong>Educational and preliminary engineering-reference use only.</strong><span>Verify material behaviour, design loads, geometry and applicable standards before equipment design or procurement.</span></div>
+  </section>
+</main>
+<footer class="site-footer"><nav class="footer-nav" aria-label="Legal and support navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="disclaimer.html">Disclaimer</a><a href="terms.html">Terms</a></nav><div class="footer-copyright">© 2026 Industrial Calculation Hub. All Rights Reserved.</div></footer>
 </div>
-
-
-<div class="wrapper">
-
-<div class="header center">
-    <h1>Silo &amp; Bunker Sizing Calculator</h1>
-    <p>Calculate Circular Silo Volume, Rectangular Bunker Capacity, Hopper Volume &amp; Effective Storage Volume Using Standard Engineering Methods</p>
-
-    <div class="last-updated">
-        Last Updated: July 22, 2026
-    </div>
-</div>
-
-<!-- ================= CALCULATOR ================= -->
-
-<div class="section">
-
-
-<label for="shape">Select Storage Type</label>
-
-<select id="shape" onchange="changeInputs();calculate();">
-    <option value="circular">Circular Silo</option>
-    <option value="rectangular">Rectangular Bunker</option>
-</select>
-
-</div>
-
-<!-- ================= CIRCULAR SILO ================= -->
-
-<div class="section" id="circularInputs">
-
-<h2>Circular Silo Inputs</h2>
-
-
-<label>Internal Diameter (mm)</label>
-<input type="number" id="dia" oninput="calculate()">
-
-<label>Cylindrical Shell Height (mm)</label>
-<input type="number" id="shellHeight" oninput="calculate()">
-
-<label>Cone Angle from Horizontal (°)</label>
-<input type="number" id="coneAngle" oninput="calculate()">
-
-<label>Outlet Diameter (mm)</label>
-<input type="number" id="outletDia" oninput="calculate()">
-
-<label>Bulk Material Angle of Repose (°)</label>
-<input type="number" id="reposeCircular" oninput="calculate()">
-
-</div>
-
-<!-- ================= RECTANGULAR BUNKER ================= -->
-
-<div class="section" id="rectangularInputs" style="display:none;">
-
-<h2>Rectangular Bunker Inputs</h2>
-
-
-<label>Shell Length (mm)</label>
-<input type="number" id="lengthShell" oninput="calculate()">
-
-<label>Shell Width (mm)</label>
-<input type="number" id="widthShell" oninput="calculate()">
-
-<label>Shell Height (mm)</label>
-<input type="number" id="heightShell" oninput="calculate()">
-
-<label>Bottom Outlet Length (mm)</label>
-<input type="number" id="lengthCone" oninput="calculate()">
-
-<label>Bottom Outlet Width (mm)</label>
-<input type="number" id="widthCone" oninput="calculate()">
-
-<label>Valley Angle (°)</label>
-<input type="number" id="valleyAngle" oninput="calculate()">
-
-</div>
-
-<!-- ================= RESULTS ================= -->
-
-<div class="section">
-
-<h2>Calculation Results</h2>
-
-<div id="output"></div>
-
-
-
-</div>
-
-<!-- ================= ENGINEERING KNOWLEDGE ================= -->
-
-<div class="section">
-
-<h2>Engineering Knowledge</h2>
-
-<p>
-Silo and bunker sizing is an important part of bulk material handling system design.
-Storage equipment is used in industries such as cement, power generation, steel, mining,
-fertilizer, food processing and chemical plants to store and discharge large quantities of
-bulk solids safely and efficiently.
-</p>
-
-<p>
-The required storage capacity depends on material properties, plant production rate,
-storage duration, equipment arrangement and flow characteristics. Engineers normally
-consider both the geometric volume and the effective usable volume because bulk materials
-do not occupy the complete internal volume due to the formation of material slopes and
-hopper discharge requirements.
-</p>
-
-
-<h3>What is a Silo?</h3>
-
-<p>
-A silo is a vertical storage structure generally used for storing fine or granular bulk
-materials such as cement, fly ash, grain, limestone powder and other industrial powders.
-Most silos are circular because the cylindrical shape provides excellent structural
-strength, uniform load distribution and efficient material flow.
-</p>
-
-<p>
-Common silo configurations include flat bottom silos, cone bottom silos and hopper bottom
-silos. The selection depends on material characteristics, discharge requirements and the
-required storage capacity.
-</p>
-
-
-<h3>What is a Bunker?</h3>
-
-<p>
-A bunker is a storage structure generally having a rectangular cross-section and a hopper
-bottom for controlled discharge of bulk materials. Bunkers are commonly used in power
-plants, steel plants and material handling systems for storing coal, limestone, ore and
-other coarse materials.
-</p>
-
-<p>
-Unlike silos, bunkers are often integrated with feeders, conveyors and crushers where
-controlled material withdrawal is required. The hopper geometry plays a major role in
-preventing flow problems such as arching and ratholing.
-</p>
-
-
-<h3>Difference Between Silo and Bunker</h3>
-
-<div class="result-card">
-
-<table class="result-table">
-
-<tr>
-<th>Silo</th>
-<th>Bunker</th>
-</tr>
-
-<tr>
-<td>Usually circular vertical structure</td>
-<td>Usually rectangular storage structure</td>
-</tr>
-
-<tr>
-<td>Suitable for powders and fine materials</td>
-<td>Suitable for coal, limestone and coarse materials</td>
-</tr>
-
-<tr>
-<td>Better structural efficiency for large heights</td>
-<td>Simple construction and easy integration with feeders</td>
-</tr>
-
-<tr>
-<td>Material flow depends on hopper design</td>
-<td>Flow performance strongly depends on valley angle and outlet design</td>
-</tr>
-
-<tr>
-<td>Common in cement and chemical industries</td>
-<td>Common in power plants and bulk handling systems</td>
-</tr>
-
-</table>
-
-</div>
-
-
-<h3>Importance of Effective Storage Volume</h3>
-
-<p>
-The geometric volume of a silo or bunker does not represent the actual usable storage
-capacity. Bulk materials naturally form a slope due to gravity, known as the angle of
-repose. The space occupied by this material slope reduces the available storage volume.
-</p>
-
-<p>
-Effective volume calculations are therefore important for determining actual operating
-capacity and avoiding insufficient storage during plant operation.
-</p>
-
-
-<h3>What is Angle of Repose?</h3>
-
-<p>
-The angle of repose is the maximum angle at which a pile of bulk material remains stable
-without sliding. It depends on particle size, moisture content, material density, surface
-roughness and cohesion between particles.
-</p>
-
-<p>
-A higher angle of repose creates a steeper material cone and reduces the effective
-storage capacity. Engineers use this value while designing hopper geometry and estimating
-usable storage volume.
-</p>
-
-<ul>
-<li><strong>Cement:</strong> 30° – 35°</li>
-<li><strong>Fly Ash:</strong> 25° – 30°</li>
-<li><strong>Coal:</strong> 35° – 45°</li>
-<li><strong>Limestone:</strong> 35° – 40°</li>
-<li><strong>Sand:</strong> 30° – 40°</li>
-</ul>
-
-
-<h3>Types of Bulk Material Flow Patterns</h3>
-
-<p>
-The flow pattern inside a silo or bunker directly affects discharge reliability and
-material handling performance.
-</p>
-
-<ul>
-
-<li>
-<strong>Mass Flow:</strong> All material moves during discharge. This provides uniform
-flow and is preferred for cohesive powders.
-</li>
-
-<li>
-<strong>Funnel Flow:</strong> Material flows through a central channel while stagnant
-material remains near the walls. This can cause segregation and material ageing.
-</li>
-
-<li>
-<strong>Ratholing:</strong> A stable empty channel forms above the outlet while material
-around it remains stationary.
-</li>
-
-<li>
-<strong>Arching:</strong> Material forms a bridge above the outlet and prevents discharge.
-</li>
-
-</ul>
-
-
-<h3>Engineering Formulas Used</h3>
-
-<div class="result-card">
-
-<table class="result-table">
-
-<tr>
-<th>Component</th>
-<th>Formula</th>
-</tr>
-
-<tr>
-<td>Cylindrical Silo Volume</td>
-<td>
-V = π × R² × H
-</td>
-</tr>
-
-<tr>
-<td>Conical Hopper / Frustum Volume</td>
-<td>
-V = (1/3) × π × H × (R² + Rr + r²)
-</td>
-</tr>
-
-<tr>
-<td>Rectangular Hopper / Frustum Volume</td>
-<td>
-V = (H/3) × (A₁ + A₂ + √(A₁ × A₂))
-</td>
-</tr>
-
-<tr>
-<td>Rectangular Shell Volume</td>
-<td>
-V = L × W × H
-</td>
-</tr>
-
-<tr>
-<td>Effective Storage Volume</td>
-<td>
-V<sub>eff</sub> = Total Geometric Volume − Material Repose Volume
-</td>
-</tr>
-
-</table>
-
-</div>
-
-
-<h3>Engineering Design Procedure</h3>
-
-<p>
-A typical silo and bunker sizing procedure followed by engineers includes:
-</p>
-
-<ul>
-
-<li>Determine required storage quantity and operating hours.</li>
-
-<li>Identify bulk material properties such as density and angle of repose.</li>
-
-<li>Select suitable silo or bunker geometry.</li>
-
-<li>Calculate gross geometric volume.</li>
-
-<li>Estimate effective storage volume considering material slope.</li>
-
-<li>Check hopper angle and outlet size for reliable discharge.</li>
-
-<li>Perform structural design and load calculations.</li>
-
-</ul>
-
-
-<h3>Bulk Material Storage Applications</h3>
-
-<ul>
-
-<li>Cement storage silos</li>
-
-<li>Fly ash storage systems</li>
-
-<li>Coal handling plants</li>
-
-<li>Power plant bunkers</li>
-
-<li>Steel plant raw material storage</li>
-
-<li>Mining material handling systems</li>
-
-<li>Fertilizer storage facilities</li>
-
-<li>Food and grain storage systems</li>
-
-<li>Chemical powder storage systems</li>
-
-</ul>
-
-
-<h3>Important Design Considerations</h3>
-
-<ul>
-
-<li>Hopper angle must be selected based on material flow characteristics.</li>
-
-<li>Outlet size should prevent blockage and uncontrolled discharge.</li>
-
-<li>Moisture content can significantly affect flow behaviour.</li>
-
-<li>Bulk density variation affects actual stored quantity.</li>
-
-<li>Structural loads from stored material must be considered.</li>
-
-<li>Vibration and aeration systems may be required for difficult materials.</li>
-
-<li>Bridging and ratholing should be evaluated during design.</li>
-
-</ul>
-
-
-<h3>Calculation Assumptions</h3>
-
-<ul>
-
-<li>Uniform bulk material distribution is assumed.</li>
-
-<li>Material density remains constant.</li>
-
-<li>Storage geometry is considered ideal.</li>
-
-<li>No structural deformation is considered.</li>
-
-<li>No wind, seismic or operating loads are included.</li>
-
-<li>The calculator provides preliminary sizing only.</li>
-
-</ul>
-
-
-<h3>Frequently Asked Questions</h3>
-
-<h4>Why is effective storage volume lower than total volume?</h4>
-
-<p>
-Effective volume is lower because bulk materials form natural slopes due to the angle of
-repose and cannot occupy the complete geometric volume.
-</p>
-
-<h4>Why are silos generally circular?</h4>
-
-<p>
-Circular silos provide better structural strength, uniform stress distribution and
-efficient storage compared with rectangular structures.
-</p>
-
-<h4>Why are bunkers generally rectangular?</h4>
-
-<p>
-Rectangular bunkers are easier to integrate with feeders, conveyors and plant material
-handling equipment.
-</p>
-
-<h4>Can this calculator calculate material weight?</h4>
-
-<p>
-This calculator calculates volume. Material weight can be calculated separately by
-multiplying effective volume by the bulk density of the stored material.
-</p>
-
-<h4>Does moisture affect silo and bunker sizing?</h4>
-
-<p>
-Yes. Moisture changes material flow behaviour, bulk density and discharge performance,
-therefore it should be considered during detailed design.
-</p>
-
-<h4>Can this calculator replace detailed silo design?</h4>
-
-<p>
-No. This tool provides preliminary volume estimation. Final design requires structural
-analysis, flow testing and verification according to applicable engineering standards.
-</p>
-
-</div>
-    
-<!-- ================= FOOTER (2 LINES) ================= -->
-<div class="footer">
-
-    <div>© 2026 Industrial Calculation Hub. All Rights Reserved. Free Engineering Calculators | Unit Converters | Engineering Knowledge Base</div>
-
-    <div class="footer-links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="disclaimer.html">Disclaimer</a>
-        <a href="terms.html">Terms</a>
-    </div>
-
-</div>
-
-</div>
-
 <script>
-
-const MM = 0.001;
-const M3_TO_FT3 = 35.3147;
-
-function changeInputs() {
-
-document.getElementById("circularInputs").style.display =
-document.getElementById("shape").value === "circular" ? "block" : "none";
-
-document.getElementById("rectangularInputs").style.display =
-document.getElementById("shape").value === "rectangular" ? "block" : "none";
-}
-
-function calculate() {
-
-let shape = document.getElementById("shape").value;
-
-let result = (shape === "circular") ? circular() : rectangular();
-
-document.getElementById("output").innerHTML = result;
-}
-
-function circular() {
-
-let D = parseFloat(document.getElementById("dia").value) * MM;
-let H = parseFloat(document.getElementById("shellHeight").value) * MM;
-let a = parseFloat(document.getElementById("coneAngle").value);
-let d = parseFloat(document.getElementById("outletDia").value) * MM;
-let r = parseFloat(document.getElementById("reposeCircular").value);
-
-if (isNaN(D) || isNaN(H) || isNaN(a) || isNaN(d) || isNaN(r)) return "";
-
-let R = D / 2;
-let r2 = d / 2;
-
-let Hc = R * Math.tan(a * Math.PI / 180);
-
-let Vshell = Math.PI * R * R * H;
-let Vcone = (1/3) * Math.PI * Hc * (R*R + R*r2 + r2*r2);
-let Vtotal = Vshell + Vcone;
-
-let Hrep = R * Math.tan(r * Math.PI / 180);
-let Vrep = (1/3) * Math.PI * R * R * Hrep;
-
-let Veff = Vtotal - Vrep;
-
-return table(Vshell, Vcone, Vtotal, Veff);
-}
-
-function rectangular() {
-
-let Ls = parseFloat(document.getElementById("lengthShell").value) * MM;
-let Ws = parseFloat(document.getElementById("widthShell").value) * MM;
-let Hs = parseFloat(document.getElementById("heightShell").value) * MM;
-
-let Lc = parseFloat(document.getElementById("lengthCone").value) * MM;
-let Wc = parseFloat(document.getElementById("widthCone").value) * MM;
-
-let a = parseFloat(document.getElementById("valleyAngle").value);
-
-if (isNaN(Ls) || isNaN(Ws) || isNaN(Hs) || isNaN(Lc) || isNaN(Wc) || isNaN(a)) return "";
-
-let Vshell = Ls * Ws * Hs;
-
-// hopper height based on smaller dimension
-let Hh = (Math.min(Lc, Wc) / 2) * Math.tan(a * Math.PI / 180);
-
-// pyramid hopper volume
-let Vcone = (1/3) * Lc * Wc * Hh;
-
-let Vtotal = Vshell + Vcone;
-
-// assume same repose model
-let Veff = Vtotal * 0.85;
-
-return table(Vshell, Vcone, Vtotal, Veff);
-}
-
-function table(a,b,c,d) {
-
-return `
-<div class="result-card">
-
-<table class="result-table">
-
-<tr><th>Parameter</th><th>m³</th><th>ft³</th></tr>
-
-<tr><td>Shell Volume</td><td>${a.toFixed(3)}</td><td>${(a*M3_TO_FT3).toFixed(2)}</td></tr>
-<tr><td>Hopper Volume</td><td>${b.toFixed(3)}</td><td>${(b*M3_TO_FT3).toFixed(2)}</td></tr>
-<tr><td>Total Water Volume</td><td>${c.toFixed(3)}</td><td>${(c*M3_TO_FT3).toFixed(2)}</td></tr>
-<tr><td><b>Effective Volume</b></td><td><b>${d.toFixed(3)}</b></td><td><b>${(d*M3_TO_FT3).toFixed(2)}</b></td></tr>
-
-</table>
-
-<p style="font-size:12px;">
-Note: Simplified engineering model for preliminary design only.
-</p>
-
-</div>`;
-}
-
+const MM=0.001;const M3_TO_FT3=35.3147;
+function changeInputs(){const circular=document.getElementById("shape").value==="circular";document.getElementById("circularInputs").hidden=!circular;document.getElementById("rectangularInputs").hidden=circular;calculate();}
+function calculate(){const result=document.getElementById("shape").value==="circular"?circular():rectangular();document.getElementById("output").innerHTML=result;}
+function circular(){let D=parseFloat(document.getElementById("dia").value)*MM;let H=parseFloat(document.getElementById("shellHeight").value)*MM;let a=parseFloat(document.getElementById("coneAngle").value);let d=parseFloat(document.getElementById("outletDia").value)*MM;let r=parseFloat(document.getElementById("reposeCircular").value);if(isNaN(D)||isNaN(H)||isNaN(a)||isNaN(d)||isNaN(r))return "";let R=D/2;let r2=d/2;let Hc=R*Math.tan(a*Math.PI/180);let Vshell=Math.PI*R*R*H;let Vcone=(1/3)*Math.PI*Hc*(R*R+R*r2+r2*r2);let Vtotal=Vshell+Vcone;let Hrep=R*Math.tan(r*Math.PI/180);let Vrep=(1/3)*Math.PI*R*R*Hrep;let Veff=Vtotal-Vrep;return table(Vshell,Vcone,Vtotal,Veff);}
+function rectangular(){let Ls=parseFloat(document.getElementById("lengthShell").value)*MM;let Ws=parseFloat(document.getElementById("widthShell").value)*MM;let Hs=parseFloat(document.getElementById("heightShell").value)*MM;let Lc=parseFloat(document.getElementById("lengthCone").value)*MM;let Wc=parseFloat(document.getElementById("widthCone").value)*MM;let a=parseFloat(document.getElementById("valleyAngle").value);if(isNaN(Ls)||isNaN(Ws)||isNaN(Hs)||isNaN(Lc)||isNaN(Wc)||isNaN(a))return "";let Vshell=Ls*Ws*Hs;let Hh=(Math.min(Lc,Wc)/2)*Math.tan(a*Math.PI/180);let Vcone=(1/3)*Lc*Wc*Hh;let Vtotal=Vshell+Vcone;let Veff=Vtotal*.85;return table(Vshell,Vcone,Vtotal,Veff);}
+function table(a,b,c,d){return `<div class="result-card"><h3>Storage capacity results</h3><p class="result-card__note">All values are calculated using the current selected storage geometry.</p><table class="result-table"><tr><th>Parameter</th><th>m³</th><th>ft³</th></tr><tr><td>Shell Volume</td><td>${a.toFixed(3)}</td><td>${(a*M3_TO_FT3).toFixed(2)}</td></tr><tr><td>Hopper Volume</td><td>${b.toFixed(3)}</td><td>${(b*M3_TO_FT3).toFixed(2)}</td></tr><tr><td>Total Water Volume</td><td>${c.toFixed(3)}</td><td>${(c*M3_TO_FT3).toFixed(2)}</td></tr><tr class="result-table__primary"><td>Effective Volume</td><td>${d.toFixed(3)}</td><td>${(d*M3_TO_FT3).toFixed(2)}</td></tr></table><p class="result-card__note">Simplified engineering model for preliminary design only.</p></div>`;}
+document.getElementById("shape").addEventListener("change",changeInputs);document.querySelectorAll("#circularInputs input,#rectangularInputs input").forEach(el=>el.addEventListener("input",calculate));
 </script>
-
+<script>const publicMenuToggle=document.querySelector('.public-menu-toggle');const publicNavigation=document.querySelector('.public-nav');publicMenuToggle?.addEventListener('click',()=>{const open=publicNavigation.dataset.open==='true';publicNavigation.dataset.open=String(!open);publicMenuToggle.setAttribute('aria-expanded',String(!open));});</script>
 </body>
 </html>
