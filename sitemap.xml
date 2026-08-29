@@ -213,4 +213,984 @@
     <priority>0.8</priority>
 </url>
 
+<!-- ================= DOMAIN AND NAVIGATION PAGES ================= -->
+
+<url>
+    <loc>https://industrialcalculation.com/engineering.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/fluid-mechanics-piping-pumps-fans-ducts/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/thermal-engineering-and-boilers/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/mechanical-engineering-and-fabrication/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/process-engineering-and-industrial-utilities/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/structural-and-industrial-civil-engineering/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/electrical-engineering/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/instrumentation-and-control-engineering/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/material-handling-and-bulk-solids/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/air-pollution-control-and-environmental-engineering/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/water-and-wastewater-engineering/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/materials-of-construction/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/boilers-steam-and-combustion-equipment/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/conveying-systems/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/feeders-gates-valves-dampers-and-airlocks/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/pumps-fans-blowers-and-compressors/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/heat-exchangers-cooling-systems-and-vessels/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/air-pollution-control-equipment/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/electrical-and-instrumentation-equipment/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/structural-steel-supports-and-access-equipment/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/water-and-wastewater-equipment/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/power-generation-processes/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/cement-manufacturing-process/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/steel-manufacturing-process/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/chemical-and-petrochemical-processes/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/water-and-wastewater-treatment-processes/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/air-pollution-control-processes/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/bulk-material-handling-processes/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/industrial-utility-processes/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/materials-and-materials-of-construction/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/material-properties-and-standards-directory/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/plates-sheets-bars-rods-and-wire/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/pipes-tubes-fittings-and-flanges/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/rolled-sections-and-hollow-sections/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/gaskets-fasteners-hardware-and-welding-consumables/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/fluid-mechanics-piping-pumps-fans-ducts/fluid-properties/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/fluid-mechanics-piping-pumps-fans-ducts/fluid-flow-principles/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/fluid-mechanics-piping-pumps-fans-ducts/piping-systems/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/fluid-mechanics-piping-pumps-fans-ducts/pumps/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/fluid-mechanics-piping-pumps-fans-ducts/fans-and-duct-systems/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/thermal-engineering-and-boilers/heat-transfer/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/thermal-engineering-and-boilers/thermal-expansion-and-insulation/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/thermal-engineering-and-boilers/heat-exchange-equipment/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/thermal-engineering-and-boilers/boilers-and-combustion/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/thermal-engineering-and-boilers/cooling-systems/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/mechanical-engineering-and-fabrication/mechanics-of-materials/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/mechanical-engineering-and-fabrication/static-equipment-design/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/mechanical-engineering-and-fabrication/rotating-equipment/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/mechanical-engineering-and-fabrication/fabrication/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/process-engineering-and-industrial-utilities/process-fundamentals/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/process-engineering-and-industrial-utilities/unit-operations/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/process-engineering-and-industrial-utilities/industrial-utilities/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/structural-and-industrial-civil-engineering/structural-loads/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/structural-and-industrial-civil-engineering/steel-structures/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/structural-and-industrial-civil-engineering/industrial-civil-works/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/electrical-engineering/electrical-fundamentals/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/electrical-engineering/electrical-machines/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/electrical-engineering/industrial-power-distribution/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/instrumentation-and-control-engineering/process-measurement/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/instrumentation-and-control-engineering/final-control-elements/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/instrumentation-and-control-engineering/automation-and-control/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/material-handling-and-bulk-solids/bulk-material-properties/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/material-handling-and-bulk-solids/storage-systems/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/material-handling-and-bulk-solids/conveying-principles/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/material-handling-and-bulk-solids/feeding-and-discharge/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/air-pollution-control-and-environmental-engineering/air-pollutants/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/air-pollution-control-and-environmental-engineering/particulate-collection/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/air-pollution-control-and-environmental-engineering/gas-treatment/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/air-pollution-control-and-environmental-engineering/emission-monitoring/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/water-and-wastewater-engineering/industrial-water-treatment/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/water-and-wastewater-engineering/wastewater-treatment/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/water-and-wastewater-engineering/plant-water-systems/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/materials-of-construction/metallic-materials/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/materials-of-construction/non-metallic-materials/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/materials-of-construction/material-selection/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/boilers-steam-and-combustion-equipment/boiler-pressure-parts/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/boilers-steam-and-combustion-equipment/combustion-equipment/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/boilers-steam-and-combustion-equipment/boiler-auxiliary-equipment/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/boilers-steam-and-combustion-equipment/boiler-exit-systems/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/conveying-systems/belt-conveyors/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/conveying-systems/screw-conveyors/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/conveying-systems/pneumatic-conveying-systems/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/conveying-systems/chain-and-drag-conveyors/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/conveying-systems/other-conveyors/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/feeders-gates-valves-dampers-and-airlocks/feeders/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/feeders-gates-valves-dampers-and-airlocks/gates-and-diverters/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/feeders-gates-valves-dampers-and-airlocks/airlocks-and-discharge-valves/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/feeders-gates-valves-dampers-and-airlocks/dampers/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/feeders-gates-valves-dampers-and-airlocks/flow-aids/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/pumps-fans-blowers-and-compressors/pumps/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/pumps-fans-blowers-and-compressors/fans/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/pumps-fans-blowers-and-compressors/blowers/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/pumps-fans-blowers-and-compressors/compressors/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/heat-exchangers-cooling-systems-and-vessels/heat-exchangers/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/heat-exchangers-cooling-systems-and-vessels/cooling-systems/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/heat-exchangers-cooling-systems-and-vessels/pressure-vessels/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/heat-exchangers-cooling-systems-and-vessels/storage-tanks/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/air-pollution-control-equipment/electrostatic-precipitators/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/air-pollution-control-equipment/bag-filters/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/air-pollution-control-equipment/cyclone-separators/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/air-pollution-control-equipment/wet-scrubbers/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/electrical-and-instrumentation-equipment/motors/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/electrical-and-instrumentation-equipment/transformers/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/electrical-and-instrumentation-equipment/switchgear/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/electrical-and-instrumentation-equipment/field-instruments/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/structural-steel-supports-and-access-equipment/pipe-supports/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/structural-steel-supports-and-access-equipment/steel-platforms/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/structural-steel-supports-and-access-equipment/duct-supports/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/structural-steel-supports-and-access-equipment/access-equipment/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/water-and-wastewater-equipment/clarifiers/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/water-and-wastewater-equipment/filters/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/water-and-wastewater-equipment/ro-systems/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-equipment/water-and-wastewater-equipment/sludge-systems/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/power-generation-processes/coal-fired-thermal-power-plant/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/power-generation-processes/combined-cycle-power-plant/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/power-generation-processes/renewable-power-processes/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/power-generation-processes/power-plant-utilities/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/cement-manufacturing-process/raw-material-handling/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/cement-manufacturing-process/pyroprocessing/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/cement-manufacturing-process/cement-finishing/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/cement-manufacturing-process/environmental-systems/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/steel-manufacturing-process/ironmaking/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/steel-manufacturing-process/steelmaking/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/steel-manufacturing-process/casting-and-rolling/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/steel-manufacturing-process/environmental-and-utility-systems/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/chemical-and-petrochemical-processes/feed-and-storage-systems/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/chemical-and-petrochemical-processes/core-process-operations/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/chemical-and-petrochemical-processes/process-support-systems/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/water-and-wastewater-treatment-processes/raw-water-treatment/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/water-and-wastewater-treatment-processes/ro-and-dm-water/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/water-and-wastewater-treatment-processes/etp/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/water-and-wastewater-treatment-processes/stp/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/air-pollution-control-processes/dust-collection/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/air-pollution-control-processes/esp-systems/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/air-pollution-control-processes/fgd-systems/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/air-pollution-control-processes/denox-systems/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/bulk-material-handling-processes/receiving-and-storage/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/bulk-material-handling-processes/crushing-and-screening/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/bulk-material-handling-processes/silo-and-hopper-discharge/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/bulk-material-handling-processes/ash-handling/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/industrial-utility-processes/steam-systems/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/industrial-utility-processes/compressed-air/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/industrial-utility-processes/cooling-water/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/industrial-processes/industrial-utility-processes/fuel-systems/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/materials-and-materials-of-construction/ferrous-metals/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/materials-and-materials-of-construction/non-ferrous-metals/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/materials-and-materials-of-construction/non-metallic-materials/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/material-properties-and-standards-directory/material-properties/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/material-properties-and-standards-directory/standards-directory/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/plates-sheets-bars-rods-and-wire/plates-and-sheets/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/plates-sheets-bars-rods-and-wire/bars-and-rods/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/plates-sheets-bars-rods-and-wire/wire/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/pipes-tubes-fittings-and-flanges/pipes/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/pipes-tubes-fittings-and-flanges/tubes/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/pipes-tubes-fittings-and-flanges/piping-components/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/rolled-sections-and-hollow-sections/rolled-sections/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/rolled-sections-and-hollow-sections/hollow-sections/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/gaskets-fasteners-hardware-and-welding-consumables/gaskets-and-seals/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/gaskets-fasteners-hardware-and-welding-consumables/fasteners-and-hardware/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering-reference-data/gaskets-fasteners-hardware-and-welding-consumables/welding-consumables/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
 </urlset>
