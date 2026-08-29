@@ -1283,4 +1283,82 @@
     <priority>0.7</priority>
 </url>
 
+<url>
+    <loc>https://industrialcalculation.com/engineering/thermal-engineering-and-boilers/heat-exchange-equipment/heat-exchanger-performance/lmtd-and-heat-exchanger-thermal-design-basics/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/thermal-engineering-and-boilers/boilers-and-combustion/combustion/combustion-excess-air-and-flue-gas-basics/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/thermal-engineering-and-boilers/boilers-and-combustion/steam-systems/steam-generation-superheating-and-reheating/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/thermal-engineering-and-boilers/cooling-systems/cooling-towers/cooling-tower-working-principle-and-performance-basics/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/mechanical-engineering-and-fabrication/mechanics-of-materials/stress-and-strain/stress-strain-elasticity-and-plasticity/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/mechanical-engineering-and-fabrication/mechanics-of-materials/strength-and-serviceability/factor-of-safety-deflection-and-allowable-stress-basics/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/mechanical-engineering-and-fabrication/static-equipment-design/storage-tanks/industrial-storage-tanks-types-and-components/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/mechanical-engineering-and-fabrication/static-equipment-design/supports/vessel-supports-skirt-saddle-and-leg-supports/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/mechanical-engineering-and-fabrication/rotating-equipment/bearings-and-shafts/shafts-couplings-and-bearings-fundamentals/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/mechanical-engineering-and-fabrication/rotating-equipment/vibration/machinery-vibration-causes-and-basic-monitoring/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/mechanical-engineering-and-fabrication/fabrication/plate-work/plate-fabrication-rolling-and-forming-basics/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/mechanical-engineering-and-fabrication/fabrication/welding/welding-processes-joints-and-weld-defects/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/mechanical-engineering-and-fabrication/fabrication/estimation/fabrication-weight-estimation-and-bill-of-materials-basics/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
 </urlset>
