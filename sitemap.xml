@@ -1193,4 +1193,94 @@
     <priority>0.5</priority>
 </url>
 
+<url>
+    <loc>https://industrialcalculation.com/engineering/fluid-mechanics-piping-pumps-fans-ducts/fluid-properties/viscosity/dynamic-and-kinematic-viscosity/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/fluid-mechanics-piping-pumps-fans-ducts/fluid-flow-principles/pressure-and-head/pressure-head-velocity-head-and-total-head/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/fluid-mechanics-piping-pumps-fans-ducts/piping-systems/pipe-flow/pipe-friction-loss-and-darcy-weisbach-equation/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/fluid-mechanics-piping-pumps-fans-ducts/piping-systems/pipe-losses/minor-losses-in-pipes-fittings-and-valves/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/fluid-mechanics-piping-pumps-fans-ducts/piping-systems/piping-design-basics/pipe-sizing-engineering-inputs-and-limitations/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/fluid-mechanics-piping-pumps-fans-ducts/pumps/centrifugal-pumps/centrifugal-pump-working-principle/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/fluid-mechanics-piping-pumps-fans-ducts/pumps/centrifugal-pumps/pump-curves-and-system-curves/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/fluid-mechanics-piping-pumps-fans-ducts/pumps/pump-operation/npsh-and-cavitation-in-pumps/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/fluid-mechanics-piping-pumps-fans-ducts/fans-and-duct-systems/industrial-fans/fan-laws-static-pressure-and-fan-power/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/fluid-mechanics-piping-pumps-fans-ducts/fans-and-duct-systems/duct-systems/duct-pressure-loss/duct-pressure-loss-and-system-resistance/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/thermal-engineering-and-boilers/heat-transfer/convection/convective-heat-transfer-and-heat-transfer-coefficient/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/thermal-engineering-and-boilers/heat-transfer/radiation/thermal-radiation-and-emissivity/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/thermal-engineering-and-boilers/heat-transfer/overall-heat-transfer/overall-heat-transfer-coefficient/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/thermal-engineering-and-boilers/thermal-expansion-and-insulation/insulation/industrial-insulation-and-heat-loss-reduction/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://industrialcalculation.com/engineering/thermal-engineering-and-boilers/heat-exchange-equipment/heat-exchanger-fundamentals/heat-exchanger-working-principle-and-types/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
 </urlset>
