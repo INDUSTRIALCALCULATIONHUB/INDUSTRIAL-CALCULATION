@@ -123,7 +123,7 @@ function pageHtml(entry, parent) {
     <header class="public-header">
       <a class="brand" href="../../../index.html" aria-label="Industrial Calculation Hub home"><img class="brand__mark" src="../../../assets/brand/industrial-calculation-hub-mark.svg?v=20260824-colors" alt=""><span class="brand__name"><strong>Industrial</strong><span>Calculation Hub</span></span></a>
       <button class="public-menu-toggle" type="button" aria-expanded="false" aria-controls="public-navigation">Menu</button>
-      <nav class="public-nav" id="public-navigation" aria-label="Primary navigation" data-open="false"><a href="../../../index.html">Home</a><a href="../../../index.html#tools">Tools</a><a href="#topic-groups" aria-current="page">Learn</a><a href="../../../engineering-reference-data.html">Reference Data</a><a href="../../../about.html">About</a></nav>
+      <nav class="public-nav" id="public-navigation" aria-label="Primary navigation" data-open="false"><a href="../../../index.html">Home</a><a href="../../../index.html#tools">Tools</a><a href="../../../engineering.html">Learn</a><a href="../../../engineering-reference-data.html">Reference Data</a><a href="../../../about.html">About</a></nav>
       <a class="header-search" href="#topic-groups" aria-label="Search topics, tools and articles"><span>Search topics, tools, articles...</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="6"/><path d="m16 16 5 5"/></svg></a>
     </header>
     <main class="portal-main">

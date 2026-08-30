@@ -13,6 +13,7 @@
     --white: #ffffff;
     --muted: #53677a;
     --shadow: 0 14px 38px rgba(22, 62, 99, 0.09);
+    --domain-card-art-filter: grayscale(1) sepia(.42) saturate(2.05) hue-rotate(160deg) brightness(.92) contrast(1.08);
     /* Keeps destinations from being hidden by the shared sticky header. */
     --anchor-scroll-offset: 112px;
 }
@@ -106,11 +107,9 @@ button:hover { background: #225b82; }
 .section-heading p { max-width: 550px; margin: 0; color: var(--muted); }
 .domain-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
 .domain-card { display: flex; flex-direction: column; min-height: 318px; padding: 20px; overflow: hidden; background: var(--white); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 8px 22px rgba(22, 62, 99, 0.045); }
-.domain-card h3 { margin: 0 0 7px; font-size: 1.05rem; }
-.domain-card:nth-child(2) h3 { color: var(--copper-dark); }
-.domain-card:nth-child(3) h3 { color: var(--teal); }
+.domain-card h3 { margin: 0 0 7px; color: #164b73; font-size: 1.05rem; }
 .domain-card p { min-height: 78px; margin: 0; color: var(--muted); font-size: 0.82rem; }
-.domain-card img { width: 100%; height: 142px; margin: auto 0 7px; object-fit: contain; }
+.domain-card img { width: 100%; height: 142px; margin: auto 0 7px; object-fit: contain; filter: var(--domain-card-art-filter); }
 .domain-card span { color: var(--ink); font-size: 0.85rem; font-weight: 900; }
 .about-principle-card { min-height: 250px; }
 .about-principle-card p { min-height: 0; }
@@ -189,11 +188,9 @@ button:hover { background: #225b82; }
 .portal-domain-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
 .portal-domain-card { display: flex; flex-direction: column; min-height: 254px; padding: 17px; overflow: hidden; color: var(--ink); text-decoration: none; background: #fff; border: 1px solid #d7e5eb; border-radius: 8px; box-shadow: 0 5px 15px rgba(22, 62, 99, 0.035); transition: transform 170ms ease, border-color 170ms ease, box-shadow 170ms ease; }
 .portal-domain-card:hover { transform: translateY(-3px); border-color: #9fc5d2; box-shadow: 0 10px 20px rgba(22, 62, 99, 0.09); }
-.portal-domain-card h3 { margin: 0 0 6px; font-size: 1.05rem; }
-.portal-domain-card:nth-child(2) h3 { color: var(--copper-dark); }
-.portal-domain-card:nth-child(3) h3 { color: var(--teal); }
+.portal-domain-card h3 { margin: 0 0 6px; color: #164b73; font-size: 1.05rem; }
 .portal-domain-card p { min-height: 62px; margin: 0; color: #526978; font-size: 0.76rem; line-height: 1.5; }
-.portal-domain-card img { width: 100%; height: 118px; margin: auto 0 5px; object-fit: contain; }
+.portal-domain-card img { width: 100%; height: 118px; margin: auto 0 5px; object-fit: contain; filter: var(--domain-card-art-filter); }
 .portal-domain-card span { color: #164b73; font-size: 0.77rem; font-weight: 900; }
 .portal-dashboard { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
 .portal-card { padding: 19px; background: #fff; border: 1px solid #d9e6eb; border-radius: 8px; }
@@ -380,6 +377,8 @@ button:hover { background: #225b82; }
 .article-list__sketch { height: 45px; background: linear-gradient(135deg, #f8fcfd, #e6f5f9); border: 1px solid #d4e8ee; border-radius: 4px; }
 .article-list--compact strong, .article-list--compact small { display: block; }.article-list--compact strong { font-size: 0.78rem; }.article-list--compact small { color: #657d8c; font-size: 0.68rem; }
 .knowledge-library { margin-top: 15px; }.knowledge-library .portal-section__heading { margin-bottom: 17px; }.knowledge-library__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }.knowledge-library__grid a { display: grid; gap: 4px; min-height: 105px; padding: 14px; color: #214e6b; text-decoration: none; background: #fbfeff; border: 1px solid #d8e7ec; border-radius: 7px; transition: transform 160ms ease, background 160ms ease, border-color 160ms ease, box-shadow 160ms ease; }.knowledge-library__grid a:hover { background: #fff; border-color: #a7c9d6; box-shadow: 0 7px 16px rgba(22,62,99,.08); transform: translateY(-2px); }.knowledge-library__grid span { color: #267082; font-size: .67rem; font-weight: 900; letter-spacing: .07em; text-transform: uppercase; }.knowledge-library__grid strong { color: #164b73; font-family: Georgia, "Times New Roman", serif; font-size: .95rem; line-height: 1.25; }.knowledge-library__grid small { color: #61798a; font-size: .74rem; line-height: 1.45; }
+/* Alternate very light library rows to make long lists easier to scan. */
+.knowledge-library__grid a:nth-child(6n + 4), .knowledge-library__grid a:nth-child(6n + 5), .knowledge-library__grid a:nth-child(6n + 6) { background: #f3fafc; border-color: #d2e5eb; }
 .portal-bottom-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 15px; }
 .book-card { display: grid; grid-template-columns: 126px 1fr; align-items: center; gap: 17px; }
 .book-card__art { color: #214f70; font-size: 5rem; text-align: center; text-shadow: 10px 8px 0 #d7e9ee; }
@@ -431,7 +430,7 @@ button:hover { background: #225b82; }
   .tool-directory, .tool-page-hero__grid, .tool-workspace { grid-template-columns: 1fr; }.tool-page-hero { padding: 26px 28px; }.tool-page-trust { margin-top: 2px; }.tool-workspace { padding: 22px 28px 0; }.converter-knowledge { margin-right: 28px; margin-left: 28px; }
   .related-knowledge-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .calculator-method, .calculator-related-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .knowledge-library__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .knowledge-library__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }.knowledge-library__grid a:nth-child(6n + 4), .knowledge-library__grid a:nth-child(6n + 5), .knowledge-library__grid a:nth-child(6n + 6) { background: #fbfeff; border-color: #d8e7ec; }.knowledge-library__grid a:nth-child(4n + 3), .knowledge-library__grid a:nth-child(4n + 4) { background: #f3fafc; border-color: #d2e5eb; }
   .calculator-hero-visual { min-height: 200px; }
 }
 @media (max-width: 560px) {
@@ -440,7 +439,7 @@ button:hover { background: #225b82; }
   .tool-page-hero { padding: 22px 18px; }.tool-page-breadcrumb { margin-bottom: 12px; }.tool-page-hero h1 { font-size: clamp(1.8rem, 10vw, 2.5rem); }.tool-page-summary { font-size: .9rem; }.tool-workspace { padding: 18px 16px 0; }.converter-knowledge { margin: 16px; padding: 22px 18px; }.converter-sidebar { padding: 17px; }.tool-directory__links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .related-knowledge-grid { grid-template-columns: 1fr; }
   .calculator-method, .calculator-related-grid { grid-template-columns: 1fr; }
-  .knowledge-library__grid { grid-template-columns: 1fr; }.knowledge-library__grid a { min-height: 0; }
+  .knowledge-library__grid { grid-template-columns: 1fr; }.knowledge-library__grid a { min-height: 0; }.knowledge-library__grid a:nth-child(4n + 3), .knowledge-library__grid a:nth-child(4n + 4) { background: #fbfeff; border-color: #d8e7ec; }.knowledge-library__grid a:nth-child(even) { background: #f3fafc; border-color: #d2e5eb; }
   .calculator-hero-visual { min-height: 160px; padding: 8px; }
 }
 
