@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">Duct resistance and fan laws diagram</title><desc id="desc">A technical diagram showing an industrial fan connected to a duct system, flow direction, pressure loss and fan affinity relationships.</desc>
+<defs><pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#dce8ea"/></pattern></defs>
+<rect width="1200" height="650" fill="#fffdf8"/><rect width="1200" height="650" fill="url(#grid)"/>
+<g stroke="#164b73" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="230" cy="335" r="110" fill="#d9eef3" stroke-width="6"/><path d="M230 240l30 95-95-30M230 430l-30-95 95 30M135 335l95-30-30 95M325 335l-95 30 30-95" stroke="#248292" stroke-width="5"/><path d="M340 335H610V255H935V410H1100" stroke-width="42"/><path d="M340 335H610V255H935V410H1100" stroke="#d9eef3" stroke-width="27"/><path d="M470 315l26 20-26 20M730 235l26 20-26 20M1000 390l26 20-26 20" stroke="#bf7b2e" stroke-width="4"/><path d="M625 190V315M610 205H640M610 300H640" stroke="#248292" stroke-width="4"/></g>
+<g fill="#164b73" font-family="Georgia,serif" text-anchor="middle"><text x="600" y="75" font-size="40">Fan, duct system and resistance</text></g>
+<g fill="#456878" font-family="Arial,sans-serif" font-size="22" text-anchor="middle"><text x="230" y="500">fan</text><text x="625" y="170">Δp</text><text x="840" y="535">duct and fitting losses</text><text x="600" y="590">Q ∝ N    •    Δp ∝ ρN²    •    P ∝ ρN³</text></g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title description">
+  <title id="title">True density, bulk density, specific gravity and specific weight diagram</title>
+  <desc id="description">Original engineering diagram comparing a defined material sample, a bulk solids container with voids, and density-ratio and specific-weight relationships.</desc>
+  <defs>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#dce8ea" stroke-width="1"/></pattern>
+    <linearGradient id="blueFill" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#dceff4"/><stop offset="1" stop-color="#a9cfda"/></linearGradient>
+    <linearGradient id="sandFill" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#f7ebd7"/><stop offset="1" stop-color="#e4c08d"/></linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="#fffdf8"/>
+  <rect width="1200" height="720" fill="url(#grid)"/>
+  <g fill="#164b73" font-family="Georgia,serif" text-anchor="middle"><text x="600" y="67" font-size="40">Property basis matters</text><text x="600" y="105" font-size="22" font-family="Arial,sans-serif" fill="#456878">Use a defined condition, material state and reference before comparing values.</text></g>
+  <g stroke="#164b73" stroke-linejoin="round" stroke-linecap="round" fill="none">
+    <rect x="50" y="145" width="330" height="450" rx="18" fill="#ffffff" stroke="#c9dfe6" stroke-width="3"/>
+    <rect x="435" y="145" width="330" height="450" rx="18" fill="#ffffff" stroke="#c9dfe6" stroke-width="3"/>
+    <rect x="820" y="145" width="330" height="450" rx="18" fill="#ffffff" stroke="#c9dfe6" stroke-width="3"/>
+    <path d="M126 495V270H305V495M111 270H320" stroke-width="5"/>
+    <path d="M141 330H290V495H141Z" fill="url(#blueFill)" stroke-width="3"/>
+    <path d="M511 495V270H690V495M496 270H705" stroke-width="5"/>
+    <path d="M526 385H675V495H526Z" fill="#f6f8f8" stroke-width="3"/>
+    <path d="M896 495V270H1075V495M881 270H1090" stroke-width="5"/>
+    <path d="M911 370H1060V495H911Z" fill="url(#sandFill)" stroke-width="3"/>
+    <path d="M126 525H305M511 525H690M896 525H1075" stroke="#248292" stroke-width="4"/>
+    <path d="M940 210H1030M985 180V240" stroke="#bf7b2e" stroke-width="4"/>
+    <path d="M1010 350V435" stroke="#bf7b2e" stroke-width="5"/><path d="M990 415L1010 440 1030 415" stroke="#bf7b2e" stroke-width="5"/>
+  </g>
+  <g fill="#164b73" font-family="Georgia,serif" text-anchor="middle"><text x="215" y="205" font-size="30">True density</text><text x="600" y="205" font-size="30">Bulk density</text><text x="985" y="205" font-size="30">Related properties</text></g>
+  <g fill="#456878" font-family="Arial,sans-serif" font-size="20" text-anchor="middle"><text x="215" y="235">mass of material / its material volume</text><text x="600" y="235">mass of particles / bulk occupied volume</text><text x="985" y="235">ratio and weight-force relationships</text></g>
+  <g fill="#164b73" font-family="Arial,sans-serif" font-size="20" text-anchor="middle"><text x="215" y="558">ρ = m / V</text><text x="600" y="558">void space is included</text><text x="985" y="558">SG = ρ / ρref</text></g>
+  <g fill="#164b73" font-family="Arial,sans-serif" font-size="19" text-anchor="middle"><text x="985" y="585">γ = ρg</text></g>
+  <g fill="#176675">
+    <circle cx="548" cy="420" r="14"/><circle cx="588" cy="410" r="14"/><circle cx="630" cy="425" r="14"/><circle cx="668" cy="404" r="14"/><circle cx="535" cy="455" r="14"/><circle cx="575" cy="449" r="14"/><circle cx="617" cy="458" r="14"/><circle cx="655" cy="448" r="14"/><circle cx="550" cy="482" r="14"/><circle cx="595" cy="482" r="14"/><circle cx="640" cy="482" r="14"/>
+  </g>
+  <g fill="#bf7b2e" font-family="Arial,sans-serif" font-size="18"><text x="1015" y="330">g</text></g>
+  <g fill="#456878" font-family="Arial,sans-serif" font-size="18"><text x="600" y="655" text-anchor="middle">The same material can have different reported values when temperature, pressure, porosity, packing or reference basis changes.</text></g>
+</svg>

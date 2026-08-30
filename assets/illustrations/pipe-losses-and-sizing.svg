@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">Pipe losses and pipe sizing diagram</title><desc id="desc">A technical diagram showing straight pipe friction, local fitting losses, internal diameter and flow velocity.</desc>
+<defs><pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#dce8ea"/></pattern></defs>
+<rect width="1200" height="650" fill="#fffdf8"/><rect width="1200" height="650" fill="url(#grid)"/>
+<g stroke="#164b73" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M85 325H550L690 205H1110" stroke-width="38"/><path d="M85 325H550L690 205H1110" stroke="#d9eef3" stroke-width="25"/><path d="M775 175V235M775 205H965" stroke="#164b73" stroke-width="8"/><path d="M790 175L820 205 790 235M950 175L920 205 950 235" stroke="#bf7b2e" stroke-width="4"/><path d="M290 270V380M270 280H310M270 370H310" stroke="#248292" stroke-width="4"/><path d="M520 285l20 40-20 40" stroke="#bf7b2e" stroke-width="7"/><path d="M420 305l22 20-22 20M790 185l22 20-22 20" stroke="#248292" stroke-width="4"/></g>
+<g fill="#164b73" font-family="Georgia,serif" text-anchor="middle"><text x="600" y="80" font-size="40">Resistance and sizing inputs</text></g>
+<g fill="#456878" font-family="Arial,sans-serif" font-size="22" text-anchor="middle"><text x="290" y="425">internal diameter D</text><text x="520" y="440">fitting / valve loss K</text><text x="870" y="160">straight-pipe length L</text><text x="600" y="540">h<tspan baseline-shift="sub">f</tspan> = f(L/D)(v²/2g)    •    h<tspan baseline-shift="sub">m</tspan> = K(v²/2g)</text><text x="600" y="590">v = Q/A — use actual bore and actual fluid condition</text></g>
+</svg>

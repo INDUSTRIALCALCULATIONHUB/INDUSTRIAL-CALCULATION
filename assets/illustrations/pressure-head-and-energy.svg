@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">Pressure head, velocity head and elevation head diagram</title><desc id="desc">A technical pipe-system diagram showing the pressure, velocity and elevation terms combined in a total-head calculation.</desc>
+<defs><pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#dce8ea"/></pattern></defs>
+<rect width="1200" height="650" fill="#fffdf8"/><rect width="1200" height="650" fill="url(#grid)"/>
+<g stroke="#164b73" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M115 485H375V355H710V195H1080" stroke-width="24"/><path d="M115 485H375V355H710V195H1080" stroke="#d9eef3" stroke-width="15"/><path d="M205 485V275M575 355V150M930 195V90" stroke="#248292" stroke-width="4" stroke-dasharray="8 9"/><path d="M70 535H1130" stroke="#bf7b2e" stroke-width="3"/><path d="M160 465l30 20-30 20M470 335l30 20-30 20M825 175l30 20-30 20" stroke="#248292" stroke-width="4"/><circle cx="250" cy="315" r="48" fill="#fffdfa" stroke-width="4"/><path d="M250 315l24-18" stroke="#bf7b2e" stroke-width="4"/></g>
+<g fill="#164b73" font-family="Georgia,serif" text-anchor="middle"><text x="600" y="66" font-size="40">Total head at a stated point</text></g>
+<g fill="#456878" font-family="Arial,sans-serif" font-size="23" text-anchor="middle"><text x="250" y="382">pressure head p/(ρg)</text><text x="575" y="127">elevation head z</text><text x="930" y="65">velocity head v²/(2g)</text><text x="600" y="585">H = p/(ρg) + v²/(2g) + z</text></g>
+</svg>
