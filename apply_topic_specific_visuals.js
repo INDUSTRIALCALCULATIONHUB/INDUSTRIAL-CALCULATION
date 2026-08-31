@@ -144,6 +144,62 @@ const mappings = [
     alt: 'Original technical material-selection board showing metallic, non-metallic, lining and insulation material forms',
     directories: ['engineering/materials-of-construction'],
   },
+  {
+    asset: 'thermal-power-ash-handling-blueprint-v1.png',
+    alt: 'Original blueprint illustration of boiler bottom-ash removal, ESP fly-ash collection, pneumatic conveying and silo storage',
+    files: [
+      'industrial-processes/power-generation-processes/coal-fired-thermal-power-plant/ash-management/bottom-ash-handling-process/index.html',
+      'industrial-processes/power-generation-processes/coal-fired-thermal-power-plant/ash-management/fly-ash-handling-process/index.html',
+    ],
+  },
+  {
+    asset: 'scr-sncr-nox-control-blueprint-v1.png',
+    alt: 'Original blueprint illustration of selective catalytic and selective non-catalytic reduction equipment used for thermal-power NOx control',
+    files: [
+      'industrial-processes/power-generation-processes/coal-fired-thermal-power-plant/flue-gas-cleaning/denox-process-in-thermal-power-plants/index.html',
+    ],
+  },
+  {
+    asset: 'thermal-power-coal-handling-milling-blueprint-v1.png',
+    alt: 'Original blueprint illustration of coal receiving, storage, conveying, crushing, milling and pulverized-fuel firing equipment',
+    files: [
+      'industrial-processes/power-generation-processes/coal-fired-thermal-power-plant/fuel-and-combustion-process/coal-handling-process-in-thermal-power-plants/index.html',
+      'industrial-processes/power-generation-processes/coal-fired-thermal-power-plant/fuel-and-combustion-process/coal-milling-and-pulverized-fuel-firing-process/index.html',
+    ],
+  },
+  {
+    asset: 'water-tube-boiler-system-blueprint-v1.png',
+    alt: 'Original cutaway blueprint illustration of a water-tube boiler with furnace, steam drum, heat-recovery sections and ash hopper',
+    files: [
+      'industrial-processes/power-generation-processes/coal-fired-thermal-power-plant/steam-water-cycle/boiler-steam-generation-process/index.html',
+    ],
+  },
+  {
+    asset: 'combined-cycle-power-plant-blueprint-v1.png',
+    alt: 'Original blueprint process illustration of a combined-cycle power plant with gas turbine, heat-recovery steam generator, steam turbine, condenser and cooling circuit',
+    files: [
+      'industrial-processes/power-generation-processes/coal-fired-thermal-power-plant/steam-water-cycle/steam-turbine-and-condenser-process/index.html',
+      'industrial-processes/power-generation-processes/combined-cycle-power-plant/gas-turbine-cycle/gas-turbine-power-generation-process/index.html',
+      'industrial-processes/power-generation-processes/combined-cycle-power-plant/hrsg-and-steam-cycle/combined-cycle-power-plant-process-flow/index.html',
+    ],
+  },
+  {
+    asset: 'power-plant-cooling-water-dm-water-blueprint-v1.png',
+    alt: 'Original blueprint illustration of power-plant cooling-water circulation and demineralized-water treatment equipment',
+    files: [
+      'industrial-processes/power-generation-processes/power-plant-utilities/cooling-water/cooling-water-cycle-in-thermal-power-plants/index.html',
+      'industrial-processes/power-generation-processes/power-plant-utilities/water-treatment/dm-water-process-for-power-plants/index.html',
+    ],
+  },
+  {
+    asset: 'renewable-power-generation-blueprint-v1.png',
+    alt: 'Original blueprint illustration of biomass, solar-photovoltaic and wind-power generation routes with electrical export',
+    files: [
+      'industrial-processes/power-generation-processes/renewable-power-processes/biomass-and-waste/biomass-and-waste-to-energy-power-generation-process/index.html',
+      'industrial-processes/power-generation-processes/renewable-power-processes/solar-pv/solar-photovoltaic-power-plant-process-flow/index.html',
+      'industrial-processes/power-generation-processes/renewable-power-processes/wind/wind-power-generation-process-flow/index.html',
+    ],
+  },
 ];
 
 let pagesChanged = 0;
@@ -164,6 +220,30 @@ for (const mapping of mappings) {
       fs.writeFileSync(file, html, 'utf8');
       pagesChanged += 1;
     }
+  }
+}
+
+// A dry ESP needs a recognisable plate-and-electrode arrangement at the top of
+// the page.  This original diagram was drawn after reviewing the published
+// arrangement description from Babcock & Wilcox; it is not a copied figure.
+const espPlanFiles = [
+  'electrostatic-precipitator.html',
+  'engineering/air-pollution-control-and-environmental-engineering/particulate-collection/electrostatic-precipitators/electrostatic-precipitator-working-principle-and-components/index.html',
+  'industrial-processes/air-pollution-control-processes/esp-systems-electrostatic-collection-charging-collection-and-rapping-esp-dust-collection-process/index.html',
+  'industrial-equipment/air-pollution-control-equipment/electrostatic-precipitators-esp-fields-electrodes-rappers-and-tr-sets-esp-components/index.html',
+  'industrial-processes/power-generation-processes/coal-fired-thermal-power-plant/flue-gas-cleaning/esp-process-in-thermal-power-plants/index.html',
+];
+for (const relativeFile of espPlanFiles) {
+  const file = path.join(process.cwd(), relativeFile);
+  let html = fs.readFileSync(file, 'utf8');
+  const relativeAsset = path.relative(path.dirname(file), path.join(assetDirectory, 'esp-plate-electrode-arrangement-blueprint-v1.png')).replace(/\\/g, '/');
+  const replacement = '<figure class="knowledge-page__hero-art"><img src="' + relativeAsset + '" alt="Original technical illustration of a dry electrostatic precipitator with parallel collecting plates, centered discharge electrodes and ash hoppers"';
+  if (!html.includes('esp-plate-electrode-arrangement-blueprint-v1.png')) {
+    const original = html;
+    html = html.replace(/<figure class="knowledge-page__hero-art"><img src="[^"]+" alt="[^"]+"/, replacement);
+    if (html === original) throw new Error('No ESP hero illustration found: ' + relativeFile);
+    fs.writeFileSync(file, html, 'utf8');
+    pagesChanged += 1;
   }
 }
 
