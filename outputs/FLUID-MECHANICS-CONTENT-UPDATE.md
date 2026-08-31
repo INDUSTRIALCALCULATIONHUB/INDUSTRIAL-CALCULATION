@@ -16,7 +16,7 @@ This register covers the 12 published guides under Fluid Properties, Fluid Flow 
 | Pumps | Centrifugal Pump Working Principle | 3044 | 14 | Centrifugal-pump system-curve diagram | 3,000–4,000 | Core range achieved |
 | Pumps | Pump Curves and System Curves | 3005 | 14 | Centrifugal-pump system-curve diagram | 3,000–4,000 | Core range achieved |
 | Pumps | NPSH and Cavitation in Pumps | 3040 | 14 | Centrifugal-pump suction diagram | 3,000–4,000 | Core range achieved |
-| Fans and Duct Systems | Duct Pressure Loss and System Resistance | 3028 | 14 | Duct-system resistance diagram | 3,000–4,000 | Core range achieved |
+| Fans and Duct Systems | Duct Pressure Loss and System Resistance | 3208 | 14 | Duct-system resistance diagram | 3,000–4,000 | Core range achieved |
 | Fans and Duct Systems | Fan Laws, Static Pressure and Fan Power | 3036 | 14 | Fan-laws and resistance diagram | 3,000–4,000 | Core range achieved |
 
 **Total updated guides:** 12. Each guide is a core engineering topic and is within the 3,000–4,000-word target range, with 14 useful FAQs.

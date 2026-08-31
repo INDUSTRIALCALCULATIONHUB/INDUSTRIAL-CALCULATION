@@ -1,0 +1,761 @@
+{
+  "summary": {
+    "files": 43,
+    "pages": 14436,
+    "extractable_pages": 12752,
+    "characters": 25512481,
+    "errors": []
+  },
+  "records": [
+    {
+      "file": "ACGIH - INDUSTRAL VENTILATION 23rd Edition.pdf",
+      "extension": ".pdf",
+      "bytes": 21680662,
+      "pages": 512,
+      "extractable_pages": 0,
+      "characters": 0,
+      "sample": "",
+      "topics": [],
+      "error": ""
+    },
+    {
+      "file": "AIR POLLUTION CONTROL/1742808060-environmental-engineering-and-pollution-control-technologies-principles-applications-and-innovations.pdf",
+      "extension": ".pdf",
+      "bytes": 474449,
+      "pages": 73,
+      "extractable_pages": 71,
+      "characters": 155785,
+      "sample": "Environmental Engineering and Pollution Control Technologies: Principles, Applications, and Innovations Editors Abdullah Hayder Mohammed Ali Mohsin Northern Technical University Kirkuk Technical Engineering College Environmental Engineering and Pollution Techniques Fadi Hatem Hussein Khalaf Northern Technical University Kirkuk Technical Engineering College D | Published By: Bright Sky Publications Bright Sky Publication Office No. 3, 1st Floor, Pocket - H34, SEC-3, Rohini, Delhi, 110085, India Editors: Abdullah Hayder Mohammed Ali Mohsin, Fadi Hatem Hussein Khalaf, Abdulraqeb Waleed Hamad Nasser and Mustafa Mukhtar Mohammed Mahmoud The author/publisher has attempted to trace and acknowledge the materials reproduce | Abstract As we head into the 21st century, environmental sustainability is an issue of growing concern to governments, business leaders, workers, and the public. Environmental sustainability matters locally, nationally, and internationally. To promote and implement environmental sustainability, we need the development and application of environmentally frien",
+      "topics": [
+        "pressure-loss-and-flow",
+        "electrostatic-precipitator",
+        "flue-gas-desulfurization",
+        "gas-turbines",
+        "mechanics-and-materials",
+        "cement-and-kilns",
+        "machine-design",
+        "carbon-capture",
+        "bag-filter"
+      ],
+      "error": ""
+    },
+    {
+      "file": "AIR POLLUTION CONTROL/2015.219666.Air-Pollution_text.pdf",
+      "extension": ".pdf",
+      "bytes": 38577515,
+      "pages": 354,
+      "extractable_pages": 338,
+      "characters": 549595,
+      "sample": "AIRPOLLUTIONAIMEDCONTROL KVSGMURAMKRISHNA | AIRPOLLUTIONAINIDCONTROL K.V.S.G.MuraLiKrisI-inaJ.N.X.U.CollegeofEngineeringKAKINADA-3,A.R,INDIA KAUSHAL&CO51-10-10,SattemmagudiVeexllawiJagannaickpur,KAKINADA-2 | AIRPOLLUTIONANDCONTROLK.V.S.G.MuraliKrishna\u00a91995,KaushalScCo.,Kakinada.Nopartofthispublicationcanbereproducedinanyformorbyanymeanswithoutthepriorwrittenpermissionofthepublisher.ThiseditioncanbeexportedfromIndiaonlybythepublish-ers,KaushalScCo.,Kakinada,A.P.,India.PublishedbyKaushalScCo.,51-10-10,SattemmagudiVeedhi,Jagannaickpur,Kakinada-533002,E.G.Dt.,A.P.,I",
+      "topics": [
+        "electrostatic-precipitator",
+        "pressure-loss-and-flow",
+        "cement-and-kilns",
+        "machine-design",
+        "mechanics-and-materials",
+        "bag-filter",
+        "industrial-ventilation",
+        "gas-turbines"
+      ],
+      "error": ""
+    },
+    {
+      "file": "AIR POLLUTION CONTROL/452combined.pdf",
+      "extension": ".pdf",
+      "bytes": 3536365,
+      "pages": 435,
+      "extractable_pages": 433,
+      "characters": 742058,
+      "sample": "United States Air Pollution Training Institute (APTI) July 2003 Environmental Protection Environment al Research Center, MD E142-01 Agency Research Triangle Park, NC 27711 Principles and Practices of Air Pollution Control Student Manual APTI Course 452 Third Edition United States Air Pollution Training Institute (APTI) April 2003 | ii Environmental Protection Environment al Research Center, MD E142-01 Agency Research Triangle Park, NC 27711 Air Principles and Practices of Air Pollution Control Student Manual APTI Course 452 Second Edition Authors Dr. William Franek, PhD, PE Mr. Lou DeRose, J.D. Developed by ICES Ltd. EPA Contract No. 68D99022 | iii Acknowledgments The authors gratefully acknowledge the contribution of Alpha Gamma Technologies, Inc., whose preparation of SI:422 was used as the basis for this course development.",
+      "topics": [
+        "pressure-loss-and-flow",
+        "electrostatic-precipitator",
+        "cement-and-kilns",
+        "bag-filter",
+        "flue-gas-desulfurization",
+        "machine-design",
+        "gas-turbines",
+        "industrial-ventilation",
+        "mechanics-and-materials"
+      ],
+      "error": ""
+    },
+    {
+      "file": "AIR POLLUTION CONTROL/air-pollution-and-control-425t1a6v3s.pdf",
+      "extension": ".pdf",
+      "bytes": 6165179,
+      "pages": 264,
+      "extractable_pages": 264,
+      "characters": 542230,
+      "sample": "Air Pollution and Control Nikhil Sharma \u00b7 Avinash Kumar Agarwal Peter Eastwood \u00b7 Tarun Gupta Akhilendra P . Singh Editors Energy, Environment, and Sustainability | Energy, Environment, and Sustainability Series editors Avinash Kumar Agarwal, Department of Mechanical Engineering, Indian Institute of Technology, Kanpur, Uttar Pradesh, India Ashok Pandey, Distinguished Scientist, CSIR-Indian Institute of Toxicology Research, Lucknow, India | This books series publishes cutting edge monographs and professional books focused on all aspects of energy and environmental sustainability, especially as it relates to energy concerns. The Series is published in partnership with the International Society for Energy, Environment, and Sustainability. The books in these series are editor or authored by top re",
+      "topics": [
+        "pressure-loss-and-flow",
+        "electrostatic-precipitator",
+        "machine-design",
+        "cement-and-kilns",
+        "gas-turbines",
+        "mechanics-and-materials",
+        "industrial-ventilation",
+        "carbon-capture"
+      ],
+      "error": ""
+    },
+    {
+      "file": "AIR POLLUTION CONTROL/Air-Pollution-Control-min.pdf",
+      "extension": ".pdf",
+      "bytes": 526569,
+      "pages": 20,
+      "extractable_pages": 20,
+      "characters": 45365,
+      "sample": "AIR POLLUTION AND CONTROL Sampling, analysis and particulate pollution control methods Prepared by K. Sumavalli, M.E. UNIT-3 SAMPLING, ANALYSIS AND PARTICULATE POLLUTION CONTROL METHODS Ambient air quality monitoring: Ambient air quality monitoring refers to the systematic and continuous assessment of the quality of the air in the outdoor environment, typica | AIR POLLUTION AND CONTROL Sampling, analysis and particulate pollution control methods Prepared by K. Sumavalli, M.E. TSP samples may also be used to determine the levels of chemical elements and compounds in the particles which may pose a risk to human health. sampler is used to collect TSP samples. The high volume air sampler draws a large known volume of  | AIR POLLUTION AND CONTROL Sampling, analysis and particulate pollution control methods Prepared by K. Sumavalli, M.E. The inlet removes particles larger than 10\u00b5m by using their greater inertia to trap them on a greased plate, while smaller particles pass through the instrument onto the p Illustration of Particulate Matter Sampler The animated illustration o",
+      "topics": [
+        "electrostatic-precipitator",
+        "pressure-loss-and-flow",
+        "bag-filter",
+        "gas-turbines",
+        "cement-and-kilns"
+      ],
+      "error": ""
+    },
+    {
+      "file": "AIR POLLUTION CONTROL/Air_Pollution_Handbook.pdf",
+      "extension": ".pdf",
+      "bytes": 13590395,
+      "pages": 132,
+      "extractable_pages": 125,
+      "characters": 156056,
+      "sample": "Air Pollution: An Introduction to Its Causes, Effects, and Solutions 2021.1 Ministry of Foreign Affairs of the Republic of Korea National Council on Climate and Air Quality of the Republic of Korea | Air Pollution: An Introduction to Its Causes, Effects, and Solutions Ministry of Foreign Affairs of the Republic of Korea National Council on Climate and Air Quality of the Republic of Korea This publication was written by Laura Hyesung Yang, Jiwon Kim, and Dha Hyun Ahn (Yonsei University), with substantive inputs from Sangmin Nam, Minkyung Hong (UNESCAP), a | Introduction 12 Chapter 1 Current Air Pollution Situation and Trend 16 1. Trend of Global Death Rate Attributable to Air Pollution 16 2. Annual Death Rate Attributable to Air Pollution by Regions/Countries 16 3. Global Air Pollution Exposure Level 18 Chapter 2 What are the Most Common Air Pollutants? 22 1. Types of Pollutants: Primary and Secondary Air Pollu",
+      "topics": [
+        "pressure-loss-and-flow",
+        "electrostatic-precipitator",
+        "machine-design",
+        "industrial-ventilation",
+        "mechanics-and-materials",
+        "cement-and-kilns"
+      ],
+      "error": ""
+    },
+    {
+      "file": "AIR POLLUTION CONTROL/AirPollutionControlTechnologyHandbook.pdf",
+      "extension": ".pdf",
+      "bytes": 14571568,
+      "pages": 380,
+      "extractable_pages": 380,
+      "characters": 688210,
+      "sample": "AIR POLLUTION CONTROL TECHNOLOGY HANDBOOK | The Mechanical Engineering Handbook Series Series Editor Frank Kreith Consulting Engineer Published Titles Handbook of Heating, Ventilation, and Air Conditioning Jan F . Kreider Computational Intelligence in Manufacturing Handbook Jun Wang and Andrew Kusiak The CRC Handbook of Mechanical Engineering Frank Kreith The CRC Handbook of Thermal Engineering Frank  | CRC PRESS Boca Raton London New York Washington, D.C. Authored by Karl B. Schnelle, Jr., Ph.D., P .E. Vanderbilt University Nashville, Tennessee Charles A. Brown, P .E. VECO Pacific, Inc. Bellingham, Washington AIR POLLUTION CONTROL TECHNOLOGY HANDBOOK",
+      "topics": [
+        "pressure-loss-and-flow",
+        "electrostatic-precipitator",
+        "industrial-ventilation",
+        "machine-design",
+        "bag-filter",
+        "cement-and-kilns",
+        "mechanics-and-materials",
+        "gas-turbines",
+        "flue-gas-desulfurization"
+      ],
+      "error": ""
+    },
+    {
+      "file": "AIR POLLUTION CONTROL/Compendium of Technologies for Air Pollution Control.pdf",
+      "extension": ".pdf",
+      "bytes": 7905980,
+      "pages": 74,
+      "extractable_pages": 74,
+      "characters": 169327,
+      "sample": "Compendium of Technologies for Air Pollution Control APCTT Asian and Pacific Centre for Transfer of Technology ESCAP | The shaded areas of the map indicate ESCAP members and associate members.* The Economic and Social Commission for Asia and the Pacific (ESCAP) is the most inclusive intergovernmental platform in the Asia-Pacific region. The Commission promotes cooperation among its 53 member States and 9 associate members in pursuit of solutions to sustainable development ch | i Compendium of Air Pollution Control Technologies Compendium of Technologies for Air Pollution Control APCTT Asian and Pacific Centre for Transfer of Technology ESCAP",
+      "topics": [
+        "pressure-loss-and-flow",
+        "electrostatic-precipitator",
+        "bag-filter",
+        "gas-turbines",
+        "flue-gas-desulfurization",
+        "machine-design",
+        "cement-and-kilns",
+        "mechanics-and-materials",
+        "industrial-ventilation"
+      ],
+      "error": ""
+    },
+    {
+      "file": "AIR POLLUTION CONTROL/e4-11-05.pdf",
+      "extension": ".pdf",
+      "bytes": 265429,
+      "pages": 9,
+      "extractable_pages": 9,
+      "characters": 27409,
+      "sample": "UNESCO \u2013 EOLSS SAMPLE CHAPTERS POINT SOURCES OF POLLUTION: LOCAL EFFECTS AND IT\u2019S CONTROL \u2013 Vol. II - Technologies for Air Pollution Control - Jiming Hao, Ye Wu and Shuxiao Wang \u00a9Encyclopedia of Life Support Systems (EOLSS) TECHNOLOGIES FOR AIR POLLUTION CONTROL Jiming Hao, Ye Wu and Shuxiao Wang Department of Environmental Sciences and Engineering, Tsinghua | UNESCO \u2013 EOLSS SAMPLE CHAPTERS POINT SOURCES OF POLLUTION: LOCAL EFFECTS AND IT\u2019S CONTROL \u2013 Vol. II - Technologies for Air Pollution Control - Jiming Hao, Ye Wu and Shuxiao Wang \u00a9Encyclopedia of Life Support Systems (EOLSS) destruction, biological oxidation, advance oxidation, etc.). These classes reflect the physical and/or chemical processes used to separa | UNESCO \u2013 EOLSS SAMPLE CHAPTERS POINT SOURCES OF POLLUTION: LOCAL EFFECTS AND IT\u2019S CONTROL \u2013 Vol. II - Technologies for Air Pollution Control - Jiming Hao, Ye Wu and Shuxiao Wang \u00a9Encyclopedia of Life Support Systems (EOLSS) utilities (i.e. power, water, etc.) and ancillary system facilities (i.e. waste treatment and disposal, etc.). \u0083 Maximum allowable emiss",
+      "topics": [
+        "electrostatic-precipitator",
+        "pressure-loss-and-flow",
+        "bag-filter",
+        "gas-turbines",
+        "cement-and-kilns"
+      ],
+      "error": ""
+    },
+    {
+      "file": "AIR POLLUTION CONTROL/Fundamentals of Air Pollution, Fourth Edition ( PDFDrive ).pdf",
+      "extension": ".pdf",
+      "bytes": 9403728,
+      "pages": 967,
+      "extractable_pages": 966,
+      "characters": 2089093,
+      "sample": "Fundamentals of Air Pollution FOURTH EDITION | Authors of Third Edition RICHARD W. BOUBEL Department of Mechanical Engineering Oregon State University Corvallis, Oregon DONALD L. FOX Department of Environmental Science School of Public Health University of North Carolina Chapel Hill, North Carolina D. BRUCE TURNER Trinity Consultants, Inc. Chapel Hill, North Carolina ARTHUR C. STERN (14 March 1909\u201317 Apr | Fundamentals of Air Pollution FOURTH EDITION DANIEL A. V ALLERO Civil and Environmental Engineering Department Pratt School of Engineering Duke University Durham, North Carolina AMSTERDAM \u0081 BOSTON \u0081 HEIDELBERG \u0081 LONDON \u0081 NEW YORK \u0081 OXFORD PARIS \u0081 SAN DIEGO \u0081 SAN FRANCISCO \u0081 SINGAPORE \u0081 SYDNEY \u0081 TOKYO Academic Press is an imprint of Elsevier",
+      "topics": [
+        "pressure-loss-and-flow",
+        "electrostatic-precipitator",
+        "machine-design",
+        "cement-and-kilns",
+        "mechanics-and-materials",
+        "bag-filter",
+        "gas-turbines",
+        "industrial-ventilation",
+        "flue-gas-desulfurization",
+        "carbon-capture"
+      ],
+      "error": ""
+    },
+    {
+      "file": "AIR POLLUTION CONTROL/Handbook of Air Pollution Prevention and Control.pdf",
+      "extension": ".pdf",
+      "bytes": 13966009,
+      "pages": 582,
+      "extractable_pages": 575,
+      "characters": 1360187,
+      "sample": "Handbook of Air Pollutio Prevention Control rg ..\u2019 | HANDBOOK OF AIR POLLUTION PREVENTION AND CONTROL | HANDBOOK OF AIR POLLUTION PREVENTION AND CONTROL Nicholas P. Cheremisinoff, Ph.D. N&P Limited P=-= EINEMANN An imprint of Elsevier Science Amsterdam Boston London New York Oxford Paris San Diego San Francisco Singapore Sydney Tokyo",
+      "topics": [
+        "pressure-loss-and-flow",
+        "electrostatic-precipitator",
+        "bag-filter",
+        "cement-and-kilns",
+        "machine-design",
+        "gas-turbines",
+        "mechanics-and-materials",
+        "flue-gas-desulfurization",
+        "industrial-ventilation"
+      ],
+      "error": ""
+    },
+    {
+      "file": "AIR POLLUTION CONTROL/L-G-0000570899-0002357443.pdf",
+      "extension": ".pdf",
+      "bytes": 160676,
+      "pages": 30,
+      "extractable_pages": 24,
+      "characters": 46456,
+      "sample": "AIR POLLUTION CONTROL EQUIPMENT CALCULA TIONS Louis Theodore An Introduction by Humberto Bravo Alvarez | AIR POLLUTION CONTROL EQUIPMENT CALCULA TIONS | AIR POLLUTION CONTROL EQUIPMENT CALCULA TIONS Louis Theodore An Introduction by Humberto Bravo Alvarez",
+      "topics": [
+        "pressure-loss-and-flow",
+        "electrostatic-precipitator",
+        "cement-and-kilns",
+        "bag-filter",
+        "machine-design",
+        "mechanics-and-materials",
+        "gas-turbines"
+      ],
+      "error": ""
+    },
+    {
+      "file": "AIR POLLUTION CONTROL/pollution-prevention-and-control.pdf",
+      "extension": ".pdf",
+      "bytes": 9097778,
+      "pages": 243,
+      "extractable_pages": 242,
+      "characters": 558728,
+      "sample": "2 Paul Mac Berthouex & Linfield C. Brown Pollution Prevention and Control: Part I Human Health and Environmental Quality Download free eBooks at bookboon.com | 3 Pollution Prevention and Control: Part I Human Health and Environmental Quality 1st edition \u00a9 2013 Paul Mac Berthouex & Linfield C. Brown & bookboon.com ISBN 978-87-403-0526-5 Download free eBooks at bookboon.com | Pollution Prevention and Control: Part I Human Health and Environmental Quality 4 Contents Contents Preface 10 1 The Strategy of Pollution Control Engineering 12 1.1 Our Round River 12 1.2 A Preview of This Book 14 1.3 The Fallacy of Zero Emissions 14 1.4 The Integration of Pollution Control 17 1.5 An Integrated Approach to Design 21 1.6 The Integrated Appro",
+      "topics": [
+        "pressure-loss-and-flow",
+        "electrostatic-precipitator",
+        "gas-turbines",
+        "machine-design",
+        "mechanics-and-materials",
+        "cement-and-kilns",
+        "industrial-ventilation"
+      ],
+      "error": ""
+    },
+    {
+      "file": "AIR POLLUTION CONTROL/preview-9781000386448_A40790761.pdf",
+      "extension": ".pdf",
+      "bytes": 13360439,
+      "pages": 40,
+      "extractable_pages": 36,
+      "characters": 77955,
+      "sample": "Air Pollution Control Equipment Selection Guide | Air Pollution Control Equipment Selection Guide Third Edition Kenneth C. Schifftner | Third edition published 2021 by CRC Press 6000 Broken Sound Parkway NW, Suite 300, Boca Raton, FL 33487-2742 and by CRC Press 2 Park Square, Milton Park, Abingdon, Oxon, OX14 4RN \u00a9 2021 Taylor & Francis Group, LLC First edition published by CRC Press 2002 CRC Press is an imprint of Taylor & Francis Group, LLC The right of Kenneth Schifftner to be identified ",
+      "topics": [
+        "machine-design",
+        "pressure-loss-and-flow",
+        "electrostatic-precipitator",
+        "bag-filter",
+        "cement-and-kilns",
+        "gas-turbines"
+      ],
+      "error": ""
+    },
+    {
+      "file": "AIR POLLUTION CONTROL/TCE-033  epdf.pub_environmental-pollution-and-control.pdf",
+      "extension": ".pdf",
+      "bytes": 20304677,
+      "pages": 380,
+      "extractable_pages": 380,
+      "characters": 771873,
+      "sample": "Environmental Pollution and Control, 4th ed. by J. Jeffrey Peirce, P. Aarne Vesilind, Ruth F. Weiner \u2022 ISBN: 0750698993 \u2022 Pub. Date: November 1997 \u2022 Publisher: Elsevier Science & Technology Books | Preface Since this book was first published in 1972, several generations of students have become environmentally aware and conscious of their responsibilities to planet earth. Many of these environmental pioneers are now teaching in colleges and universities, and have students with the same sense of dedication and resolve that they themselves brought to the  | xiv Preface This book has been used as a text in courses that require no prerequisites, although a high school knowledge of chemistry is important. A knowledge of college-level algebra is also useful, but calculus is not required for an under- standing of the technical and scientific concepts. We do not intend this book to be scientifically and technically c",
+      "topics": [
+        "pressure-loss-and-flow",
+        "electrostatic-precipitator",
+        "gas-turbines",
+        "machine-design",
+        "cement-and-kilns",
+        "bag-filter",
+        "mechanics-and-materials",
+        "industrial-ventilation",
+        "flue-gas-desulfurization"
+      ],
+      "error": ""
+    },
+    {
+      "file": "BAG FILTER/Baghouse-KnowledgeBase-05-Fabric-Filter-Design-Review.pdf",
+      "extension": ".pdf",
+      "bytes": 190752,
+      "pages": 16,
+      "extractable_pages": 16,
+      "characters": 22867,
+      "sample": "2.0-3/95 5-1 Lesson 5 Fabric Filter Design Review Goal To familiarize you with the factors to be considered when reviewing baghouse design plans for air pollution control programs. Objectives At the end of this lesson, you will be able to do the following: 1. List and explain at least six factors important in good baghouse design 2. Estimate the cloth area n | Lesson 5 5-2 2.0-3/95 to be treated is set by the process exhaust, but the filtration velocity or air-to-cloth ratio is determined by the baghouse vendor's design. The air-to-cloth ratio that is finally chosen depends on specific design features including fabric type, fibers used for the fabric, bag clean- ing mechanism, and the total number of compartments, | Fabric Filter Design Review 2.0-3/95 5-3 heavy dust concentrations are handled by using a baghouse in conjunction with a cyclone pre- cleaner, instead of building a larger baghouse. Once the gas stream properties are known, the designers will be able to determine if the baghouse will require extras such as shell insulation, special bag treatments, or corrosi",
+      "topics": [
+        "bag-filter",
+        "pressure-loss-and-flow",
+        "gas-turbines",
+        "mechanics-and-materials",
+        "cement-and-kilns",
+        "machine-design"
+      ],
+      "error": ""
+    },
+    {
+      "file": "BAG FILTER/cs6ch1.pdf",
+      "extension": ".pdf",
+      "bytes": 474759,
+      "pages": 60,
+      "extractable_pages": 60,
+      "characters": 112958,
+      "sample": "EPA/452/B-02-001 Section 6 Particulate Matter Controls | EPA/452/B-02-001 Chapter 1 Baghouses and Filters James H. Turner Research Triangle Institute Research Triangle Park, NC 22709 John D. McKenna John C. Mycock Arthur B. Nunn ETS, Inc. Roanoke, V A 24018-4394 William M. Vatavuk Innovative Strategies and Economics Group, OAQPS U.S. Environmental Protection Agency Research Triangle Park, NC 22711 December 1998 | Contents 1.1 Introduction ......................................................................................................................................1-4 1.2 Process Description ...........................................................................................................................1-5 1.2.1 Shaker Cleaning .......................",
+      "topics": [
+        "bag-filter",
+        "pressure-loss-and-flow",
+        "gas-turbines",
+        "cement-and-kilns",
+        "electrostatic-precipitator",
+        "industrial-ventilation",
+        "machine-design",
+        "mechanics-and-materials"
+      ],
+      "error": ""
+    },
+    {
+      "file": "BAG FILTER/O&MMANUALPULSEJETBAGFILTERS.pdf",
+      "extension": ".pdf",
+      "bytes": 1044469,
+      "pages": 16,
+      "extractable_pages": 16,
+      "characters": 30606,
+      "sample": "Ventech Systems Pvt. Ltd. Ventech Systems Private Limi ted Corporate Office: 409/410, Angel Mega Mall, CKl, Kaushambi, Ghaziabad-201010, Tel.: +91-120-4578855/ 4272075 \u2022 E-mail: info@ventechsystems.com Registered Off.: 511, Vikas Deep, Laxmi Nagar Distt. Centre, Vikas Marg, N.Delhi-92 (India), Works : Plot No. B-13, Sector A-5/6, Tronica City, Loni - 201102, | Ventech Systems Private Limi ted Corporate Office: 409/410, Angel Mega Mall, CKl, Kaushambi, Ghaziabad-201010, Tel.: +91-120-4578855/ 4272075 \u2022 E-mail: info@ventechsystems.com Registered Office: 511, Vikas Deep, Laxmi Nagar Distt. Centre, Vikas Marg, N.Delhi-92 (India), Works : Plot No. B-13, Sector A-5/6, Tronica City, Loni - 201102, Ghaziabad (U.P.), India | Ventech Systems Private Limi ted Corporate Office: 409/410, Angel Mega Mall, CKl, Kaushambi, Ghaziabad-201010, Tel.: +91-120-4578855/ 4272075 \u2022 E-mail: info@ventechsystems.com Registered Office: 511, Vikas Deep, Laxmi Nagar Distt. Centre, Vikas Marg, N.Delhi-92 (India), Works : Plot No. B-13, Sector A-5/6, Tronica City, Loni - 201102, Ghaziabad (U.P.), India",
+      "topics": [
+        "bag-filter",
+        "electrostatic-precipitator",
+        "pressure-loss-and-flow",
+        "cement-and-kilns",
+        "machine-design"
+      ],
+      "error": ""
+    },
+    {
+      "file": "BAG FILTER/Working-Design-Considerations-and-Maintenance-of-Bag-Type-Fabric-Filters.pdf",
+      "extension": ".pdf",
+      "bytes": 1356929,
+      "pages": 50,
+      "extractable_pages": 50,
+      "characters": 110391,
+      "sample": "1 Working, Design Considerations and Maintenance of Bag Type Fabric Filters www.practicalmaintenance.net Working, Design Considerations and Maintenance of Bag Type Fabric Filters By K. P. Shah Email: kpshah123[at]gmail.com (Please replace [at] with @) Committed to improve the Quality of Life The information contained in this booklet represents a significant  | 2 Working, Design Considerations and Maintenance of Bag Type Fabric Filters www.practicalmaintenance.net Content Chapter Title Page No. 1 Introduction 3 2 Working of Bag Type Fabric Filters 4 3 Advantages and Disadvantages of Fabric Filters 6 4 Particle Collection in Fabric Filters 7 5 Fabric Materials 12 6 Bag Failure Mechanisms and Fabric Testing 15 7 Mech | 3 Working, Design Considerations and Maintenance of Bag Type Fabric Filters www.practicalmaintenance.net Introduction Gas-solid separation devices associated with pneumatic conveying systems have two functions. To recover the convey ed material as much as possible and t o minimize pollution of the environment by the working material. Different separation mec",
+      "topics": [
+        "bag-filter",
+        "pressure-loss-and-flow",
+        "gas-turbines",
+        "machine-design",
+        "electrostatic-precipitator",
+        "cement-and-kilns",
+        "mechanics-and-materials"
+      ],
+      "error": ""
+    },
+    {
+      "file": "Bagdata.pdf",
+      "extension": ".pdf",
+      "bytes": 34289,
+      "pages": 2,
+      "extractable_pages": 2,
+      "characters": 2409,
+      "sample": "Air Pollution Control Fabrics Data Sheets Part Number Units QL004 QP037 QP007 QP131 QP065 QA036 Fiber \u2014 100% Polypropy- lene 100% Polyester 100% Polyester 100% Polyester Epitropic Polyester Homopolymer Acrylic Construction \u2014 Scrim Supported Felt Woven 5 Harness Sateen Self Supported Felt Self Supported Blended Bicomponent Felt Scrim Supported Polyester/ Epit | QN004 QR033 QG028 QG022 QG133 QG061 QE001 QT025 100% Aramid 100% PPS (Polyphenyle ne Sulfide) 100% Fiberglass - Electrical Grade Reverse Air Style 100% Fiberglass - Electrical Grade Reverse Air Style 100% Fiberglass - Electrical Grade Pulse Jet Style 100% Fiberglass - Electrical Grade Pulse Jet Style 100% P-84 fiber 100% White PTFE Felt Self Supported Felt S",
+      "topics": [
+        "bag-filter"
+      ],
+      "error": ""
+    },
+    {
+      "file": "co2-capture-cement-industrypdf.pdf",
+      "extension": ".pdf",
+      "bytes": 4148092,
+      "pages": 221,
+      "extractable_pages": 217,
+      "characters": 542267,
+      "sample": "CO2 CAPTURE IN THE CEMENT INDUSTRY Technical Study Report Number: 2008/3 Date: July 2008 This document has been prepared for the Executive Committee of the IEA GHG Programme. It is not a publication of the Operating Agent, International Energy Agency or its Secretariat. | INTERNATIONAL ENERGY AGENCY The International Energy Agency (IEA) was established in 1974 within the framework of the Organisation for Economic Co- operation and Development (OECD) to implement an international energy programme. The IEA fosters co-operation amongst its 26 member countries and the European Commission, and with the other countries, in order to | ACKNOWLEDGEMENTS AND CITATIONS This report describes research sponsored by the IEA Greenhouse Gas R&D Programme. This report was prepared by: Mott MacDonald Ltd Victory House Trafalgar Place Brighton BN1 4FY UK The principal researchers were: \u2022 Duncan Barker \u2022 Daniel Holmes \u2022 James Hunt \u2022 Philip Napier-Moore \u2022 Simon Turner \u2022 Michael Clark (Whitehopleman) The",
+      "topics": [
+        "cement-and-kilns",
+        "carbon-capture",
+        "pressure-loss-and-flow",
+        "bag-filter",
+        "electrostatic-precipitator",
+        "flue-gas-desulfurization",
+        "machine-design",
+        "mechanics-and-materials",
+        "gas-turbines"
+      ],
+      "error": ""
+    },
+    {
+      "file": "FiberPhysicalChemicalProperties.pdf",
+      "extension": ".pdf",
+      "bytes": 103933,
+      "pages": 2,
+      "extractable_pages": 2,
+      "characters": 2247,
+      "sample": "Fiber Type Heat Bleaches & Solvents Acids & Alkalis Abrasion Mildew, Aging & Sunlight Polyester Softens at 465F. Melts at 500F. Excellent Good resistance to weak alkalis & weak acids. Moderate resistance to strong acids & alkali. Excellent Excellent resistance to mildew, good aging. Degrades after prolonged exposure to sunlight. Nylon Melts at 419F to 430F.  | PBI Will not ignite or melt. Decomposes at 860F. Excellent Excellent. Some strength loss in alkali at elevated temperatures. Good Good resistance to mildew & aging. Sunlight causes a darkening & some loss in tensile. Vectran\uf6da\uf6da \uf6da\uf6da Melts at 625F 330C Excellent Excellent Excellent Good resistance to mildew and aging. Sunlight causes degradation Dyneema\uf6da\uf6da \uf6da\uf6da & S",
+      "topics": [],
+      "error": ""
+    },
+    {
+      "file": "GUIDELINEFORGASTURBINEINLETAIRFILTRATIONSYSTEMS.pdf",
+      "extension": ".pdf",
+      "bytes": 3445233,
+      "pages": 122,
+      "extractable_pages": 122,
+      "characters": 305878,
+      "sample": "GUIDELINE FOR GAS TURBINE INLET AIR FILTRATION SYSTEMS RELEASE 1.0 April 2010 Gas Machinery Research Council Southwest Research Institute\u00ae | This page is intentionally left blank. | GUIDELINE FOR GAS TURBINE INLET AIR FILTRATION SYSTEMS RELEASE 1.0 Authors: Melissa Wilcox, SwRI Richard Baldwin, SwRI Augusto Garcia-Hernandez, SwRI Klaus Brun, Ph.D., SwRI Industry Advisory Committee: Andrew Ennis \u2013 ExxonMobil Angus Sites \u2013 ExxonMobil Bill Betenson \u2013 Williams Fred Mueller \u2013 Mueller Environmental Design Jan-Peter Nilsson \u2013 Camfil Farr Jay S",
+      "topics": [
+        "gas-turbines",
+        "pressure-loss-and-flow",
+        "cement-and-kilns",
+        "industrial-ventilation",
+        "machine-design",
+        "electrostatic-precipitator",
+        "bag-filter",
+        "mechanics-and-materials"
+      ],
+      "error": ""
+    },
+    {
+      "file": "Integrated Cement_555_Dalmiapuram-CII_Energy_Award_PPT_Final_0.pdf",
+      "extension": ".pdf",
+      "bytes": 10224511,
+      "pages": 86,
+      "extractable_pages": 86,
+      "characters": 43340,
+      "sample": "HEARTY WELCOME Date : 29th, 30th & 31st Aug\u2019 2018 Venue: Novotel & HICC Complex, Hyderabad Team : R.Balaji, Energy Manager, D.Kumaresan Head-E&I and R.Rajamohan, Head-Sustainability,PH&Systems M/s DALMIA CEMENT (BHARAT) LTD, DALMIAPURAM 16 Varieties of Cement from one location Operating 7 Management Systems Won 21 National Awards in year 17-18 | Presentation Coverage I. Specific energy consumption trend in last three years II. Benchmarking & Roadmap to achieve Target III. Key Encon Projects out of 53 implemented in last 3 years (27 Nil Investment Projects) IV. Innovative Projects implemented V. Renewable energy sources VI. Waste Utilization as Fuel VII. GHG Inventorisation VIII.Best Practices on ene | 28.27 27.33 27.92 25.85 24 25 26 27 28 29 Fy' 14-15 Fy' 15-16 Fy' 16-17 Fy' 17-18 over all Specific Energy consumption Line-2 KILN HEAT RATE (Kcal/Kg) SPC \u2013 Kw/ton of clinker- Line2 ) CVRM 2 - Kw/ton of cement SPC \u2013 Kw/ton of PPC- Line2 49.55 46 47.9 49.98 48.85 44 45 46 47 48 49 50 51 Fy' 14-15 Fy' 15-16 Fy' 16-17 Fy' 17-18 Fy' 18-19 July'18 SPC Clinker 58.",
+      "topics": [
+        "cement-and-kilns",
+        "pressure-loss-and-flow",
+        "bag-filter",
+        "electrostatic-precipitator",
+        "machine-design"
+      ],
+      "error": ""
+    },
+    {
+      "file": "machines and mechanisms.pdf",
+      "extension": ".pdf",
+      "bytes": 10209361,
+      "pages": 385,
+      "extractable_pages": 384,
+      "characters": 966422,
+      "sample": "MACHINES AND MECHANISMS APPLIED KINEMATIC ANALYSIS Fourth Edition David H. Myszka University of Dayton Prentice Hall Boston Columbus Indianapolis New Y ork San Francisco Upper Saddle River Amsterdam Cape T own Dubai London Madrid Milan Munich Paris Montreal T oronto Delhi Mexico City Sao Paulo Sydney Hong Kong Seoul Singapore Taipei T okyo | Vice President & Editorial Director: V ernon R. Anthony Acquisitions Editor: David Ploskonka Editorial Assistant: Nancy Kesterson Director of Marketing: David Gesell Marketing Manager: Kara Clark Senior Marketing Coordinator: Alicia Wozniak Marketing Assistant: Les Roberts Senior Managing Editor: JoEllen Gohr Associate Managing Editor: Alexandrina Benedicto  | The objective of this book is to provide the techniques necessary to study the motion of machines. A focus is placed on the application of kinematic theories to real-world machinery. It is intended to bridge the gap between a theoretical study of kinematics and the application to practical mechanisms. Students completing a course of study using this book sho",
+      "topics": [
+        "machine-design",
+        "cement-and-kilns",
+        "electrostatic-precipitator",
+        "mechanics-and-materials",
+        "pressure-loss-and-flow",
+        "gas-turbines"
+      ],
+      "error": ""
+    },
+    {
+      "file": "ME_Handbook_2022.pdf",
+      "extension": ".pdf",
+      "bytes": 3149518,
+      "pages": 21,
+      "extractable_pages": 5,
+      "characters": 10073,
+      "sample": "Contains well illustrated formulae & key theory concepts & OTHER COMPETITIVE EXAMS www.madeeasypublications.orgwww.madeeasypublications.org Publications ESE, GATE, PSUs Mechanical Engineering A Handbook on th Edition Revised & Updated 6 | A Handbook on Mechanical Engineering \u00a9 Copyright, by MADE EASY Publications Pvt. Ltd. All rights are reserved. No part of this publication may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photo-copying, recording or otherwise), without the prior written permission of the a | During the current age of international competition in Science and Technology, the Indian participation through skilled technical professionals have been challenging to the world. Constant efforts and desire to achieve top positions are still required. I feel every candidate has ability to succeed but competitive environment and quality guidance is required ",
+      "topics": [
+        "machine-design",
+        "mechanics-and-materials",
+        "pressure-loss-and-flow",
+        "gas-turbines"
+      ],
+      "error": ""
+    },
+    {
+      "file": "Mechanical Engineering Catalouge.pdf",
+      "extension": ".pdf",
+      "bytes": 23354838,
+      "pages": 26,
+      "extractable_pages": 22,
+      "characters": 114223,
+      "sample": "1 1 PROCESS PLANNING AND COST ESTIMA TION A dithan, M ., Professor in M echanical Engg. and D ean, VIT U niversity, Vellore, Tam il N adu Contents: W ork Study and Ergonomics \u2022 Process Planning \u2022 Introduction to Cost Estimation \u2022 Cost Estimation \u2022 Production Cost Estimation. ISB N : P ublication Y ear: E dition: P ages: P rice: P ap erb ack 978-81-224-2129-3 | PROCESS PLANNING AND COST ESTIMA TION Second Edition Contents: \u2022 W ork Study \u2022 Process Planning \u2022 Introduction to Cost Estimation \u2022 Cost Estimation \u2022 Production Cost Estimation. Kesavan, R., Prof., Deptt. of Production Technology, Anna University, Chennai, Tamil Nadu. Elanchezhian, C., Assistant Prof. Deptt. of M echanical Engg., Sri Sai Ram Engineering Coll | REFRIGERANT TABLES AND CHAR TS Second Edition Contents: T1- R12, Dichloro difluoromethane, C C l2F2 \u2022 T 2- R 22, Mo no-chlorodifluorom ethane, CH C lF2 \u2022 T 3- R 717, A m m onia, N h3 \u2022 T 4-R 11, T richlorofluorom ethane, C C l3F \u2022 T 5 - R 1 3 4 a, Tetra fluoroethane, C H 2FC F3 \u2022 T 6- Kothandaraman, C.P., Retd. Professor, Mechanical Engg., P.S.G. College of ",
+      "topics": [
+        "pressure-loss-and-flow",
+        "machine-design",
+        "mechanics-and-materials",
+        "cement-and-kilns",
+        "electrostatic-precipitator",
+        "gas-turbines",
+        "industrial-ventilation"
+      ],
+      "error": ""
+    },
+    {
+      "file": "MECHANICAL ENGINEERS HANDBOOK BY BAN B. MANRGHITU.pdf",
+      "extension": ".pdf",
+      "bytes": 17985091,
+      "pages": 876,
+      "extractable_pages": 875,
+      "characters": 1169979,
+      "sample": "Mechanical Engineer\u2019s Handbook | Academic Press Series in Engineering Series Editor J. David Irwin Auburn University This a series that will include handbooks, textbooks, and professional reference books on cutting-edge areas of engineering. Also included in this series will be single- authored professional books on state-of-the-art techniques and methods in engineer- ing. Its objective is  | Mechanical Engineer\u2019s Handbook Edited by Dan B. Marghitu Department of Mechanical Engineering , Auburn University, Auburn, Alabama San Diego\u000f San Francisco\u000f New York\u000f Boston\u000f London\u000f Sydney\u000f Tokyo",
+      "topics": [
+        "machine-design",
+        "mechanics-and-materials",
+        "electrostatic-precipitator",
+        "pressure-loss-and-flow",
+        "cement-and-kilns",
+        "industrial-ventilation"
+      ],
+      "error": ""
+    },
+    {
+      "file": "Mechanical Engineers_ Handbook, Materials and Engineering Mechanics.pdf",
+      "extension": ".pdf",
+      "bytes": 12616739,
+      "pages": 1042,
+      "extractable_pages": 1020,
+      "characters": 2517897,
+      "sample": "Mechanical Engineers\u2019 Handbook | Mechanical Engineers\u2019 Handbook Fourth Edition Materials and Engineering Mechanics Edited by Myer Kutz | Cover image: \u00a9 denisovd / Thinkstock Cover design: Wiley This book is printed on acid-free paper. Copyright \u00a9 2015 Published by John Wiley & Sons, Inc., Hoboken, New Jersey Published simultaneously in Canada No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic, mechanical, photoco",
+      "topics": [
+        "mechanics-and-materials",
+        "pressure-loss-and-flow",
+        "electrostatic-precipitator",
+        "machine-design",
+        "cement-and-kilns",
+        "gas-turbines",
+        "industrial-ventilation",
+        "flue-gas-desulfurization"
+      ],
+      "error": ""
+    },
+    {
+      "file": "Mechanical-Engineering-Handbook.pdf",
+      "extension": ".pdf",
+      "bytes": 34286619,
+      "pages": 2466,
+      "extractable_pages": 2465,
+      "characters": 5861849,
+      "sample": "\u201cFrontmatter\u201d Mechanical Engineering Handbook Ed. Frank Kreith Boca Raton: CRC Press LLC, 1999 c\u20dd1999 by CRC Press LLC | Contents ______________________________ SECTION 1 Mechanics of Solids Bela I. Sandor 1.1 Introduction Bela I Sandor 1.2 Statics Bela I. Sandor 1.3 Dynamics Stephen M. Birn and Bela I. Sandor 1.4 Vibrations Bela I. Sandor 1.5 Mechanics of Materials Bela I. Sandor 1.6 Structural Integrity and Durability Bela I. Sandor 1.7 Comprehensive Example of Using Mechani | 4.5 Heat Exchangers Ramesh K.Shah and Kenneth J.Bell 4.6 Temperature and Heat Transfer Measurements Robert J.Moffat 4.7 Mass Transfer Anthony F.Mills 4.8 Applications Arthur E.Bergles, Anthony F.Mills, Larry W.Swanson, and Vincent W.Antonetti 4.9 Non-Newtonian Fluids \u2014Heat Transfer Thomas F.Irvine,Jr. and Massimo Capobianchi SECTION 5 Electrical Engineering ",
+      "topics": [
+        "pressure-loss-and-flow",
+        "machine-design",
+        "mechanics-and-materials",
+        "electrostatic-precipitator",
+        "cement-and-kilns",
+        "gas-turbines",
+        "industrial-ventilation",
+        "flue-gas-desulfurization",
+        "bag-filter"
+      ],
+      "error": ""
+    },
+    {
+      "file": "Module 1b.pdf",
+      "extension": ".pdf",
+      "bytes": 6122048,
+      "pages": 87,
+      "extractable_pages": 87,
+      "characters": 16238,
+      "sample": "MECHANICS OF MACHINERY | Dynamics Kinematics:\u2022It deals with the relative motions of different parts of amechanism without taking into consideration the forcesproducing the motions.\u2022Thus,itisthestudy,fromageometricpointofview,toknow29-01-20192\u2022Thus,itisthestudy,fromageometricpointofview,toknowthe displacement, velocity and acceleration of a part of amechanism.Kinetics:\u2022Studies the fo | 29-01-20193 Kinematics Kinetics",
+      "topics": [
+        "machine-design",
+        "mechanics-and-materials",
+        "electrostatic-precipitator",
+        "cement-and-kilns"
+      ],
+      "error": ""
+    },
+    {
+      "file": "Pocket Book.pdf",
+      "extension": ".pdf",
+      "bytes": 9117027,
+      "pages": 93,
+      "extractable_pages": 0,
+      "characters": 0,
+      "sample": "",
+      "topics": [],
+      "error": ""
+    },
+    {
+      "file": "Pressure drop acgih.pdf",
+      "extension": ".pdf",
+      "bytes": 5580644,
+      "pages": 65,
+      "extractable_pages": 0,
+      "characters": 0,
+      "sample": "",
+      "topics": [],
+      "error": ""
+    },
+    {
+      "file": "Roark_s Formulas for Stress and Strain 7th Ed.pdf",
+      "extension": ".pdf",
+      "bytes": 6893278,
+      "pages": 854,
+      "extractable_pages": 854,
+      "characters": 1636893,
+      "sample": "Roark\u2019s Formulas for Stress and Strain WARREN C. YOUNG RICHARD G. BUDYNAS Seventh Edition McGraw-Hill New York Chicago San Francisco Lisbon London Madrid Mexico City Milan New Delhi San Juan Seoul Singapore Sydney Toronto | Cataloging-in-Publication Data is on \ufb01le with the Library of Congress. Copyright # 2002, 1989 by the McGraw-Hill Companies, Inc. All rights reserved. Printed in the United States of America. Except as permitted under the United States Copyright Act of 1976, no part of this publication may be reproduced or distributed in any form or by any means, or stored in | iii Contents List of Tables vii Preface to the Seventh Edition ix Preface to the First Edition xi Part 1 Introduction Chapter 1 Introduction 3 Terminology. State Properties, Units, and Conversions. Contents. Part 2 Facts; Principles; Methods Chapter 2 Stress and Strain: Important Relationships 9 Stress. Strain and the Stress\u2013Strain Relations. Stress Transfor",
+      "topics": [
+        "mechanics-and-materials",
+        "electrostatic-precipitator",
+        "pressure-loss-and-flow",
+        "machine-design",
+        "cement-and-kilns",
+        "industrial-ventilation",
+        "gas-turbines"
+      ],
+      "error": ""
+    },
+    {
+      "file": "Rotary kilns 2015.pdf",
+      "extension": ".pdf",
+      "bytes": 3115894,
+      "pages": 5,
+      "extractable_pages": 5,
+      "characters": 12700,
+      "sample": "PROCESS ENGINEERING cfi/Ber. DKG 92 (2015) No. 10-11 E 1 The sealing system is installed between the rigid housing components (feed and discharge cars) and the rotating tube and the type of heating between directly heated rotary kilns (Fig. 1), and indirectly heated rotary kilns (Fig. 2). Indirectly heated rotary kilns In indirectly heated rotary kilns, the  | E 2 cfi/Ber. DKG 92 (2015) No. 10-11 PROCESS ENGINEERING designed to be gastight in these applica - tions. Another model of kiln is the directly heated rotary kiln. Directly heated rotary kilns Directly heated rotary kilns are heated with a burner firing directly into the rotary tube. For this reason, this type of kiln is termed an internally heated rotary k | PROCESS ENGINEERING cfi/Ber. DKG 92 (2015) No. 10-11 E 3 specific temperature curve can be set over the kiln length [2]. Fig. 8 shows a comparison of the tempera - ture profile with associated dwell time at maximum temperature for a directly heated rotary kiln and a corresponding pendulum kiln. In the directly heated rotary kilns, fir - ing chamber and heat ",
+      "topics": [
+        "cement-and-kilns",
+        "pressure-loss-and-flow",
+        "electrostatic-precipitator",
+        "machine-design"
+      ],
+      "error": ""
+    },
+    {
+      "file": "strength-of-material-by-r-k-bansal-31.pdf",
+      "extension": ".pdf",
+      "bytes": 25009905,
+      "pages": 611,
+      "extractable_pages": 0,
+      "characters": 0,
+      "sample": "",
+      "topics": [],
+      "error": ""
+    },
+    {
+      "file": "STRENGTH-OF-MATERIALS-1.pdf",
+      "extension": ".pdf",
+      "bytes": 8440004,
+      "pages": 429,
+      "extractable_pages": 429,
+      "characters": 544202,
+      "sample": "S K Mondal\u2019s Strength of Materials Contents Chapter \u2013 1: Stress and Strain Chapter - 2 : Principal Stress and Strain Chapter - 3 : Moment of Inertia and Centroid Chapter - 4 : Bending Moment and Shear Force Diagram Chapter - 5 : Deflection of Beam Chapter - 6 : Bending Stress in Beam Chapter - 7 : Shear Stress in Beam Chapter - 8 : Fixed and Continuous Beam  | Note \u201cAsked Objective Questions\u201d is the total collection of questions from:- 20 yrs IES (2010-1992) [Engineering Service Examination] 21 yrs. GATE (2011-1992) and 14 yrs. IAS (Prelim.) [Civil Service Preliminary] Copyright \u00a9 2007 S K Mondal Every effort has been made to see that there are no errors (typographical or otherwise) in the material presented. Howe | 1. Stress and Strain Theory at a Glance (for IES, GATE, PSU) 1.1 Stress (\u0131) When a material is subjected to an external force, a resisting force is set up within the component. The internal resistance force per unit area acting on a material or intensity of the forces distributed over a given section is called the stress at a point. x It uses original cross ",
+      "topics": [
+        "mechanics-and-materials",
+        "machine-design",
+        "electrostatic-precipitator",
+        "pressure-loss-and-flow",
+        "cement-and-kilns"
+      ],
+      "error": ""
+    },
+    {
+      "file": "Strength_of_Materials_by_R_S_KHURMI.pdf",
+      "extension": ".pdf",
+      "bytes": 35861144,
+      "pages": 861,
+      "extractable_pages": 861,
+      "characters": 1477226,
+      "sample": "www.cgaspirants.com www.cgaspirants.com www.cgaspirants.com www.cgaspirants.com www.cgaspirants.com www.cgaspirants.com www.cgaspirants.com | (Mechanics of Solids) [A Textbook for the students of B.E./B.Tech., A.M.I.E., U.P.S.C. (Engg. Services) and other Engineering Examinations] (SI UNITS) S. CHAND & COMPANY LTD. (AN ISO 9001 : 2000 COMPANY) RAM NAGAR, NEW DELHI - 110055 R.S. KHURMI MULTICOLOUR E DITION www.cgaspirants.com www.cgaspirants.com www.cgaspirants.com www.cgaspirants.com www.cgaspiran | S. CHAND & COMPANY LTD. (An ISO 9001 : 2000 Company) Head Office : 7361, RAM NAGAR, NEW DELHI - 110 055 Phones : 23672080-81-82, 9899107446, 9911310888; Fax : 91-11-23677446 Shop at: schandgroup.com; E-mail: schand@vsnl.com Branches : \u2022 1st Floor, Heritage, Near Gujarat Vidhyapeeth, Ashram Road, Ahmedabad-380 014. Ph. 27541965, 27542369, ahmedabad@schandgrou",
+      "topics": [
+        "mechanics-and-materials",
+        "machine-design",
+        "electrostatic-precipitator",
+        "pressure-loss-and-flow",
+        "cement-and-kilns"
+      ],
+      "error": ""
+    },
+    {
+      "file": "Theory of Machines and Mechanisms ( PDFDrive ).pdf",
+      "extension": ".pdf",
+      "bytes": 64201680,
+      "pages": 977,
+      "extractable_pages": 969,
+      "characters": 1764044,
+      "sample": "Theory of Machines and Mechanisms | Theory of Machines and Mechanisms Fifth Edition John J. Uicker, Jr. Professor Emeritus of Mechanical Engineering University of Wisconsin\u2013Madison Gordon R. Pennock Associate Professor of Mechanical Engineering Purdue University Joseph E. Shigley Late Professor Emeritus of Mechanical Engineering The University of Michigan New Y ork Oxford OXFORD UNIVERSITY PRE | Oxford University Press is a department of the University of Oxford. It furthers the University\u2019s objective of excellence in research, scholarship, and education by publishing worldwide. Oxford is a registered trade mark of Oxford University Press in the UK and certain other countries. Published in the United States of America by Oxford University Press 198 ",
+      "topics": [
+        "machine-design",
+        "electrostatic-precipitator",
+        "cement-and-kilns",
+        "mechanics-and-materials",
+        "pressure-loss-and-flow"
+      ],
+      "error": ""
+    },
+    {
+      "file": "Theory of Machines.pdf",
+      "extension": ".pdf",
+      "bytes": 13468075,
+      "pages": 268,
+      "extractable_pages": 268,
+      "characters": 267445,
+      "sample": "COURSE MATERIAL II Year B. Tech I- Semester MECHANICAL ENGINEERING AY: 2022-23 Prepared by: Mr. C.Daksheeswara Reddy Assistant Professor MALLA REDDY COLLEGE OF ENGINEERING & TECHNOLOGY DEPARTMENT OF MECHANICAL ENGINEERING (Autonomous Institution-UGC, Govt. of India) Secunderabad-500100,Telangana State, India. www.mrcet.ac.in THEORY OF MACHINES R20A0308 | www.mrcet.ac.in MALLA REDDY COLLEGE OF ENGINEERING & TECHNOLOGY (Autonomous Institution \u2013 UGC, Govt. of India) DEPARTMENT OF MECHANICAL ENGINEERING CONTENTS 1. Vision, Mission & Quality Policy 2. Pos, PSOs & PEOs 3. Blooms Taxonomy 4. Course Syllabus 5. Lecture Notes (Unit wise) a. Objectives and outcomes b. Notes c. Presentation Material (PPT Slides/ Videos | MALLA REDDY COLLEGE OF ENGINEERING & TECHNOLOGY (Autonomous Institution \u2013 UGC, Govt. of India) VISION \u2756 To establish a pedestal for the integral innovation, team spirit, originality and competence in the students, expose them to face the global challenges and become technology leaders of Indian vision of modern society. MISSION \u2756 To become a model institutio",
+      "topics": [
+        "machine-design",
+        "electrostatic-precipitator",
+        "mechanics-and-materials",
+        "pressure-loss-and-flow",
+        "cement-and-kilns",
+        "gas-turbines"
+      ],
+      "error": ""
+    },
+    {
+      "file": "westerman table book.pdf",
+      "extension": ".pdf",
+      "bytes": 26695880,
+      "pages": 149,
+      "extractable_pages": 0,
+      "characters": 0,
+      "sample": "",
+      "topics": [],
+      "error": ""
+    },
+    {
+      "file": "Westermann_Tables_pdf.pdf",
+      "extension": ".pdf",
+      "bytes": 8452753,
+      "pages": 151,
+      "extractable_pages": 0,
+      "characters": 0,
+      "sample": "",
+      "topics": [],
+      "error": ""
+    }
+  ]
+}

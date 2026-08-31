@@ -1,0 +1,41 @@
+{
+  "summary": {
+    "files": 4,
+    "characters": 81607,
+    "errors": []
+  },
+  "records": [
+    {
+      "file": "BAG REPLACEMENT PROCEDURE IFH.docx",
+      "extension": ".docx",
+      "bytes": 2447969,
+      "characters": 2436,
+      "sample": "BAG REPLACEMENT PROCEDURE: The following procedure is for General description and not for specific case. STEP 1 Isolation of compartment For Offline or Semi offline bag filters i solate the bag house respective compartment by Closing Inlet damper and outlet dampers prov ided on respective compartment. And if bag house in ON LINE mode take the shutdown. ( Ensure bag filler should be cool down to normal temperature before start up the JOb ) Outlet valve Outlet valve Inlet valve Inlet valve Switch of compre s se d air supply and stop pulsing sequence of respective compartment/Module. Open Top doors. Remove injector Tubes from both end connections, Maintenance Maintenance Remove holding clamps of bags If clamp type bag house (In Case of Snap type bags this is not needed) Disengage the snap type bag from tube sheet. (If the bag is snap type bag) C hain pulley block is to be installed above th",
+      "error": ""
+    },
+    {
+      "file": "Cement.docx",
+      "extension": ".docx",
+      "bytes": 304965,
+      "characters": 4987,
+      "sample": "CEMENT Raw Material of Cement : Lime stone & Clay The raw materials are very finely ground in order to produce the raw mix . The raw mix is preheated before it goes into the kiln, which is heated by a flame that can be as hot as 2000 \u00b0C. The raw mix burns at 1500 \u00b0C producing clinker which, when it leaves the kiln, is rapidly cooled with air fans. So, the raw mix is burnt to produce clinker: the basic material needed to make cement. The clinker and the gypsum are very finely ground giving \u201c pure cement\u201d. Other secondary additives and cementitious materials can also be added to make blended cement. Definition of Cement : Cement is bonding agent obtained by burning a mixture of Limestone and Clay together to form Clinker, then pulverizing the Clinker with Gypsum. Cement is a compound consisting of Calcium Oxide with Silica, Alumina and Iron Oxide. Also it has some minor constituents such a",
+      "error": ""
+    },
+    {
+      "file": "3D CORE CONCEPTS FASTRACK UPDATED.pptx",
+      "extension": ".pptx",
+      "bytes": 26233889,
+      "characters": 37513,
+      "sample": "PRESENTED BY: 3d CORE CONCEPTS FASTRACK\nFocus Areas: 2D sketching, Part-modeling, Assembly modeling including \u201cbottom-up design\u201d. Detail drawing creation for parts and assemblies and Associative design changes.\nContents: Training Contents for 3D Core Concepts Part \u2013 I: SolidWorks Basics and the User interface. Introduction to Sketching. Basic Part Modeling. Modeling a Casting or Forging. Patterning. Revolved Features. SolidWorks Simulation Overview Shelling and Ribs .\nPrerequisites: Mechanical Design Experience. Ability to read and understand Engineering/Manufacturing drawings. Must have completed the course SolidWorks Tutorials-Introduction to SolidWorks that is integrated in SolidWorks software. Knowledge of Windows\u2122 operating system.\nWhat is SolidWorks Software ? SolidWorks Mechanical Design Automation Software is a Feature-Based, Parametric Solid Modeling Design Tool which takes adva",
+      "error": ""
+    },
+    {
+      "file": "7198_emci_20171220-22_SCL-Presentation.ppsx",
+      "extension": ".ppsx",
+      "bytes": 7805989,
+      "characters": 36671,
+      "sample": "By R. Bhargava Chief Climate & Sustainability Officer Shree Cement Limited Cleaner Technologies & Resource Conservation\nContents SCL Overview Indian Cement Industry Drivers for Technology Development Advancement in Cement Industry Cleaner Technologies and Resource Conservation Technologies Need Way to India\nShree Cement Limited is a rapidly growing and one of the most efficient and environment friendly Companies in India. An Energy & Environment Conscious Sustainable Organization Shree Cement Profile\n\u201c Lead in Creating Prosperity & Happiness for all Stakeholders through Innovation & Sustainable Practices\u201d Our Vision\nThe Aim To take Company from good to great. Changing Scenario Total Prosperity Management A Culture\nManagement Systems\nIndia Cement Industry\nIf current trajectories were to continue without intervention, by 2050, emissions from cement manufacture in India would reach between ",
+      "error": ""
+    }
+  ]
+}
