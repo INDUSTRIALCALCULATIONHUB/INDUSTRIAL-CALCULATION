@@ -1,6 +1,6 @@
 # Existing Canonical-Page Audit
 
-Generated: 2026-08-31
+Generated: 2026-09-01
 
 - Final-format knowledge pages scanned: **354**
 - Exact normalized-title duplicate groups: **0**
