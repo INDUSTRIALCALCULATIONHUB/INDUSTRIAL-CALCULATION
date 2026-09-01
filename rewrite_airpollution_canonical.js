@@ -1,0 +1,135 @@
+const fs = require('fs');
+const path = require('path');
+const candidates = require('./canonical_page_candidates');
+
+const pages = {
+  'ICH-CAN-001': {
+    scope: 'a local-exhaust arrangement that controls contaminant at its source, moves air through ductwork and delivers it to collection or discharge equipment',
+    principle: 'Capture depends first on the physical relationship between the contaminant release, the hood opening, the worker and cross-draughts. Air quantity is then distributed through branch ducts, a main, the collector and the fan so that the design flow is available at every operating hood.',
+    variables: ['source generation rate and release momentum', 'hood geometry, opening area and flange arrangement', 'capture distance, nearby doors and cross-draughts', 'branch resistance, transport velocity and balancing method', 'collector resistance, fan curve and make-up-air path'],
+    checks: ['map the contaminant source before selecting a hood', 'calculate each branch at its intended flow rather than dividing total flow equally', 'develop a resistance diagram from hood to stack', 'select a fan duty with a stated fouling and system-effect allowance', 'commission with traverse measurements and documented damper positions'],
+    risks: ['a fan can deliver the right total airflow while one remote hood is starved', 'uncontrolled make-up air can turn a capture hood into a dilution system', 'leakage and unsealed access doors increase fan power and reduce useful capture', 'a change in process layout can invalidate the original hood position'],
+    applications: 'welding bays, grinding stations, bag-dumping points, charging operations, mixing vessels and transfer points',
+    faq: ['Why is total fan flow not enough?', 'Because each hood requires a local design flow and the branch resistances determine how the total is shared.'],
+  },
+  'ICH-CAN-002': {
+    scope: 'the interface between an emission source and the duct system that removes contaminated air before it reaches the workroom',
+    principle: 'A hood is effective when it encloses the source or establishes enough inward airflow at the release point. A canopy, slot, receiving, side-draft or enclosing hood creates a different airflow pattern; selecting by appearance alone is unreliable.',
+    variables: ['source position and direction of contaminant travel', 'hood face area and distance from the source', 'opening reductions, doors, curtains and flanges', 'thermal plume, process motion and cross-draught', 'operator access and the possibility of the worker standing in the plume'],
+    checks: ['prefer enclosure before using a large open hood', 'locate the opening between the source and the breathing zone where practicable', 'provide a controllable opening instead of removing access panels permanently', 'measure face or slot velocity at the actual operating opening', 'check that make-up air does not sweep contaminant past the operator'],
+    risks: ['canopy hoods can pull a hot plume through the breathing zone', 'an oversized opening increases airflow demand without improving capture', 'poorly placed access doors defeat an otherwise suitable hood', 'corrosion, buildup or damage can change the entry losses at the hood'],
+    applications: 'welding and cutting tables, laboratory process vessels, open tanks, charging chutes, abrasive cleaning and small mixers',
+    faq: ['When is an enclosure better than an exterior hood?', 'When the process can tolerate it, enclosure shortens the capture distance and usually reduces the airflow needed for control.'],
+  },
+  'ICH-CAN-003': {
+    scope: 'estimating the air movement required to draw a contaminant release into a hood rather than allowing it to disperse into the room',
+    principle: 'Capture velocity is a local control concept, not a universal number. The required velocity changes with contaminant toxicity, release momentum, heat, particle size, distance from the hood and competing air currents.',
+    variables: ['contaminant form: vapour, fume, mist or dust', 'release velocity and thermal buoyancy', 'distance between source and hood opening', 'effective hood area and entry geometry', 'cross-draught from doors, fans, supply diffusers or movement'],
+    checks: ['define the capture point rather than measuring only at the duct', 'estimate airflow from a hood relationship appropriate to its geometry', 'confirm velocity with smoke visualisation and field measurement', 'test the worst practical operating position and opening', 'record the instrument location, air density basis and operating condition'],
+    risks: ['using a rule-of-thumb velocity without considering cross-draught', 'equating duct transport velocity with hood capture velocity', 'measuring at the hood face while the source sits well outside its influence', 'increasing airflow until noise, turbulence or process disturbance becomes unacceptable'],
+    applications: 'solvent handling, manual welding, dusty transfer points, laboratory extraction, drying ovens and heated process tanks',
+    faq: ['Can one capture velocity serve every hood?', 'No. Hood geometry and source behaviour determine how local air motion translates into useful capture.'],
+  },
+  'ICH-CAN-004': {
+    scope: 'selecting duct diameters and conveying velocities that keep collected dust moving while avoiding unnecessary fan power, erosion and noise',
+    principle: 'Dust-collection ductwork is designed around an air quantity and a velocity range suitable for the material. Diameter follows from Q = VA, then the system pressure loss is determined from straight duct, fittings, hoods, dampers and collection equipment.',
+    variables: ['air quantity at each pickup', 'dust density, size, moisture and stickiness', 'horizontal and vertical routing', 'duct diameter, material and wall condition', 'fitting geometry, elbows, branches and transitions'],
+    checks: ['use a common flow basis before calculating diameters', 'keep branch layout compatible with the intended split of airflow', 'use long-radius fittings and suitable branch entries where space permits', 'account for abrasion, deposits and access doors in the pressure-loss basis', 'verify actual velocity and static pressure after balancing'],
+    risks: ['low velocity allows settling in horizontal runs', 'excess velocity increases wear, noise and fan energy', 'abrupt reducers or poor branch geometry create losses not captured by simple straight-duct calculations', 'nominal duct size can hide a reduced internal diameter after lining or buildup'],
+    applications: 'baghouses, woodworking systems, mineral handling, metal grinding, pneumatic pickup and cement transfer dust collection',
+    faq: ['Why not use the smallest possible duct?', 'Reducing diameter raises velocity and friction loss; the fan energy and erosion penalty can outweigh the apparent material saving.'],
+  },
+  'ICH-CAN-005': {
+    scope: 'setting and maintaining the intended airflow distribution in a multi-branch dust-collection system while controlling unplanned ingress and leakage',
+    principle: 'A branch receives flow according to its resistance, not simply because it is connected to the same fan. Balancing introduces measured resistance at selected points so each active hood approaches its design quantity; leakage shifts the operating point and raises the volume that the fan must handle.',
+    variables: ['design airflow at each branch', 'available fan static pressure', 'damper location and adjustment range', 'leaks at doors, flanges, rotary valves and collector casing', 'collector pressure drop and filter condition'],
+    checks: ['establish a baseline with clean filters and known hood positions', 'measure branch flow or velocity using a repeatable traverse method', 'adjust dampers systematically from the branches with excess flow', 'inspect leakage paths before adding fan capacity', 'retain final damper positions and pressure readings for maintenance checks'],
+    risks: ['closing one damper can disturb several other branches', 'filter loading can make a previously balanced system inadequate', 'air leakage downstream of a hood consumes fan capacity without improving capture', 'operators may alter dampers to solve a local issue and unbalance the network'],
+    applications: 'central baghouse systems, grinding lines, conveying transfer points, multiple welding stations and material receiving systems',
+    faq: ['Can balancing correct an undersized fan?', 'No. Dampers redistribute available pressure; they cannot create the required total airflow or static pressure.'],
+  },
+  'ICH-CAN-006': {
+    scope: 'using liquid-gas contact to remove particulate matter, soluble gases or chemically reactive constituents from an industrial gas stream',
+    principle: 'Wet scrubbers expose the gas to droplets, films or packed surfaces. Particles are collected by inertial or diffusional contact with liquid, while soluble gases transfer into the liquid and may react with an added reagent. The selected contactor determines pressure loss, liquid requirement and removal mechanism.',
+    variables: ['gas flow, temperature, humidity and pollutant loading', 'particle size or gas solubility', 'liquid-to-gas ratio and recirculation rate', 'pressure drop and fan capability', 'water chemistry, solids loading and wastewater route'],
+    checks: ['match the scrubber type to the contaminant rather than calling all wet scrubbers equivalent', 'size the mist eliminator for the expected gas velocity and droplet loading', 'calculate blowdown from dissolved solids and reagent balance', 'select corrosion-resistant materials for the full wet gas path', 'monitor pressure drop, pH, conductivity, pump flow and differential pressure'],
+    risks: ['a scrubber may transfer a pollutant to water without providing an adequate liquid-treatment route', 'poor droplet separation causes visible carryover and downstream corrosion', 'scale, solids and nozzle blockage reduce contact quality', 'freezing, biological growth or corrosion can disable recirculation equipment'],
+    applications: 'acid-gas absorption, fertilizer plants, metal finishing, chemical processing, odour control and particulate quenching',
+    faq: ['Do wet scrubbers remove every gas?', 'No. Performance depends on solubility, reaction chemistry, contact area, residence time and the selected liquid.'],
+  },
+  'ICH-CAN-007': {
+    scope: 'high-energy particle collection in a venturi throat where gas acceleration atomises scrubbing liquid and creates strong droplet-particle contact',
+    principle: 'At the venturi throat, the gas gains velocity and liquid is sheared into droplets. Larger particles are driven toward droplets by inertia, then the slurry must be separated from the cleaned gas. Better fine-particle collection is commonly associated with higher throat energy and pressure drop.',
+    variables: ['throat gas velocity and pressure drop', 'particle-size distribution and density', 'liquid injection location and liquid-to-gas ratio', 'slurry separation and mist-eliminator performance', 'fan power, erosion resistance and recirculation-pump duty'],
+    checks: ['base removal expectations on particle size rather than total dust mass alone', 'check fan static pressure at the dirty and clean operating conditions', 'provide erosion-resistant throat and elbow materials where abrasive solids are present', 'maintain nozzles and liquid distribution to prevent uneven wetting', 'monitor throat differential pressure and recirculation flow together'],
+    risks: ['low pressure drop can mean poor fine-particle collection', 'high pressure drop can make the fan energy unacceptable', 'abrasive slurry can erode throats, elbows and pumps', 'a failed mist eliminator can carry droplets and solids into the stack'],
+    applications: 'metallurgical fumes, sticky or hot dust, mineral processing, chemical reactors and gas-conditioning service ahead of downstream equipment',
+    faq: ['Why is venturi pressure drop important?', 'It represents the energy used to create gas-liquid contact and is therefore central to both collection performance and fan power.'],
+  },
+  'ICH-CAN-008': {
+    scope: 'absorbing soluble gases in a column where gas flows through packing while liquid distributes over a large wetted surface',
+    principle: 'Packed-bed performance depends on interfacial area, liquid distribution, gas velocity, chemistry and the driving force for mass transfer. Acid gases may be absorbed into alkaline liquor; other services use water or a solvent. Flooding, channeling and maldistribution reduce the useful contact area.',
+    variables: ['gas composition, concentration and temperature', 'solubility or reaction rate in the chosen liquid', 'packing type, depth and wetting characteristics', 'liquid distribution and redistributor arrangement', 'gas velocity, pressure drop and flooding margin'],
+    checks: ['confirm the liquid chemistry and reagent consumption from the actual pollutant load', 'keep gas velocity below the flooding limit for the packing and liquid rate', 'provide distributors that wet the packing uniformly', 'consider scaling, solids and foaming when choosing packing and access', 'trend pH, oxidation-reduction potential where relevant, pressure drop and outlet concentration'],
+    risks: ['channeling allows gas to bypass wetted packing', 'flooding sharply raises pressure loss and can carry liquid downstream', 'incorrect reagent concentration reduces absorption even when flow rates look normal', 'solids deposition or biological growth can block packing support and drains'],
+    applications: 'hydrogen chloride, sulfur dioxide, ammonia, odour control, acid pickling exhaust and chemical process vents',
+    faq: ['Is more packing always better?', 'No. Additional packing adds pressure drop and height; useful performance depends on distribution, chemistry and available driving force.'],
+  },
+  'ICH-CAN-009': {
+    scope: 'removing volatile organic compounds from gas by transferring them to the internal surface of activated-carbon media',
+    principle: 'Adsorption capacity depends on compound properties, concentration, humidity, temperature, residence time and the carbon pore structure. A bed works until the mass-transfer zone reaches the outlet; that condition is called breakthrough and sets the changeout or regeneration basis.',
+    variables: ['VOC species, concentration and flow variability', 'relative humidity and gas temperature', 'bed depth, superficial velocity and residence time', 'carbon grade, adsorption capacity and regeneration method', 'fire, heat-release and static-control safeguards'],
+    checks: ['characterise the actual VOC mixture before selecting carbon', 'provide upstream filtration where particulate or oil could foul the bed', 'monitor outlet concentration or use a conservative breakthrough schedule', 'evaluate regeneration, replacement and spent-carbon handling before installation', 'screen for heat buildup, oxidising contaminants and ignition sources'],
+    risks: ['high humidity can occupy adsorption sites for some services', 'unrecognised VOC spikes can cause early breakthrough', 'carbon beds can become a fire hazard if reactive streams or hot gas are admitted', 'poor sealing allows bypass and makes outlet monitoring misleading'],
+    applications: 'solvent coating, printing, tank vents, chemical storage, pharmaceutical exhaust and odour-control systems',
+    faq: ['Does carbon destroy VOCs?', 'No. It stores them temporarily; regeneration, disposal or a downstream destruction route is required.'],
+  },
+  'ICH-CAN-010': {
+    scope: 'destroying volatile organic compounds by heating a well-mixed gas stream to a controlled oxidation temperature for sufficient residence time',
+    principle: 'Thermal oxidation is governed by temperature, time, turbulence and oxygen availability. A combustion chamber, burner, controls and often a heat-recovery section must handle changing flow and solvent loading without crossing flammability or material-temperature limits.',
+    variables: ['VOC concentration, composition and heating value', 'gas flow, temperature and oxygen concentration', 'chamber temperature, residence time and mixing', 'heat recovery, fuel demand and bypass control', 'lower-explosive-limit margin, interlocks and continuous monitoring'],
+    checks: ['perform flammability screening before routing any VOC stream to the oxidizer', 'define destruction and removal performance requirements on a measured inlet basis', 'verify residence time at the maximum gas flow and minimum combustion temperature', 'check heat-recovery fouling and corrosion risk', 'test flame safeguards, purge sequences, alarms and emergency shutdown logic'],
+    risks: ['a high solvent spike can exceed the safe operating envelope', 'insufficient temperature or residence time leaves unoxidised VOCs', 'poor mixing creates local hot spots or bypass', 'heat-recovery failure can increase fuel use or damage downstream equipment'],
+    applications: 'coating ovens, resin production, printing, solvent cleaning, chemical vents and process exhaust with recoverable heat value',
+    faq: ['What makes an oxidizer different from a flare?', 'An oxidizer is designed for controlled, continuous treatment with defined residence time and monitoring; a flare serves a different relief or disposal duty.'],
+  },
+  'ICH-CAN-011': {
+    scope: 'oxidising VOCs over a catalyst so destruction can occur at a lower temperature than in a purely thermal oxidizer',
+    principle: 'A catalyst lowers the activation energy for oxidation, but it is sensitive to poisoning, masking, sintering and thermal upset. Gas conditioning and contaminant screening are therefore as important as reactor temperature and residence time.',
+    variables: ['VOC species and concentration range', 'catalyst formulation and permissible temperature window', 'sulfur, silicon, halogen, phosphorus or particulate contaminants', 'gas velocity, pressure drop and residence time', 'inlet conditioning, preheat duty and catalyst monitoring'],
+    checks: ['obtain catalyst supplier compatibility advice for the actual stream', 'filter or condition gas before the catalyst where fouling is possible', 'maintain the required preheat temperature without exceeding catalyst limits', 'monitor differential pressure, bed temperature profile and outlet VOC trend', 'retain a bypass and safe shutdown philosophy appropriate to the process'],
+    risks: ['silicones, sulfur compounds and particulates can deactivate a catalyst', 'cold spots reduce conversion while hot spots shorten catalyst life', 'plugging raises pressure drop and changes residence time', 'assuming thermal-oxidizer operating temperatures can damage the catalyst'],
+    applications: 'low-to-moderate VOC concentration streams, coating lines, printing, specialty chemicals, odour treatment and solvent process exhaust',
+    faq: ['When is catalytic oxidation unsuitable?', 'It is unsuitable without further conditioning when the stream contains catalyst poisons, severe particulate loading or unsafe concentration excursions.'],
+  },
+};
+
+function esc(value) {
+  return String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function list(values) {
+  return `<ul>${values.map((value) => `<li>${esc(value)}</li>`).join('')}</ul>`;
+}
+
+function bodyFor(page, data) {
+  const title = esc(page.title);
+  const variableText = data.variables.map((value) => esc(value)).join(', ');
+  const method = data.checks.map((value, index) => `<li><strong>Step ${index + 1}.</strong> ${esc(value)} for ${title}.</li>`).join('');
+  return `<section id="what"><h2>What is ${title}?</h2><p>${title} concerns ${esc(data.scope)}. It should be evaluated as a complete air path rather than as an isolated fan, duct or treatment device. The useful engineering boundary starts where the pollutant is released and ends at the approved discharge, recirculation or liquid-treatment interface.</p><p>${esc(data.principle)}</p></section><section id="importance"><h2>Why the system basis matters</h2><p>For ${title}, a number calculated without the source condition, layout and operating range can be misleading. The governing case may be a cold start, a high-production run, a partially blocked collector, an open access panel or a changed process rather than the nominal point recorded on a data sheet.</p><div class="article-callout article-callout--note"><strong>Practical use.</strong><span>Use the material below to prepare a design or troubleshooting basis. Confirm final values with current measurements, controlled drawings, applicable requirements and qualified review.</span></div></section><section id="terms"><h2>Key engineering terms</h2><dl class="definition-list"><div><dt>System boundary</dt><dd>The release source, capture or treatment device, connecting ductwork, fan, discharge route and relevant utilities.</dd></div><div><dt>Operating point</dt><dd>The measured or calculated combination of flow, pressure, temperature and condition at which ${title} is assessed.</dd></div><div><dt>Verification evidence</dt><dd>Measurements, inspections, test records and source documents that demonstrate whether the intended duty is achieved.</dd></div></dl></section><section id="principle"><h2>Engineering principle and mechanism</h2><p>${title} depends on ${esc(data.principle)}</p><p>The critical variables are ${variableText}. Their interaction must be checked on the same reference basis: actual temperature, actual gas composition, actual equipment condition and the operating configuration in use when the result is measured.</p></section><section id="inputs"><h2>Inputs that control the outcome</h2>${list(data.variables)}<p>Do not substitute a nominal fan capacity, a catalogue pressure loss or a typical contaminant value for the actual condition without recording the limitation. If one input is uncertain, show its effect on the result rather than presenting a single over-precise number.</p></section><section id="method"><h2>Practical engineering review method</h2><ol class="method-list">${method}</ol><p>After the initial adjustment or selection, repeat the measurements at the condition most likely to challenge ${title}. A commissioning sheet should identify the instrument, measurement position, operating lineup, filter or equipment condition, observed result and any remaining action.</p></section><section id="applications"><h2>Where it is used</h2><p>${title} is commonly encountered in ${esc(data.applications)}. The same principle can apply across industries, but the acceptable exposure, emission limit, material compatibility, utility availability and safety controls are site-specific.</p></section><section id="failure"><h2>Typical failure modes and warning signs</h2>${list(data.risks)}<p>Trend the variable that directly represents performance before making a major adjustment. A pressure change, flow change, outlet concentration change, liquid-flow change or abnormal temperature often gives earlier warning than a visual inspection alone.</p></section><section id="maintenance"><h2>Maintenance, safety and change control</h2><p>${title} should be reviewed whenever the source material, throughput, temperature, layout, duct configuration, fan, treatment media, reagent, filter condition or control logic changes. Confirm isolation, access, lifting, draining, confined-space, chemical and fire hazards before maintenance. Record the restored configuration so later tests can be compared with a known baseline.</p></section><section id="faq"><h2>Frequently Asked Questions</h2><div class="faq-list"><details><summary>${esc(data.faq[0])}</summary><p>${esc(data.faq[1])}</p></details><details><summary>What should be checked first?</summary><p>For ${title}, begin with the actual source condition and the measured operating point; then trace the airflow, pressure or treatment path to identify the controlling restriction.</p></details><details><summary>Can a typical operating value be used for final design?</summary><p>No. ${title} requires project-specific source data, equipment condition and governing requirements before final selection or approval.</p></details></div></section>`;
+}
+
+let updated = 0;
+for (const page of candidates.filter((candidate) => Object.hasOwn(pages, candidate.id))) {
+  const file = path.join(process.cwd(), ...page.route.split('/'), 'index.html');
+  let html = fs.readFileSync(file, 'utf8');
+  const replacement = `${bodyFor(page, pages[page.id])}<section id="related"`;
+  const pattern = /<section id="what">[\s\S]*?<section id="related"/;
+  if (!pattern.test(html)) throw new Error(`Article body boundary not found: ${page.id}`);
+  html = html.replace(pattern, replacement);
+  html = html.replace(/<meta name="description" content="[^"]*">/, `<meta name="description" content="${esc(page.title)}: topic-specific engineering guidance on mechanism, inputs, practical review, failure modes and safe limits of use.">`);
+  fs.writeFileSync(file, html);
+  updated += 1;
+}
+
+console.log(JSON.stringify({ updated }, null, 2));
