@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rectangle / Square-to-Round Transition Development — Local Tool</title>
+  <meta name="description" content="Local-only triangulated flat-pattern tool for centred and offset rectangle-to-round transitions.">
+  <meta name="robots" content="noindex,nofollow,noarchive"><meta name="theme-color" content="#164b73">
+  <link rel="icon" type="image/svg+xml" href="assets/brand/industrial-calculation-hub-mark.svg"><link rel="stylesheet" href="style.css?v=20260901-transition-local">
+  <script defer src="assets/js/transition-geometry.js"></script><script defer src="assets/js/rectangle-round-transition.js"></script>
+</head>
+<body class="public-page transition-tool-page"><div class="site-frame">
+  <header class="public-header"><a class="brand" href="index.html" aria-label="Industrial Calculation Hub home"><img class="brand__mark" src="assets/brand/industrial-calculation-hub-mark.svg" alt=""><span class="brand__name"><strong>Industrial</strong><span>Calculation Hub</span></span></a><span class="local-tool-badge">Local development tool</span></header>
+  <main class="tool-page-main">
+    <section class="tool-page-hero transition-hero"><p class="tool-page-breadcrumb">Local tools / Plate development / Rectangle or square to round</p><div><p class="tool-page-kicker">Triangulation development</p><h1>Rectangle / Square-to-Round Transition Development</h1><p class="tool-page-summary">Use one combined tool for rectangular or square openings. Equal bottom width and depth are automatically treated as square-to-round.</p></div></section>
+    <div class="transition-workspace">
+      <section class="section transition-inputs" aria-labelledby="transition-input-title"><h2 id="transition-input-title">Transition dimensions</h2><p>All dimensions are in millimetres. Offsets are measured from the rectangle centre; positive X moves right and positive Y moves toward the back.</p>
+        <div class="transition-field-grid">
+          <label>Top round duct I/S diameter<input id="rr-diameter" type="number" min="1" step="any" value="500"></label>
+          <label>Bottom opening I/S width<input id="rr-width" type="number" min="1" step="any" value="1200"></label>
+          <label>Bottom opening I/S depth<input id="rr-depth" type="number" min="1" step="any" value="900"></label>
+          <label>Vertical height<input id="rr-height" type="number" min="1" step="any" value="700"></label>
+          <label>Plate thickness<input id="rr-thickness" type="number" min="0" step="any" value="3"></label>
+          <label>Outlet X offset<input id="rr-offset-x" type="number" step="any" value="0"></label>
+          <label>Outlet Y offset<input id="rr-offset-y" type="number" step="any" value="0"></label>
+          <label>Divisions per quarter<input id="rr-divisions" type="number" min="2" max="24" step="1" value="6"></label>
+        </div><p id="rr-error" class="transition-error" role="alert"></p>
+      </section>
+      <section id="rr-results" class="transition-results" aria-live="polite">
+        <div id="rr-summary" class="transition-summary"></div>
+        <div class="transition-visual-grid">
+          <article class="section transition-view"><div class="transition-view-heading"><div><span>Input geometry</span><h2>Elevation, side view and plan</h2></div></div><svg id="rr-model" class="transition-model transition-orthographic" viewBox="0 0 840 650" role="img" aria-label="Dimensioned elevation, side view and plan of the rectangular-to-round transition"></svg></article>
+          <article class="section transition-view"><div class="transition-view-heading"><div><span>Flat pattern</span><h2 id="rr-development-title">Complete developed panel</h2><p>All four sides are joined. The two outside edges form the single closing seam.</p></div></div><svg id="rr-development" class="transition-development" role="img" aria-label="Complete continuous flat development drawing"></svg></article>
+        </div>
+        <div class="transition-detail-grid">
+          <section class="section transition-lengths"><h2>True-length table</h2><p>Point numbers correspond to each quarter of the round edge.</p><div class="transition-table-wrap"><table><thead><tr><th>Side</th><th>Round point</th><th>Lower corner</th><th>True length</th></tr></thead><tbody id="rr-length-table"></tbody></table></div></section>
+          <aside class="section transition-actions"><h2>Export complete drawing</h2><button id="rr-export-dxf" type="button">Download dimensioned DXF</button><button id="rr-print" type="button">Print / Save PDF</button><p>The DXF contains elevation, side view, plan and the complete continuous development. Confirm millimetre units when importing into CAD.</p></aside>
+        </div>
+      </section>
+      <section class="section transition-notes"><h2>Calculation basis and limits</h2><p>The entered duct dimensions are inside sizes. Development is calculated at the centre of the plate thickness: centre-surface diameter = inside diameter + thickness, and centre-surface rectangular width/depth = corresponding inside size + thickness. The four sides are unfolded around their shared corner generators to produce one continuous plate with a single closing seam.</p><ul><li>The round opening, including its centre-surface adjustment, must remain within the rectangular opening in plan.</li><li>Plate thickness is included only for locating the development surface. Seam, flange, kerf, weld-shrinkage and trimming allowances are not yet added.</li><li>Verify dimensions, allowances, material orientation and fit-up before cutting plate.</li></ul></section>
+  </main>
+</div></body></html>
