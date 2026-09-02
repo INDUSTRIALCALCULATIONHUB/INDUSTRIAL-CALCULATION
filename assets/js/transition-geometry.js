@@ -159,14 +159,17 @@
   }
 
   function buildRectangleTransition(raw) {
-    const insideInput={bottomWidth:Number(raw.bottomWidth),bottomDepth:Number(raw.bottomDepth),topWidth:Number(raw.topWidth),topDepth:Number(raw.topDepth),height:Number(raw.height),offsetX:Number(raw.offsetX||0),offsetY:Number(raw.offsetY||0),thickness:Number(raw.thickness||0)};
+    const insideInput={bottomWidth:Number(raw.bottomWidth),bottomDepth:Number(raw.bottomDepth),topWidth:Number(raw.topWidth),topDepth:Number(raw.topDepth),height:Number(raw.height),offsetX:Number(raw.offsetX||0),offsetY:Number(raw.offsetY||0),tiltX:Number(raw.tiltX||0),tiltY:Number(raw.tiltY||0),thickness:Number(raw.thickness||0)};
     ["bottomWidth","bottomDepth","topWidth","topDepth","height"].forEach(key=>{if(!Number.isFinite(insideInput[key])||insideInput[key]<=0)throw new Error(`${key} must be greater than zero.`);});
     if(!Number.isFinite(insideInput.thickness)||insideInput.thickness<0)throw new Error("Plate thickness must be zero or greater.");
     if(!Number.isFinite(insideInput.offsetX)||!Number.isFinite(insideInput.offsetY))throw new Error("Offsets must be valid numbers.");
-    const input={bottomWidth:insideInput.bottomWidth+insideInput.thickness,bottomDepth:insideInput.bottomDepth+insideInput.thickness,topWidth:insideInput.topWidth+insideInput.thickness,topDepth:insideInput.topDepth+insideInput.thickness,height:insideInput.height,offsetX:insideInput.offsetX,offsetY:insideInput.offsetY};
-    const bw=input.bottomWidth/2,bd=input.bottomDepth/2,tw=input.topWidth/2,td=input.topDepth/2,ox=input.offsetX,oy=input.offsetY;
+    if(!Number.isFinite(insideInput.tiltX)||!Number.isFinite(insideInput.tiltY))throw new Error("Top-plane tilt angles must be valid numbers.");
+    if(Math.abs(insideInput.tiltX)>=80||Math.abs(insideInput.tiltY)>=80)throw new Error("Each top-plane tilt angle must be between -80° and 80°.");
+    const input={bottomWidth:insideInput.bottomWidth+insideInput.thickness,bottomDepth:insideInput.bottomDepth+insideInput.thickness,topWidth:insideInput.topWidth+insideInput.thickness,topDepth:insideInput.topDepth+insideInput.thickness,height:insideInput.height,offsetX:insideInput.offsetX,offsetY:insideInput.offsetY,tiltX:insideInput.tiltX,tiltY:insideInput.tiltY};
+    const bw=input.bottomWidth/2,bd=input.bottomDepth/2,tw=input.topWidth/2,td=input.topDepth/2,ox=input.offsetX,oy=input.offsetY,ax=rad(input.tiltX),ay=rad(input.tiltY),cx=Math.cos(ax),sx=Math.sin(ax),cy=Math.cos(ay),sy=Math.sin(ay);
     const bottom=[point3(-bw,-bd,0),point3(bw,-bd,0),point3(bw,bd,0),point3(-bw,bd,0)];
-    const upper=[point3(ox-tw,oy-td,input.height),point3(ox+tw,oy-td,input.height),point3(ox+tw,oy+td,input.height),point3(ox-tw,oy+td,input.height)];
+    const tilt=(x,y)=>{const y1=y*cx,z1=y*sx;return point3(ox+x*cy+z1*sy,oy+y1,input.height-x*sy+z1*cy);};
+    const upper=[tilt(-tw,-td),tilt(tw,-td),tilt(tw,td),tilt(-tw,td)];
     const names=["Front","Right","Back","Left"];
     const panels=names.map((name,i)=>{
       const next=(i+1)%4,bottom3d=[bottom[i],bottom[next]],upper3d=[upper[i],upper[next]],flat=flattenPanel(bottom3d,upper3d,0);
