@@ -100,10 +100,6 @@
       throw new Error("Divisions per quarter must be a whole number from 2 to 24.");
     }
     if (!Number.isFinite(input.offsetX) || !Number.isFinite(input.offsetY)) throw new Error("Offsets must be valid numbers.");
-    const r = input.diameter / 2;
-    if (Math.abs(input.offsetX) + r > input.width / 2 + EPS || Math.abs(input.offsetY) + r > input.depth / 2 + EPS) {
-      throw new Error("The round opening must remain inside the rectangular opening in plan view.");
-    }
   }
 
   function buildTransition(raw) {
