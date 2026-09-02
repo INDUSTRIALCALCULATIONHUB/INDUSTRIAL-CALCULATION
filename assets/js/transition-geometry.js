@@ -158,6 +158,43 @@
     };
   }
 
+  function buildRectangleTransition(raw) {
+    const insideInput={bottomWidth:Number(raw.bottomWidth),bottomDepth:Number(raw.bottomDepth),topWidth:Number(raw.topWidth),topDepth:Number(raw.topDepth),height:Number(raw.height),offsetX:Number(raw.offsetX||0),offsetY:Number(raw.offsetY||0),thickness:Number(raw.thickness||0)};
+    ["bottomWidth","bottomDepth","topWidth","topDepth","height"].forEach(key=>{if(!Number.isFinite(insideInput[key])||insideInput[key]<=0)throw new Error(`${key} must be greater than zero.`);});
+    if(!Number.isFinite(insideInput.thickness)||insideInput.thickness<0)throw new Error("Plate thickness must be zero or greater.");
+    if(!Number.isFinite(insideInput.offsetX)||!Number.isFinite(insideInput.offsetY))throw new Error("Offsets must be valid numbers.");
+    const input={bottomWidth:insideInput.bottomWidth+insideInput.thickness,bottomDepth:insideInput.bottomDepth+insideInput.thickness,topWidth:insideInput.topWidth+insideInput.thickness,topDepth:insideInput.topDepth+insideInput.thickness,height:insideInput.height,offsetX:insideInput.offsetX,offsetY:insideInput.offsetY};
+    const bw=input.bottomWidth/2,bd=input.bottomDepth/2,tw=input.topWidth/2,td=input.topDepth/2,ox=input.offsetX,oy=input.offsetY;
+    const bottom=[point3(-bw,-bd,0),point3(bw,-bd,0),point3(bw,bd,0),point3(-bw,bd,0)];
+    const upper=[point3(ox-tw,oy-td,input.height),point3(ox+tw,oy-td,input.height),point3(ox+tw,oy+td,input.height),point3(ox-tw,oy+td,input.height)];
+    const names=["Front","Right","Back","Left"];
+    const panels=names.map((name,i)=>{
+      const next=(i+1)%4,bottom3d=[bottom[i],bottom[next]],upper3d=[upper[i],upper[next]],flat=flattenPanel(bottom3d,upper3d,0);
+      return{name,bottom3d,upper3d,flat,boundary:[flat.bottom[0],...flat.upper,flat.bottom[1]],generators:[{point:0,from:"A",length:distance3(bottom3d[0],upper3d[0])},{point:1,from:"B",length:distance3(bottom3d[1],upper3d[1])}]};
+    });
+    const lengths=panels.flatMap(p=>p.generators.map(g=>g.length));
+    return{input,insideInput,panels,complete:stitchPanels(panels),summary:{minimumGenerator:Math.min(...lengths),maximumGenerator:Math.max(...lengths)}};
+  }
+
+  function buildRoundReducer(raw) {
+    const insideInput={bottomDiameter:Number(raw.bottomDiameter),topDiameter:Number(raw.topDiameter),height:Number(raw.height),offsetX:Number(raw.offsetX||0),offsetY:Number(raw.offsetY||0),thickness:Number(raw.thickness||0),segments:Number(raw.segments||24)};
+    ["bottomDiameter","topDiameter","height"].forEach(key=>{if(!Number.isFinite(insideInput[key])||insideInput[key]<=0)throw new Error(`${key} must be greater than zero.`);});
+    if(!Number.isFinite(insideInput.thickness)||insideInput.thickness<0)throw new Error("Plate thickness must be zero or greater.");
+    if(!Number.isInteger(insideInput.segments)||insideInput.segments<8||insideInput.segments>96)throw new Error("Segments must be a whole number from 8 to 96.");
+    if(!Number.isFinite(insideInput.offsetX)||!Number.isFinite(insideInput.offsetY))throw new Error("Offsets must be valid numbers.");
+    const input={bottomDiameter:insideInput.bottomDiameter+insideInput.thickness,topDiameter:insideInput.topDiameter+insideInput.thickness,height:insideInput.height,offsetX:insideInput.offsetX,offsetY:insideInput.offsetY,segments:insideInput.segments};
+    const rb=input.bottomDiameter/2,rt=input.topDiameter/2;
+    const panels=Array.from({length:input.segments},(_,i)=>{
+      const a0=-Math.PI/2+2*Math.PI*i/input.segments,a1=-Math.PI/2+2*Math.PI*(i+1)/input.segments;
+      const bottom3d=[point3(rb*Math.cos(a0),rb*Math.sin(a0),0),point3(rb*Math.cos(a1),rb*Math.sin(a1),0)];
+      const upper3d=[point3(input.offsetX+rt*Math.cos(a0),input.offsetY+rt*Math.sin(a0),input.height),point3(input.offsetX+rt*Math.cos(a1),input.offsetY+rt*Math.sin(a1),input.height)];
+      const flat=flattenPanel(bottom3d,upper3d,0);
+      return{name:`Segment ${i+1}`,bottom3d,upper3d,flat,boundary:[flat.bottom[0],...flat.upper,flat.bottom[1]],generators:[{point:i,from:"A",length:distance3(bottom3d[0],upper3d[0])},{point:i+1,from:"B",length:distance3(bottom3d[1],upper3d[1])}]};
+    });
+    const lengths=panels.flatMap(p=>p.generators.map(g=>g.length));
+    return{input,insideInput,panels,complete:stitchPanels(panels),summary:{minimumGenerator:Math.min(...lengths),maximumGenerator:Math.max(...lengths),bottomChord:2*rb*Math.sin(Math.PI/input.segments),topChord:2*rt*Math.sin(Math.PI/input.segments)}};
+  }
+
   function bounds(points) {
     return points.reduce((b, p) => ({
       minX: Math.min(b.minX, p.x), minY: Math.min(b.minY, p.y),
@@ -165,5 +202,5 @@
     }), { minX: Infinity, minY: Infinity, maxX: -Infinity, maxY: -Infinity });
   }
 
-  return { buildTransition, bounds, distance2, distance3 };
+  return { buildTransition, buildRectangleTransition, buildRoundReducer, bounds, distance2, distance3 };
 });
