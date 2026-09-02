@@ -13,6 +13,10 @@ These rules apply to the browser result, printed/PDF result, and DXF export unle
 - Do not commit or push changes unless the user explicitly requests it.
 - Provide a working `http://127.0.0.1` review link after each completed local update.
 
+## Shared page chrome
+
+- Every plate-development page must retain the shared site header action row: Home, Tools, Learn, Reference Data, About, and a tool/search action. Standalone tool pages must not omit these top-bar buttons.
+
 ## Reusable implementation
 
 - Build each page on the shared geometry and export engine; do not duplicate calculation logic inside page markup.
@@ -121,7 +125,7 @@ The DXF must contain:
 - Filled dimension arrowheads comparable to the on-screen arrows.
 - Properly scaled red CAD centre-line entities using a centre linetype.
 - Green geometry/cut/fold entities, magenta triangulation entities, and dark dimension/text entities using distinct, named layers.
-- A clear CAD-compatible font/text style.
+- A clear CAD-compatible font/text style. DXF text must use the shared `ICH_TEXT` style (Arial/`arial.ttf`) and every TEXT entity must reference that style.
 
 DXF dimension and annotation placement must be checked independently; copying screen coordinates is not sufficient. Avoid overlapping labels and remove any nonessential auxiliary neck or construction geometry.
 

@@ -84,7 +84,7 @@
         return { ...panel, placedBottom: panel.flat.bottom.map(transform), placedUpper: panel.flat.upper.map(transform) };
       });
       const priorSide = side(targetA, targetB, centroid([...previous.placedBottom, ...previous.placedUpper]));
-      placed.push(candidates.find(candidate => side(targetA, targetB, centroid([...candidate.placedBottom, ...candidate.placedUpper])) * priorSide < 0) || candidates[0]);
+      placed.push(candidates[0]);
     });
     const lower = [placed[0].placedBottom[0], ...placed.map(panel => panel.placedBottom[1])];
     const upper = [placed[0].placedUpper[0], ...placed.flatMap(panel => panel.placedUpper.slice(1))];
@@ -190,9 +190,9 @@
     const panels=Array.from({length:input.segments},(_,i)=>{
       const a0=-Math.PI/2+2*Math.PI*i/input.segments,a1=-Math.PI/2+2*Math.PI*(i+1)/input.segments;
       const bottom3d=[point3(rb*Math.cos(a0),rb*Math.sin(a0),0),point3(rb*Math.cos(a1),rb*Math.sin(a1),0)];
-      const upper3d=[point3(input.offsetX+rt*Math.cos(a0),input.offsetY+rt*Math.sin(a0),input.height),point3(input.offsetX+rt*Math.cos(a1),input.offsetY+rt*Math.sin(a1),input.height)];
-      const flat=flattenPanel(bottom3d,upper3d,0);
-      return{name:`Segment ${i+1}`,bottom3d,upper3d,flat,boundary:[flat.bottom[0],...flat.upper,flat.bottom[1]],generators:[{point:i,from:"A",length:distance3(bottom3d[0],upper3d[0])},{point:i+1,from:"B",length:distance3(bottom3d[1],upper3d[1])}]};
+      const am=(a0+a1)/2;const upper3d=[point3(input.offsetX+rt*Math.cos(a0),input.offsetY+rt*Math.sin(a0),input.height),point3(input.offsetX+rt*Math.cos(am),input.offsetY+rt*Math.sin(am),input.height),point3(input.offsetX+rt*Math.cos(a1),input.offsetY+rt*Math.sin(a1),input.height)];
+      const flat=flattenPanel(bottom3d,upper3d,1);
+      return{name:`Segment ${i+1}`,bottom3d,upper3d,flat,boundary:[flat.bottom[0],...flat.upper,flat.bottom[1]],generators:upper3d.map((p,k)=>({point:i+(k/2),from:k===0?"A":k===2?"B":"MID",length:distance3(bottom3d[k<1?0:1],p)}))};
     });
     const lengths=panels.flatMap(p=>p.generators.map(g=>g.length));
     return{input,insideInput,panels,complete:stitchPanels(panels),summary:{minimumGenerator:Math.min(...lengths),maximumGenerator:Math.max(...lengths),bottomChord:2*rb*Math.sin(Math.PI/input.segments),topChord:2*rt*Math.sin(Math.PI/input.segments)}};
